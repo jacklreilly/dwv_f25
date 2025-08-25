@@ -9,11 +9,14 @@ format:
 
 ## Course Schedule
 
-| Week | **Topic**                          | **Tools**                        | Reading |
+*subject to change*
+
+
+| Week | **Topic**                          | **Tools**                        |  |
 |------|------------------------------------|----------------------------------|---------|
-| 1    | Structuring Your Data Life         | Scripts; R and RStudio; filesystems |         |
-| 2    | Reproducible Data Analyses         | Markup; Version Control; Git     |         |
-| 3    | Data Structure & Wrangling         | Data Formats                     |         |
+| 1    | Course Introduction         | Scripts; R and RStudio  |         |
+| 2    | Reproducible Data Analyses         | Filesystems; Version Control; Git     |         |
+| 3    | Data Structure & Wrangling         | Markup; Data Formats                     |         |
 | 4    | Tidy Data                          | Tidyverse                        |         |
 | 5    | Flow Control                       | Loops                            |         |
 | 6    | Data Visualization I               | Grammar of Graphics; ggplot2     |         |

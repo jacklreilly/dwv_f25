@@ -6,7 +6,7 @@ subtitle: "Due Week 1"
 ## Readings
 
 - Read the course syllabus (all parts of [this website](../index.qmd))
-- Read:
+- Recommended reading:
    - **FCSP** chapter 1, *or* 
    - **PSDS**, chapter 5 *or* 
    - **RDS**, introduction
