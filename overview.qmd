@@ -40,10 +40,15 @@ No formal pre-requisites.  It is assumed you have either previously taken or are
 	- Healy, Kieran. *Data Visualization: A Practical Introduction*. Open access: <https://socviz.co>
 - Recommended:
     - Braun & Murdoch, *A First Course in Statistical Programming*, 3rd Edition
-    - Freeman & Ross, *Programming Skills for Data Science*, 
-    - Hadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data, 2nd ed.* <https://r4ds.hadley.nz>.
+    - Freeman & Ross, *Programming Skills for Data Science*
+    - Hadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*, 2nd ed. <https://r4ds.hadley.nz>.
+
+::: {.callout-note}
+### A Programming Book
+There are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming.  For the first two, I've required the open access books by Weidmann and Healy (**DMSS** and **DV**, respectively).  For the third, you have options.  I'm partial to Braun and Murdoch or Freeman and Ross (**FCSP** and **PSDS**), and will be suggesting readings primarily from them. Freeman and Ross, however, has the advantage of being open access (always useful), but is primarily focused on the tidyverse, which our course is not exclusively focused on. 
 
 
+:::
 
 ## Computing
 You will need access to a personal computer for this class.  It will need to run a full operating system, where you have the ability to install local applications outside of app stores and have access to the command line. MacOS, Windows, and Linux are all fine. Tablet or web-book OSes - like Chromebooks or iPads - won't be sufficient.  Aside from the computer, all significant software we use will be free/open-source, and we'll cover usage and installation in class.
