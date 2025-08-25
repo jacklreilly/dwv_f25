@@ -21,7 +21,7 @@ e-mail: <jlreilly@syr.edu>
 
 # Overview
 
-This course introduces students to data management, wrangling, and visualization as well as the techinal tools necessary to do such analysis in an open and reproducible fashion.
+This course introduces students to data management, wrangling, and visualization as well as the technical tools necessary to do such analysis in an open and reproducible fashion.
 
 ## Description
 
@@ -45,7 +45,7 @@ No formal pre-requisites.  It is assumed you have either previously taken or are
 
 ::: {.callout-note}
 ### A Programming Book
-There are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming.  For the first two, I've required the open access books by Weidmann and Healy (**DMSS** and **DV**, respectively).  For the third, you have options.  I'm partial to Braun and Murdoch or Freeman and Ross (**FCSP** and **PSDS**), and will be suggesting readings primarily from them. Freeman and Ross, however, has the advantage of being open access (always useful), but is primarily focused on the tidyverse, which our course is not exclusively focused on. 
+There are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming.  For the first two, I've required the open access books by Weidmann and Healy (**DMSS** and **DV**, respectively).  For the third, you have options.  I'm partial to Braun and Murdoch or Freeman and Ross (**FCSP** and **PSDS**), and will be suggesting readings primarily from them. Wickham et al (**RDS**), however, has the advantage of being open access (always useful), but is primarily focused on the tidyverse, which our course is not exclusively focused on. 
 
 
 :::
@@ -67,14 +67,18 @@ Satisfactory completion of the course requires completion of the following:
 - Final Project (30\%)
 
 ## Attendance
- One of the guiding principles of my class is that you are adults, and thus, capable of managing your own time. I have little interest in policing your lives. Attendance is kept for each day of class, but you will lose no points on attendance if you happen to miss a couple days: everyone has things that occasionally come up in life that need to be dealt with, and I fully realize that some of those things are things you - very understandably - may not want to discuss with your professor.  That's OK!
+ One of the guiding principles of my class is that you are adults, and thus, capable of managing your own time. I have little interest in policing your lives. Attendance is kept for each day of class, but you will lose no points on attendance if you happen to miss a couple days: everyone has things that occasionally come up in life that need to be dealt with, and I fully realize that some of those things are things you - very understandably - may not want to discuss with your professor.  *That's OK!*
 
 That said, attendance in class is an important element to doing well in the course. If you must miss more than a couple days, it's a good idea to check in with me so that I don't mark you off for chronic absenteeism.  The easiest way to do this is just email me with a brief reason when something comes up and you have to miss class (which will also allow me to tell you if you're missing anything particularly important).
 
-If you must miss class, the way to make up what you've missed is straightforward: make sure to look over the posted slides, do the reading for the day, get notes from a friend, and still complete the assignment if you are able (or, if it is a day we are going over the assignment, make sure to look over the assignment solutions).  If you do these things and still feel like you're missing something, please feel free to come into my office hours and we can talk it through.
+If you must miss class, the way to make up what you've missed is straightforward: make sure to look over the posted material, do the reading, get notes from a friend, and still complete the assignment if you are able (and make sure to look over any assignment solutions).  If you do these things and still feel like you're missing something, please feel free to come into my office hours and we can talk it through.
 
-## Participation
-There is no formal grade for "participation".  However, I reserve the right to dock a couple points here if you do ridiculous/unprofessional things in class (like answering your cell phone loudly, always coming in late and regularly distracting others, spontaneously breaking out into ribald song in the middle of class, etc).
+::: {.callout-note}
+### Participation
+
+There is no formal grade for "participation".  However, I reserve the right to dock a couple points here if you do ridiculous/unprofessional things in class (like answering your cell phone, always coming in late and regularly distracting others, spontaneously breaking out into ribald song in the middle of class, etc).
+
+:::
 
 ## Assignments
 There is an assignment each week in class, **due Thursday by class time**.
@@ -85,7 +89,6 @@ Assignments will vary in nature: some will be one-off problem sets, some may bui
 
 The core exam will have in-class and out-of-class components. More information will be given as the exam gets closer.
 
-
 ## Final Project
 
 A project utilizing data of your own choice. Graduate students will have higher expectations than undergraduate students.
@@ -95,6 +98,8 @@ A project utilizing data of your own choice. Graduate students will have higher 
 ## Etiquette & Decorum
 
 A university course is fundamentally a learning community. Be courteous to fellow students and the professor. Don't let yourself be distracted by your cell phone in class, and don't let what is on your computer screen distract fellow students in the class, either.
+
+This is a graduate course:  I take it for granted that you have a basic interest in the material, an enthusiastic attitude toward participation, and a respectful attitude to everyone in the room. 
 
 ## Office & Consultation Hours, Appointments
 
