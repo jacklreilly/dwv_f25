@@ -109,22 +109,3 @@ If your email requires a long response, expect me to encourage you to schedule a
 :::
 
 [^1]: Again: usually I'm much faster! But if you don't hear from me by this baseline, feel free to bump a reminder.
-
-## Artificial Intelligence, LLMs, etc
-
-*You can find the formal AI policy for this course in the "Policies" section of the syllabus/website. Because of the nature of this course, however, a deeper discussion of AI is warranted.*
-
-Artificial intelligence – in particular, large language models (LLMs) like ChatGPT – are incredibly useful tools. However, in the very beginning phases of learning how to write code and conduct data analysis, using them can hamper your ability to understand fundamental elements of programming. Accordingly, I **strongly encourage** you to **avoid** using generative-AI tools in this course (except where I introduce them in the content of the class).  
-
-
-::: {.callout-tip}
-LLMs are, in a formal sense, **bullshit** of the first order. And yes: "**bullshit**" here is a technical term, meaning "language produced without regard for truth."[^BS] An LLM, at its core, is a probabilistic model whose primary function is to produce the next token – usually a word – that is most likely to make sense, based upon some prompt. It **does not care if this token represents truth, reality, or a functional line of code** – it only cares if the next token *seems* to make sense. Frequently, what it produces will incidentally be true, functional code, or accurate representation. That is what makes it useful! But this *incidental* relationship with truth is also what makes it dangerous. You can’t reliably evaluate AI outputs until you already know enough about the subject.  
-:::
-
-My job, goal, and interest in this class is to help **you, a human, learn how to code, wrangle, and visualize data**. My interest is not in correcting AI slop; nor does my interest lie in trying to figure out if you are attempting to pass AI slop off as your own work.[^sisyphus] Accordingly, I will not spend time trying to guess if your assignments are AI generated.[^detect] As always, you are responsible for your own learning and work - as your professor, I simply ask that you not try to outsource the important process of your own learning with a literal philosophical bullshit machine.
-
-
-
-[^BS]: Frankfurt, *On Bullshit* (2005); Hicks, Humphries, and Slater, *ChatGPT is Bullshit* (2024).  
-[^sisyphus]: AIs have their own reinforcement learning processes, with humans employed to correct their foibles and mistakes – an unfortunately unending and unenviable task, like Sisyphus with his rock.  
-[^detect]: The technical tools that try to do this are imperfect, anyways, resulting in a lot of uncertainty and false positives.  Furthermore, experience has taught me that typically, unedited-AI produced content will earn poor marks, regardless, and often do so with some pretty clear "tells".  
