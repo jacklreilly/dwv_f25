@@ -1,9 +1,9 @@
 ---
-title: "📝 Assignments"
+title: "📝 Content"
 format: html
 format-links: false
 ---
 
-Hello and welcome to the assignments page for our course. All assignments are posted here.
+Hello and welcome to the content page for our course. Readings, guides, and assignments are posted here by week.
 
-Note that, while you can find assignments here, submission of assignments are in the [course blackboard](https://blackboard.syr.edu).
+Note that, while you can find assignments here, submission of assignments itself goes to in the [course blackboard](https://blackboard.syr.edu).

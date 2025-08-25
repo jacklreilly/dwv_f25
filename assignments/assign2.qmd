@@ -1,5 +1,5 @@
 ---
-title: "Assignment 2"
+title: "Week 2"
 ---
 
 Nothing to see here (yet)
