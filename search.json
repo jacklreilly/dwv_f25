@@ -67,7 +67,7 @@
     "href": "syllabus.html#books",
     "title": "PAI 400/600: Data Wrangling and Visualization",
     "section": "Books",
-    "text": "Books\n\nRequired:\n\nWeidmann, Nils. Data Management for Social Scientists. Open access: https://doi.org/10.1017/9781108990424\nHealy, Kieran. Data Visualization: A Practical Introduction. Open access: https://socviz.co\n\nRecommended:\n\nBraun & Murdoch, A First Course in Statistical Programming, 3rd Edition\nFreeman & Ross, Programming Skills for Data Science\nHadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data, 2nd ed. https://r4ds.hadley.nz.\n\n\n\n\n\n\n\n\nA Programming Book\n\n\n\nThere are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming. For the first two, I’ve required the open access books by Weidmann and Healy (DMSS and DV, respectively). For the third, you have options. I’m partial to Braun and Murdoch or Freeman and Ross (FCSP and PSDS), and will be suggesting readings primarily from them. Freeman and Ross, however, has the advantage of being open access (always useful), but is primarily focused on the tidyverse, which our course is not exclusively focused on."
+    "text": "Books\n\nRequired:\n\nWeidmann, Nils. Data Management for Social Scientists. Open access: https://doi.org/10.1017/9781108990424\nHealy, Kieran. Data Visualization: A Practical Introduction. Open access: https://socviz.co\n\nRecommended:\n\nBraun & Murdoch, A First Course in Statistical Programming, 3rd Edition\nFreeman & Ross, Programming Skills for Data Science\nHadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data, 2nd ed. https://r4ds.hadley.nz.\n\n\n\n\n\n\n\n\nA Programming Book\n\n\n\nThere are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming. For the first two, I’ve required the open access books by Weidmann and Healy (DMSS and DV, respectively). For the third, you have options. I’m partial to Braun and Murdoch or Freeman and Ross (FCSP and PSDS), and will be suggesting readings primarily from them. Wickham et al (RDS), however, has the advantage of being open access (always useful), but is primarily focused on the tidyverse, which our course is not exclusively focused on."
   },
   {
     "objectID": "syllabus.html#computing",
@@ -95,14 +95,7 @@
     "href": "syllabus.html#attendance",
     "title": "PAI 400/600: Data Wrangling and Visualization",
     "section": "Attendance",
-    "text": "Attendance\nOne of the guiding principles of my class is that you are adults, and thus, capable of managing your own time. I have little interest in policing your lives. Attendance is kept for each day of class, but you will lose no points on attendance if you happen to miss a couple days: everyone has things that occasionally come up in life that need to be dealt with, and I fully realize that some of those things are things you - very understandably - may not want to discuss with your professor. That’s OK!\nThat said, attendance in class is an important element to doing well in the course. If you must miss more than a couple days, it’s a good idea to check in with me so that I don’t mark you off for chronic absenteeism. The easiest way to do this is just email me with a brief reason when something comes up and you have to miss class (which will also allow me to tell you if you’re missing anything particularly important).\nIf you must miss class, the way to make up what you’ve missed is straightforward: make sure to look over the posted slides, do the reading for the day, get notes from a friend, and still complete the assignment if you are able (or, if it is a day we are going over the assignment, make sure to look over the assignment solutions). If you do these things and still feel like you’re missing something, please feel free to come into my office hours and we can talk it through."
-  },
-  {
-    "objectID": "syllabus.html#participation",
-    "href": "syllabus.html#participation",
-    "title": "PAI 400/600: Data Wrangling and Visualization",
-    "section": "Participation",
-    "text": "Participation\nThere is no formal grade for “participation”. However, I reserve the right to dock a couple points here if you do ridiculous/unprofessional things in class (like answering your cell phone loudly, always coming in late and regularly distracting others, spontaneously breaking out into ribald song in the middle of class, etc)."
+    "text": "Attendance\nOne of the guiding principles of my class is that you are adults, and thus, capable of managing your own time. I have little interest in policing your lives. Attendance is kept for each day of class, but you will lose no points on attendance if you happen to miss a couple days: everyone has things that occasionally come up in life that need to be dealt with, and I fully realize that some of those things are things you - very understandably - may not want to discuss with your professor. That’s OK!\nThat said, attendance in class is an important element to doing well in the course. If you must miss more than a couple days, it’s a good idea to check in with me so that I don’t mark you off for chronic absenteeism. The easiest way to do this is just email me with a brief reason when something comes up and you have to miss class (which will also allow me to tell you if you’re missing anything particularly important).\nIf you must miss class, the way to make up what you’ve missed is straightforward: make sure to look over the posted material, do the reading, get notes from a friend, and still complete the assignment if you are able (and make sure to look over any assignment solutions). If you do these things and still feel like you’re missing something, please feel free to come into my office hours and we can talk it through.\n\n\n\n\n\n\nParticipation\n\n\n\nThere is no formal grade for “participation”. However, I reserve the right to dock a couple points here if you do ridiculous/unprofessional things in class (like answering your cell phone, always coming in late and regularly distracting others, spontaneously breaking out into ribald song in the middle of class, etc)."
   },
   {
     "objectID": "syllabus.html#assignments",
@@ -130,7 +123,7 @@
     "href": "syllabus.html#etiquette-decorum",
     "title": "PAI 400/600: Data Wrangling and Visualization",
     "section": "Etiquette & Decorum",
-    "text": "Etiquette & Decorum\nA university course is fundamentally a learning community. Be courteous to fellow students and the professor. Don’t let yourself be distracted by your cell phone in class, and don’t let what is on your computer screen distract fellow students in the class, either."
+    "text": "Etiquette & Decorum\nA university course is fundamentally a learning community. Be courteous to fellow students and the professor. Don’t let yourself be distracted by your cell phone in class, and don’t let what is on your computer screen distract fellow students in the class, either.\nThis is a graduate course: I take it for granted that you have a basic interest in the material, an enthusiastic attitude toward participation, and a respectful attitude to everyone in the room."
   },
   {
     "objectID": "syllabus.html#office-consultation-hours-appointments",
@@ -284,7 +277,7 @@
     "href": "assignments/assign1.html",
     "title": "1. Introduction to R",
     "section": "",
-    "text": "Read the course syllabus (all parts of this website)\nRead FCSP chapter 1 or PSDS chapter 5",
+    "text": "Read the course syllabus (all parts of this website)\nRead:\n\nFCSP chapter 1, or\nPSDS, chapter 5 or\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -296,7 +289,7 @@
     "href": "assignments/assign1.html#readings",
     "title": "1. Introduction to R",
     "section": "",
-    "text": "Read the course syllabus (all parts of this website)\nRead FCSP chapter 1 or PSDS chapter 5",
+    "text": "Read the course syllabus (all parts of this website)\nRead:\n\nFCSP chapter 1, or\nPSDS, chapter 5 or\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -320,7 +313,7 @@
     "href": "assignments/assign1.html#submit-.r-file",
     "title": "1. Introduction to R",
     "section": "Submit: .R File",
-    "text": "Submit: .R File\nIn an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.\n\nCreate an object named “aardvark” that stores a 3 as a single number\nCreate a second object named “boomba” that stores a 6 as a single number\nCreate a third object named “centauri” that is the addition of “aardvark” and “boomba”\nCreate a fourth object named “diabolical” that is the multiplication “aardvark” and “boomba”\nCreate an object named “ebullient” that stores three numbers as a vector/list: 4,5,and 6\nCreate an object named “fastidious” that stores three numbers as a vector/list: 8,9, and 11\nAdd “ebullient” and “fastidious” together, and store it in an object named “george”\nFind the mean (average) of “fastidious”, and store it in an obejct named “zoinks”",
+    "text": "Submit: .R File\nIn an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.\n\nCreate an object named aardvark that stores a 3 as a single number\nCreate a second object named boomba that stores a 6 as a single number\nCreate a third object named centauri that is the addition of aardvark and boomba\nCreate a fourth object named diabolical that is the multiplication aardvark and boomba\nCreate an object named ebullient that stores three numbers as a vector: 4,5,and 6\nCreate an object named fastidious that stores three numbers as a vector: 8,9, and 11\nAdd ebullient and fastidious together, and store it in an object named george\nFind the mean (average) of fastidious, and store it in an object named zoinks",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -332,7 +325,7 @@
     "href": "assignments/assign1.html#submit-pdf-file",
     "title": "1. Introduction to R",
     "section": "Submit: PDF file",
-    "text": "Submit: PDF file\nAnswer the following questions and upload as a PDF to Blackboard.\n\nWhat is your name and program of study at Syracuse?\n(Optional: provide your pronouns, if you wish.)\nWhat is your prior experience with statistics, data analysis, R, and computer programming generally?\nWhat are you hoping to get out of this class?\nPlease include a picture of yourself!\n\nIt can be anything – just make sure that you are the only person in the picture so I can clearly identify you.\n\nWhat is the mean of the “fastidious” object from your .R assignment above?",
+    "text": "Submit: PDF file\nAnswer the following questions and upload as a PDF to Blackboard.\n\nWhat is your name and program of study at Syracuse?\n(Optional: provide your pronouns, if you wish.)\nWhat is your prior experience with statistics, data analysis, R, and computer programming generally?\nWhat are you hoping to get out of this class?\nPlease include a picture of yourself!\n\nIt can be anything – just make sure that you are the only person in the picture so I can clearly identify you.\n\nWhat is the mean of the fastidious object from your .R assignment above?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -621,7 +614,7 @@
     "href": "overview.html#books",
     "title": "Syllabus",
     "section": "Books",
-    "text": "Books\n\nRequired:\n\nWeidmann, Nils. Data Management for Social Scientists. Open access: https://doi.org/10.1017/9781108990424\nHealy, Kieran. Data Visualization: A Practical Introduction. Open access: https://socviz.co\n\nRecommended:\n\nBraun & Murdoch, A First Course in Statistical Programming, 3rd Edition\nFreeman & Ross, Programming Skills for Data Science\nHadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data, 2nd ed. https://r4ds.hadley.nz.\n\n\n\n\n\n\n\n\nA Programming Book\n\n\n\nThere are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming. For the first two, I’ve required the open access books by Weidmann and Healy (DMSS and DV, respectively). For the third, you have options. I’m partial to Braun and Murdoch or Freeman and Ross (FCSP and PSDS), and will be suggesting readings primarily from them. Freeman and Ross, however, has the advantage of being open access (always useful), but is primarily focused on the tidyverse, which our course is not exclusively focused on."
+    "text": "Books\n\nRequired:\n\nWeidmann, Nils. Data Management for Social Scientists. Open access: https://doi.org/10.1017/9781108990424\nHealy, Kieran. Data Visualization: A Practical Introduction. Open access: https://socviz.co\n\nRecommended:\n\nBraun & Murdoch, A First Course in Statistical Programming, 3rd Edition\nFreeman & Ross, Programming Skills for Data Science\nHadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data, 2nd ed. https://r4ds.hadley.nz.\n\n\n\n\n\n\n\n\nA Programming Book\n\n\n\nThere are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming. For the first two, I’ve required the open access books by Weidmann and Healy (DMSS and DV, respectively). For the third, you have options. I’m partial to Braun and Murdoch or Freeman and Ross (FCSP and PSDS), and will be suggesting readings primarily from them. Wickham et al (RDS), however, has the advantage of being open access (always useful), but is primarily focused on the tidyverse, which our course is not exclusively focused on."
   },
   {
     "objectID": "overview.html#computing",
@@ -649,14 +642,7 @@
     "href": "overview.html#attendance",
     "title": "Syllabus",
     "section": "Attendance",
-    "text": "Attendance\nOne of the guiding principles of my class is that you are adults, and thus, capable of managing your own time. I have little interest in policing your lives. Attendance is kept for each day of class, but you will lose no points on attendance if you happen to miss a couple days: everyone has things that occasionally come up in life that need to be dealt with, and I fully realize that some of those things are things you - very understandably - may not want to discuss with your professor. That’s OK!\nThat said, attendance in class is an important element to doing well in the course. If you must miss more than a couple days, it’s a good idea to check in with me so that I don’t mark you off for chronic absenteeism. The easiest way to do this is just email me with a brief reason when something comes up and you have to miss class (which will also allow me to tell you if you’re missing anything particularly important).\nIf you must miss class, the way to make up what you’ve missed is straightforward: make sure to look over the posted slides, do the reading for the day, get notes from a friend, and still complete the assignment if you are able (or, if it is a day we are going over the assignment, make sure to look over the assignment solutions). If you do these things and still feel like you’re missing something, please feel free to come into my office hours and we can talk it through."
-  },
-  {
-    "objectID": "overview.html#participation",
-    "href": "overview.html#participation",
-    "title": "Syllabus",
-    "section": "Participation",
-    "text": "Participation\nThere is no formal grade for “participation”. However, I reserve the right to dock a couple points here if you do ridiculous/unprofessional things in class (like answering your cell phone loudly, always coming in late and regularly distracting others, spontaneously breaking out into ribald song in the middle of class, etc)."
+    "text": "Attendance\nOne of the guiding principles of my class is that you are adults, and thus, capable of managing your own time. I have little interest in policing your lives. Attendance is kept for each day of class, but you will lose no points on attendance if you happen to miss a couple days: everyone has things that occasionally come up in life that need to be dealt with, and I fully realize that some of those things are things you - very understandably - may not want to discuss with your professor. That’s OK!\nThat said, attendance in class is an important element to doing well in the course. If you must miss more than a couple days, it’s a good idea to check in with me so that I don’t mark you off for chronic absenteeism. The easiest way to do this is just email me with a brief reason when something comes up and you have to miss class (which will also allow me to tell you if you’re missing anything particularly important).\nIf you must miss class, the way to make up what you’ve missed is straightforward: make sure to look over the posted material, do the reading, get notes from a friend, and still complete the assignment if you are able (and make sure to look over any assignment solutions). If you do these things and still feel like you’re missing something, please feel free to come into my office hours and we can talk it through.\n\n\n\n\n\n\nParticipation\n\n\n\nThere is no formal grade for “participation”. However, I reserve the right to dock a couple points here if you do ridiculous/unprofessional things in class (like answering your cell phone, always coming in late and regularly distracting others, spontaneously breaking out into ribald song in the middle of class, etc)."
   },
   {
     "objectID": "overview.html#assignments",
@@ -684,7 +670,7 @@
     "href": "overview.html#etiquette-decorum",
     "title": "Syllabus",
     "section": "Etiquette & Decorum",
-    "text": "Etiquette & Decorum\nA university course is fundamentally a learning community. Be courteous to fellow students and the professor. Don’t let yourself be distracted by your cell phone in class, and don’t let what is on your computer screen distract fellow students in the class, either."
+    "text": "Etiquette & Decorum\nA university course is fundamentally a learning community. Be courteous to fellow students and the professor. Don’t let yourself be distracted by your cell phone in class, and don’t let what is on your computer screen distract fellow students in the class, either.\nThis is a graduate course: I take it for granted that you have a basic interest in the material, an enthusiastic attitude toward participation, and a respectful attitude to everyone in the room."
   },
   {
     "objectID": "overview.html#office-consultation-hours-appointments",
