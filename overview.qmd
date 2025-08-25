@@ -13,11 +13,11 @@ Instructor: Professor Jack Reilly
 
 Office: Eggers 225F
 
-Office Hours: TBD
+Office Hours: Tuesday and Thursday, 11 AM - Noon
 
 Phone: 315-443-2687 (office)
 
-e-mail: jlreilly@syr.edu
+e-mail: <jlreilly@syr.edu>
 
 # Overview
 
@@ -40,6 +40,10 @@ No formal pre-requisites.  It is assumed you have either previously taken or are
 	- Healy, Kieran. *Data Visualization: A Practical Introduction*. Open access: <https://socviz.co>
 - Recommended:
     - Braun & Murdoch, *A First Course in Statistical Programming*, 3rd Edition
+    - Freeman & Ross, *Programming Skills for Data Science*, 
+    - Hadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data, 2nd ed.* <https://r4ds.hadley.nz>.
+
+
 
 ## Computing
 You will need access to a personal computer for this class.  It will need to run a full operating system, where you have the ability to install local applications outside of app stores and have access to the command line. MacOS, Windows, and Linux are all fine. Tablet or web-book OSes - like Chromebooks or iPads - won't be sufficient.  Aside from the computer, all significant software we use will be free/open-source, and we'll cover usage and installation in class.
