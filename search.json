@@ -144,7 +144,7 @@
     "href": "syllabus.html#course-schedule",
     "title": "PAI 400/600: Data Wrangling and Visualization",
     "section": "Course Schedule",
-    "text": "Course Schedule\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n1\nStructuring Your Data Life\nScripts; R and RStudio; filesystems\n\n\n\n2\nReproducible Data Analyses\nMarkup; Version Control; Git\n\n\n\n3\nData Structure & Wrangling\nData Formats\n\n\n\n4\nTidy Data\nTidyverse\n\n\n\n5\nFlow Control\nLoops\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nMidterm Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using Databases\nSQL\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\n\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\n\n\n\n\n19\nLocal LLMs"
+    "text": "Course Schedule\nsubject to change\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nFilesystems; Version Control; Git\n\n\n\n3\nData Structure & Wrangling\nMarkup; Data Formats\n\n\n\n4\nTidy Data\nTidyverse\n\n\n\n5\nFlow Control\nLoops\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nMidterm Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using Databases\nSQL\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\n\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\n\n\n\n\n19\nLocal LLMs"
   },
   {
     "objectID": "syllabus.html#academic-drop-deadline",
@@ -277,7 +277,7 @@
     "href": "assignments/assign1.html",
     "title": "1. Introduction to R",
     "section": "",
-    "text": "Read the course syllabus (all parts of this website)\nRead:\n\nFCSP chapter 1, or\nPSDS, chapter 5 or\nRDS, introduction",
+    "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nFCSP chapter 1, or\nPSDS, chapter 5 or\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -289,7 +289,7 @@
     "href": "assignments/assign1.html#readings",
     "title": "1. Introduction to R",
     "section": "",
-    "text": "Read the course syllabus (all parts of this website)\nRead:\n\nFCSP chapter 1, or\nPSDS, chapter 5 or\nRDS, introduction",
+    "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nFCSP chapter 1, or\nPSDS, chapter 5 or\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -392,14 +392,14 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\nTopic\nTools\nReading\n\n\n\n\n1\nStructuring Your Data Life\nScripts; R and RStudio; filesystems\n\n\n\n2\nReproducible Data Analyses\nMarkup; Version Control; Git\n\n\n\n3\nData Structure & Wrangling\nData Formats\n\n\n\n4\nTidy Data\nTidyverse\n\n\n\n5\nFlow Control\nLoops\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nMidterm Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using Databases\nSQL\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\n\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\n\n\n\n\n19\nLocal LLMs"
+    "text": "subject to change\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nFilesystems; Version Control; Git\n\n\n\n3\nData Structure & Wrangling\nMarkup; Data Formats\n\n\n\n4\nTidy Data\nTidyverse\n\n\n\n5\nFlow Control\nLoops\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nMidterm Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using Databases\nSQL\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\n\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\n\n\n\n\n19\nLocal LLMs"
   },
   {
     "objectID": "schedule.html#course-schedule",
     "href": "schedule.html#course-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\nTopic\nTools\nReading\n\n\n\n\n1\nStructuring Your Data Life\nScripts; R and RStudio; filesystems\n\n\n\n2\nReproducible Data Analyses\nMarkup; Version Control; Git\n\n\n\n3\nData Structure & Wrangling\nData Formats\n\n\n\n4\nTidy Data\nTidyverse\n\n\n\n5\nFlow Control\nLoops\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nMidterm Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using Databases\nSQL\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\n\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\n\n\n\n\n19\nLocal LLMs"
+    "text": "subject to change\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nFilesystems; Version Control; Git\n\n\n\n3\nData Structure & Wrangling\nMarkup; Data Formats\n\n\n\n4\nTidy Data\nTidyverse\n\n\n\n5\nFlow Control\nLoops\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nMidterm Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using Databases\nSQL\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\n\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\n\n\n\n\n19\nLocal LLMs"
   },
   {
     "objectID": "policies.html",
