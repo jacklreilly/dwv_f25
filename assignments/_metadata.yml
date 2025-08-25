@@ -6,4 +6,5 @@ format:
   html: default
   pdf: default
   docx: default
+  rtf: default
 sidebar: assign
