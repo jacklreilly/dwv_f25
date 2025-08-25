@@ -1,0 +1,41 @@
+---
+title: "Schedule"
+format: 
+    html: default
+    pdf: default
+    docx: default
+    rtf: default
+    epub: default
+---
+
+## Course Schedule
+
+| Week | **Topic**                          | **Tools**                        | Reading |
+|------|------------------------------------|----------------------------------|---------|
+| 1    | Structuring Your Data Life         | Scripts; R and RStudio; filesystems |         |
+| 2    | Reproducible Data Analyses         | Markup; Version Control; Git     |         |
+| 3    | Data Structure & Wrangling         | Data Formats                     |         |
+| 4    | Tidy Data                          | Tidyverse                        |         |
+| 5    | Flow Control                       | Loops                            |         |
+| 6    | Data Visualization I               | Grammar of Graphics; ggplot2     |         |
+| 7    | Data Visualization II              | ggplot2                          |         |
+| 8    | **Midterm Exam (Thursday, October 16)** |                                  |         |
+| 9    | Social Networks & Network Data     | iGraph; statnet                  |         |
+| 10   | Census Data                        | tidycensus                       |         |
+| 11   | Maps & GIS I                       | sf; tigris                       |         |
+| 12   | Maps & GIS II                      | mapgl; mapbox; osm               |         |
+| 13   | Accessing & Using Databases        | SQL                              |         |
+| 14   | Project Work                       |                                  |         |
+| 15   | Project Presentations              |                                  |         |
+| F    | **Finals Week (Project Due)**      |                                  |         |
+
+---
+
+*Advanced Topics (if we have time)*
+
+| Week | **Topic**                      | **Tools** | Reading |
+|------|--------------------------------|-----------|---------|
+| 16   | Text Data & Data Scraping      |           |         |
+| 17   | Web Apps & Visualization       |           |         |
+| 18   | AI Pair Programming & “Vibe Coding” |       |         |
+| 19   | Local LLMs                     |           |         |
