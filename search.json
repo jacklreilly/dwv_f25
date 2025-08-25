@@ -313,7 +313,7 @@
     "href": "assignments/assign3.html",
     "title": "Assignment 3",
     "section": "",
-    "text": "Instructions\nFor this assignment, you must turn in two documents:\n1. Your answers (as a PDF), and\n2. A plain-text .do file containing the Stata code you used to arrive at your answers.\nPlease consider the data in the following table. You may also find this data as a .dta file on the course Blackboard page.\n\n\nDataset\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlayer\nG\nMP\nFG\nFGA\n3P\n3PA\nTRB\nAST\nSTL\nBLK\nTOV\nPF\nPTS\n\n\n\n\nCarmelo Anthony\n35\n1274\n277\n612\n56\n166\n349\n77\n55\n30\n77\n77\n778\n\n\nHakim Warrick\n35\n1146\n197\n364\n0\n1\n297\n57\n49\n44\n92\n94\n518\n\n\nGerry McNamara\n35\n1236\n146\n364\n85\n238\n80\n155\n77\n2\n85\n69\n467\n\n\nKueth Duany\n35\n944\n133\n303\n43\n123\n128\n71\n36\n17\n57\n75\n386\n\n\nBilly Edelin\n23\n533\n80\n146\n0\n2\n78\n58\n24\n2\n53\n22\n208\n\n\nJosh Pace\n32\n469\n62\n118\n0\n2\n86\n60\n26\n8\n37\n33\n138\n\n\nCraig Forth\n35\n618\n56\n115\n0\n1\n116\n30\n15\n41\n39\n90\n132\n\n\nJeremy McNeil\n35\n657\n54\n81\n0\n0\n146\n8\n9\n100\n36\n112\n117\n\n\nMatt Gorman\n9\n76\n8\n23\n0\n1\n19\n1\n3\n2\n5\n14\n21\n\n\nAndrew Kouwe\n6\n10\n3\n5\n2\n2\n2\n2\n0\n0\n1\n2\n10\n\n\nRonneil Herron\n5\n9\n2\n3\n0\n0\n5\n0\n0\n0\n1\n0\n6\n\n\nXzavier Gaines\n6\n21\n1\n8\n0\n3\n2\n1\n1\n0\n2\n0\n2\n\n\nGary Hall\n5\n6\n1\n1\n0\n0\n2\n2\n1\n1\n0\n0\n2\n\n\nTyrone Albright\n7\n20\n0\n2\n0\n1\n2\n1\n2\n0\n3\n1\n0\n\n\nJosh Brooks\n5\n6\n0\n1\n0\n0\n1\n0\n0\n0\n0\n1\n0\n\n\n\nVariable definitions:\n\nG = Games Played\n\nMP = Minutes Played\n\nFG = Field Goals Made\n\nFGA = Field Goals Attempted\n\n3P = Three Point Field Goals Made\n\n3PA = Three Point Field Goals Attempted\n\nTRB = Total Rebounds\n\nAST = Assists\n\nSTL = Steals\n\nBLK = Blocks\n\nTOV = Turnovers\n\nPF = Personal Fouls\n\nPTS = Points Scored\n\n\n\n\nQuestions\n\nWhat is the unit of analysis (the cases) in this table?\nIdentify the level of measurement of each variable.\nWhat is the mean, median, and mode of the “games played” variable in this data?\nDo you think the mean, median, or mode is the best estimate of central tendency for games played? Why?\nMany analysts like to create a statistic called “Stocks,” which is the sum of steals and blocks by a player. Create this variable as STK. Who had the most stocks on the team?\nCalculate each player’s field goal percentage and three point field goal percentage, storing each in new variables FGP and TPP. Who led the team in field goal percentage and three point percentage?\nTransform the variable PTS, generating a new variable PPG (average points scored per game played). How many points per game did Carmelo Anthony, Gerry McNamara, Josh Pace, and Jeremy McNeil average? Who led the team in points per game?\nDo the same for 3P, TRB, AST, STL, BLK, and TOV. Who led the Orange in each statistical category per game?\nTransform PTS again to generate PPM (points per minute played). Who led the Orange in points per minute?\nCreate a scatterplot with points per minute (PPM) on the Y axis and minutes played (MP) on the X axis. Add a best-fit line. What is the relationship between points per minute and minutes played?",
+    "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
       "Assignments",
@@ -454,19 +454,7 @@
     "href": "assignments/assign2.html",
     "title": "Assignment 2",
     "section": "",
-    "text": "Answer all questions. Please upload your assignment to Blackboard as a PDF.\n\nFor questions 1–5, please consider the following dataset.\n\n\n\n\n\n\n\n\n\n\n\n\nName\nSalary\nYears Experience\nJob Description\nEducation Level\n\n\n\n\nJane\n$45,000\n1\nTeacher\nCollege Degree\n\n\nSam\n$68,000\n3\nAnalyst\nCollege Degree\n\n\nEdwin\n$92,000\n5\nPolice\nHigh School\n\n\nShareefa\n$140,000\n20\nManager\nGraduate Degree\n\n\nDwight\n$72,000\n12\nNurse\nCollege Degree\n\n\nJiang\n$68,000\n9\nTeacher\nCollege Degree\n\n\nLeBron\n$48,000,000\n21\nAthlete\nHigh School",
-    "crumbs": [
-      "📚 Overview",
-      "Assignments",
-      "Assignment 2"
-    ]
-  },
-  {
-    "objectID": "assignments/assign2.html#dataset",
-    "href": "assignments/assign2.html#dataset",
-    "title": "Assignment 2",
-    "section": "",
-    "text": "Name\nSalary\nYears Experience\nJob Description\nEducation Level\n\n\n\n\nJane\n$45,000\n1\nTeacher\nCollege Degree\n\n\nSam\n$68,000\n3\nAnalyst\nCollege Degree\n\n\nEdwin\n$92,000\n5\nPolice\nHigh School\n\n\nShareefa\n$140,000\n20\nManager\nGraduate Degree\n\n\nDwight\n$72,000\n12\nNurse\nCollege Degree\n\n\nJiang\n$68,000\n9\nTeacher\nCollege Degree\n\n\nLeBron\n$48,000,000\n21\nAthlete\nHigh School",
+    "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
       "Assignments",
