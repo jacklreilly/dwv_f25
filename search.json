@@ -242,94 +242,149 @@
     "href": "assignments/prac2.html",
     "title": "Practicum 2",
     "section": "",
-    "text": "Nothing to see here (yet)",
-    "crumbs": [
-      "📚 Overview",
-      "Practica",
-      "Practicum 2"
-    ]
+    "text": "Nothing to see here (yet)"
   },
   {
     "objectID": "assignments/index.html",
     "href": "assignments/index.html",
-    "title": "📝 Assignments",
+    "title": "📝 Content",
     "section": "",
-    "text": "Hello and welcome to the assignments page for our course. All assignments are posted here.\nNote that, while you can find assignments here, submission of assignments are in the course blackboard.",
+    "text": "Hello and welcome to the content page for our course. Readings, guides, and assignments are posted here by week.\nNote that, while you can find assignments here, submission of assignments itself goes to in the course blackboard.",
     "crumbs": [
       "📚 Overview",
-      "Assignments"
+      "Weekly Content"
     ]
   },
   {
     "objectID": "assignments/assign8.html",
     "href": "assignments/assign8.html",
-    "title": "Assignment 8",
+    "title": "Week 8",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 8"
+      "Weekly Content",
+      "Week 8"
     ]
   },
   {
     "objectID": "assignments/assign6.html",
     "href": "assignments/assign6.html",
-    "title": "Assignment 6",
+    "title": "Week 6",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 6"
+      "Weekly Content",
+      "Week 6"
     ]
   },
   {
     "objectID": "assignments/assign1.html",
     "href": "assignments/assign1.html",
-    "title": "Assignment 1",
+    "title": "1. Introduction to R",
     "section": "",
-    "text": "Instructions\nAnswer all questions. Please upload your assignment to Blackboard as a PDF.\n\n\n\nQuestions\n\nWhat is your name and program of study at Syracuse?\n(Optional: provide your pronouns, if you wish.)\nWhat is your prior experience with statistics and data analysis?\nWhat are you hoping to get out of this class?\nPlease include a picture of yourself!\n\nIt can be anything – just make sure that you are the only person in the picture so I can clearly identify you.",
+    "text": "Read the course syllabus (all parts of this website)\nRead FCSP chapter 1 or PSDS chapter 5",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 1"
+      "Weekly Content",
+      "1. Introduction to R"
     ]
   },
   {
-    "objectID": "assignments/assign12.html",
-    "href": "assignments/assign12.html",
-    "title": "Assignment 12",
+    "objectID": "assignments/assign1.html#readings",
+    "href": "assignments/assign1.html#readings",
+    "title": "1. Introduction to R",
+    "section": "",
+    "text": "Read the course syllabus (all parts of this website)\nRead FCSP chapter 1 or PSDS chapter 5",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "1. Introduction to R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#data-computational-work",
+    "href": "assignments/assign1.html#data-computational-work",
+    "title": "1. Introduction to R",
+    "section": "Data & Computational Work",
+    "text": "Data & Computational Work\nThe main purpose of this week’s assignment is to get your computer ready for all the work in the class. This means, primarily, installing software.\n\nInstall R on your computer\nBegin by installing R (http://cloud.r-project.org). Choose the version appropriate for your computing platform:\n\nIf you use macOS with an Apple Silicon processor (i.e. an M-series processor), then install R for macOS’s Apple Silicon build. This version does not work on older, Intel-based Macs.\nIf you use macOS with an Intel processor, then install R for macOS’s Intel build.\nIf you use Microsoft Windows, then install R for Windows.\nIf you use Linux, choose your distribution and install the R package for it.\n\n\n\nInstall RStudio on your computer\n\nIf you use macOS (whether Apple Silicon or Intel), install this version of RStudio.\nIf you use Windows, install this version of RStudio.\nIf you use Linux, choose your distribution from the download page.\n\n\n\nConfirm things work\n\nR is really a great big calculator. Let’s do some calculations!\n\nAdd 2 and 3 together\nMultiply 4 by 6\nDivide 10 by 5\n\nR can do fancier calculations.\n\nTake the square root of 25",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "1. Introduction to R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#submit-.r-file",
+    "href": "assignments/assign1.html#submit-.r-file",
+    "title": "1. Introduction to R",
+    "section": "Submit: .R File",
+    "text": "Submit: .R File\nIn an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.\n\nCreate an object named “aardvark” that stores a 3 as a single number\nCreate a second object named “boomba” that stores a 6 as a single number\nCreate a third object named “centauri” that is the addition of “aardvark” and “boomba”\nCreate a fourth object named “diabolical” that is the multiplication “aardvark” and “boomba”\nCreate an object named “ebullient” that stores three numbers as a vector/list: 4,5,and 6\nCreate an object named “fastidious” that stores three numbers as a vector/list: 8,9, and 11\nAdd “ebullient” and “fastidious” together, and store it in an object named “george”\nFind the mean (average) of “fastidious”, and store it in an obejct named “zoinks”",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "1. Introduction to R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign1.html#submit-pdf-file",
+    "href": "assignments/assign1.html#submit-pdf-file",
+    "title": "1. Introduction to R",
+    "section": "Submit: PDF file",
+    "text": "Submit: PDF file\nAnswer the following questions and upload as a PDF to Blackboard.\n\nWhat is your name and program of study at Syracuse?\n(Optional: provide your pronouns, if you wish.)\nWhat is your prior experience with statistics, data analysis, R, and computer programming generally?\nWhat are you hoping to get out of this class?\nPlease include a picture of yourself!\n\nIt can be anything – just make sure that you are the only person in the picture so I can clearly identify you.\n\nWhat is the mean of the “fastidious” object from your .R assignment above?",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "1. Introduction to R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign15.html",
+    "href": "assignments/assign15.html",
+    "title": "Week 15",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 12"
+      "Weekly Content",
+      "Week 15"
     ]
   },
   {
-    "objectID": "assignments/assign3.html",
-    "href": "assignments/assign3.html",
-    "title": "Assignment 3",
+    "objectID": "assignments/assign4.html",
+    "href": "assignments/assign4.html",
+    "title": "Week 4",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 3"
+      "Weekly Content",
+      "Week 4"
+    ]
+  },
+  {
+    "objectID": "assignments/assign14.html",
+    "href": "assignments/assign14.html",
+    "title": "Week 14",
+    "section": "",
+    "text": "Nothing to see here (yet)",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "Week 14"
     ]
   },
   {
     "objectID": "assignments/assign10.html",
     "href": "assignments/assign10.html",
-    "title": "Assignment 10",
+    "title": "Week 10",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 10"
+      "Weekly Content",
+      "Week 10"
     ]
   },
   {
@@ -440,80 +495,97 @@
   {
     "objectID": "assignments/assign5.html",
     "href": "assignments/assign5.html",
-    "title": "Assignment 5",
+    "title": "Week 5",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 5"
+      "Weekly Content",
+      "Week 5"
     ]
   },
   {
     "objectID": "assignments/assign2.html",
     "href": "assignments/assign2.html",
-    "title": "Assignment 2",
+    "title": "Week 2",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 2"
+      "Weekly Content",
+      "Week 2"
     ]
   },
   {
-    "objectID": "assignments/assign4.html",
-    "href": "assignments/assign4.html",
-    "title": "Assignment 4",
+    "objectID": "assignments/assign3.html",
+    "href": "assignments/assign3.html",
+    "title": "Week 3",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 4"
+      "Weekly Content",
+      "Week 3"
+    ]
+  },
+  {
+    "objectID": "assignments/assign12.html",
+    "href": "assignments/assign12.html",
+    "title": "Week 12",
+    "section": "",
+    "text": "Nothing to see here (yet)",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "Week 12"
     ]
   },
   {
     "objectID": "assignments/assign7.html",
     "href": "assignments/assign7.html",
-    "title": "Assignment 7",
+    "title": "Week 7",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 7"
+      "Weekly Content",
+      "Week 7"
     ]
   },
   {
     "objectID": "assignments/assign13.html",
     "href": "assignments/assign13.html",
-    "title": "Assignment 13",
-    "section": "",
-    "text": "Nothing to see here (yet)"
-  },
-  {
-    "objectID": "assignments/assign9.html",
-    "href": "assignments/assign9.html",
-    "title": "Assignment 9",
+    "title": "Week 13",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 9"
+      "Weekly Content",
+      "Week 13"
+    ]
+  },
+  {
+    "objectID": "assignments/assign9.html",
+    "href": "assignments/assign9.html",
+    "title": "Week 9",
+    "section": "",
+    "text": "Nothing to see here (yet)",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "Week 9"
     ]
   },
   {
     "objectID": "assignments/assign11.html",
     "href": "assignments/assign11.html",
-    "title": "Assignment 11",
+    "title": "Week 11",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
-      "Assignments",
-      "Assignment 11"
+      "Weekly Content",
+      "Week 11"
     ]
   },
   {
@@ -521,12 +593,7 @@
     "href": "assignments/prac1.html",
     "title": "Practicum 1",
     "section": "",
-    "text": "Nothing to see here (yet)",
-    "crumbs": [
-      "📚 Overview",
-      "Practica",
-      "Practicum 1"
-    ]
+    "text": "Nothing to see here (yet)"
   },
   {
     "objectID": "overview.html",
