@@ -42,12 +42,11 @@ Begin by installing R (<http://cloud.r-project.org>). Choose the version appropr
  	- Multiply 4 by 6
  	- Divide 10 by 5
 
-- R can do fancier calculations.
-   - Take the square root of 25
-
-## Submit: .R File
+## Submit: .R File  (Optional)
 
 In an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.
+
+*Note: You can submit this R file in Week 2, if you prefer.*
 
 1. Create an object named `aardvark` that stores a 3 as a single number
 2. Create a second object named `boomba` that stores a 6 as a single number
