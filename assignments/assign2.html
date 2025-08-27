@@ -8,7 +8,7 @@
 
 <meta name="author" content="Prof.&nbsp;Jack Reilly">
 
-<title>Week 2 – Data Wrangling and Visualization</title>
+<title>2. Very Basic Data in R – Data Wrangling and Visualization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -121,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/index.html">Weekly Content</a></li><li class="breadcrumb-item"><a href="../assignments/assign2.html">Week 2</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/index.html">Weekly Content</a></li><li class="breadcrumb-item"><a href="../assignments/assign2.html">2. Very Basic Data in R</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../assignments/assign2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Week 2</span></a>
+ <span class="menu-text">2. Very Basic Data in R</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -248,15 +248,25 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="assign2.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="assign2.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="assign2.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#readings" id="toc-readings" class="nav-link active" data-scroll-target="#readings">Readings</a></li>
+  <li><a href="#data-computational-work" id="toc-data-computational-work" class="nav-link" data-scroll-target="#data-computational-work">Data &amp; Computational Work</a></li>
+  <li><a href="#submit-.r-file-1" id="toc-submit-.r-file-1" class="nav-link" data-scroll-target="#submit-.r-file-1">Submit: .R File 1</a></li>
+  <li><a href="#submit-.r-file-2" id="toc-submit-.r-file-2" class="nav-link" data-scroll-target="#submit-.r-file-2">Submit: .R File 2</a></li>
+  <li><a href="#submit-pdf-file" id="toc-submit-pdf-file" class="nav-link" data-scroll-target="#submit-pdf-file">Submit: PDF file</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="assign2.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="assign2.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="assign2.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/index.html">Weekly Content</a></li><li class="breadcrumb-item"><a href="../assignments/assign2.html">Week 2</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/index.html">Weekly Content</a></li><li class="breadcrumb-item"><a href="../assignments/assign2.html">2. Very Basic Data in R</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Week 2</h1>
-<p class="subtitle lead">Data Wrangling and Visualization</p>
+<h1 class="title">2. Very Basic Data in R</h1>
+<p class="subtitle lead">Due Week 2</p>
 </div>
 
 
@@ -285,11 +295,96 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Nothing to see here (yet)</p>
+<section id="readings" class="level2">
+<h2 class="anchored" data-anchor-id="readings">Readings</h2>
+<ul>
+<li>Recommended reference reading:
+<ul>
+<li><strong>FCSP</strong> chapter 2
+<ul>
+<li>Note: <em>we will not cover all of this material in ch 2 this week; don’t get caught up on things not in course slides or course R scripts</em></li>
+</ul></li>
+<li><strong>DMSS</strong> chapters 1-2
+<ul>
+<li><em>Ignore, for now, things that relate to Database Management Systems (DBSMs) or SQL</em></li>
+</ul></li>
+<li><strong>The Plain Person’s Guide to Plain Text Social Science</strong>, ch 1-2 (<a href="https://plain-text.co/index.html" class="uri">https://plain-text.co/index.html</a>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="data-computational-work" class="level2">
+<h2 class="anchored" data-anchor-id="data-computational-work">Data &amp; Computational Work</h2>
+<p>Last time, you installed software. This time, we’re going to begin to use it.</p>
+</section>
+<section id="submit-.r-file-1" class="level2">
+<h2 class="anchored" data-anchor-id="submit-.r-file-1">Submit: .R File 1</h2>
+<p><em>(If you did not submit this last week)</em></p>
+<p>In an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.</p>
+<ol type="1">
+<li>Create an object named <code>aardvark</code> that stores a 3 as a single number</li>
+<li>Create a second object named <code>boomba</code> that stores a 6 as a single number</li>
+<li>Create a third object named <code>centauri</code> that is the addition of <code>aardvark</code> and <code>boomba</code></li>
+<li>Create a fourth object named <code>diabolical</code> that is the multiplication <code>aardvark</code> and <code>boomba</code></li>
+<li>Create an object named <code>ebullient</code> that stores three numbers as a vector: 4,5,and 6</li>
+<li>Create an object named <code>fastidious</code> that stores three numbers as a vector: 8,9, and 11</li>
+<li>Add <code>ebullient</code> and <code>fastidious</code> together, and store it in an object named <code>george</code></li>
+<li>Find the mean (average) of <code>fastidious</code>, and store it in an object named <code>zoinks</code></li>
+</ol>
+</section>
+<section id="submit-.r-file-2" class="level2">
+<h2 class="anchored" data-anchor-id="submit-.r-file-2">Submit: .R File 2</h2>
+<p>Create an R file to write all of your code in. Make sure this file is properly titled and headered, etc. Write code that answers the following:</p>
+<ol type="1">
+<li><p>Roll a 12 sided die 50 times. Store the result in an object <code>roll</code>. What is the mean (average) of your 10 die rolls?</p></li>
+<li><p>Create a object named <code>trusttheforce</code> that stores the following information:</p>
+<ul>
+<li>Information for five Star Wars characters: Luke, Han, Leia, Vader, Rey</li>
+<li>One string variable storing their name: <code>name</code></li>
+<li>One boolean (true/false) variable indicating if the character can use the force (F - Han, else - T): <code>force</code></li>
+<li>One boolean (true/false) variable indicating if the character is a Sith (T - Vader, else - F): <code>sith</code></li>
+<li>One numeric variable indicating the total number of Star Sars movie the character appeared in as a non-baby, non-ghost character (Vader/6, Luke/5, Leia/6, Han/4, Rey/3): <code>movies</code></li>
+</ul></li>
+<li><p>Draw a histogram of <code>trusttheforce$movies</code> showing the distribution of number of movies</p></li>
+<li><p>Let’s take the Obi-Wan perspective, and say it only counts for “Vader” to show up if he’s actually wearing the suit after “betraying and murdering” Luke’s father.</p>
+<ul>
+<li>Replace “Vader’s” number of movies with 4.</li>
+<li>Draw another histogram of <code>trusttheforce$movies</code> showing the distribution of number of movies according to Obi-Wan</li>
+</ul></li>
+<li><p>Load <code>npsvisitation0910.csv</code>. It has three variables: Park, year2009, and year2010, with the second two giving the number of vistors to the park in question in 2009 and 2010.</p>
+<ul>
+<li>What is the average number of park visitors in 2009? 2010?</li>
+<li>Draw a histogram of the number of park visitors in 2009.</li>
+</ul></li>
+<li><p>From the list of parks, identify Yellowstone National Park and Mount Rainier National Park. (They are in rows 359 and 235).</p>
+<ul>
+<li>How many more visitors did each park, individually, have in 2010 compared to 2009? (Subtract one cell from the other)</li>
+<li>What is the difference in the number of visitors between those two parks in 2009? (Subtract one cell from the other)</li>
+<li>How many visitors did the parks have, combined, in 2010? (Add one cell to the other)</li>
+</ul></li>
+<li><p><strong>BONUS</strong>:<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Roll one twelve sided die 1000 times. Then, roll <em>two</em> six sided dice (together) 1000 times. What is the mean of the twelve sided die rolls and two six sided dice rolls? How do the <em>distributions</em> (histogram) of these two rolls differ?</p></li>
+</ol>
+<p>Submit this .R file to Blackboard.</p>
+</section>
+<section id="submit-pdf-file" class="level2">
+<h2 class="anchored" data-anchor-id="submit-pdf-file">Submit: PDF file</h2>
+<p>Answer the following questions and upload as a PDF to Blackboard.</p>
+<ol type="1">
+<li><p>Include your histogram showing the distribution of movies. Include both the “normal” version and the “Obi-Wan” version.</p></li>
+<li><p>Include your histogram of number of park visitors in 2009.</p></li>
+<li><p>How many visitors did Yellowstone and Rainier have in 2009 and 2010, respectively?</p></li>
+<li><p><strong>BONUS</strong> If you did the bonus problem, include your histograms for your two die rolls above.</p></li>
+</ol>
 
 
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This bonus is for no actual bonus points - it’s just a optional problem to try to begin thinking your way through code.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

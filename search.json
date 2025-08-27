@@ -542,13 +542,85 @@
   {
     "objectID": "assignments/assign2.html",
     "href": "assignments/assign2.html",
-    "title": "Week 2",
+    "title": "2. Very Basic Data in R",
     "section": "",
-    "text": "Nothing to see here (yet)",
+    "text": "Recommended reference reading:\n\nFCSP chapter 2\n\nNote: we will not cover all of this material in ch 2 this week; don’t get caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 2"
+      "2. Very Basic Data in R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign2.html#readings",
+    "href": "assignments/assign2.html#readings",
+    "title": "2. Very Basic Data in R",
+    "section": "",
+    "text": "Recommended reference reading:\n\nFCSP chapter 2\n\nNote: we will not cover all of this material in ch 2 this week; don’t get caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "2. Very Basic Data in R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign2.html#data-computational-work",
+    "href": "assignments/assign2.html#data-computational-work",
+    "title": "2. Very Basic Data in R",
+    "section": "Data & Computational Work",
+    "text": "Data & Computational Work\nLast time, you installed software. This time, we’re going to begin to use it.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "2. Very Basic Data in R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign2.html#submit-.r-file-1",
+    "href": "assignments/assign2.html#submit-.r-file-1",
+    "title": "2. Very Basic Data in R",
+    "section": "Submit: .R File 1",
+    "text": "Submit: .R File 1\n(If you did not submit this last week)\nIn an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.\n\nCreate an object named aardvark that stores a 3 as a single number\nCreate a second object named boomba that stores a 6 as a single number\nCreate a third object named centauri that is the addition of aardvark and boomba\nCreate a fourth object named diabolical that is the multiplication aardvark and boomba\nCreate an object named ebullient that stores three numbers as a vector: 4,5,and 6\nCreate an object named fastidious that stores three numbers as a vector: 8,9, and 11\nAdd ebullient and fastidious together, and store it in an object named george\nFind the mean (average) of fastidious, and store it in an object named zoinks",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "2. Very Basic Data in R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign2.html#submit-.r-file-2",
+    "href": "assignments/assign2.html#submit-.r-file-2",
+    "title": "2. Very Basic Data in R",
+    "section": "Submit: .R File 2",
+    "text": "Submit: .R File 2\nCreate an R file to write all of your code in. Make sure this file is properly titled and headered, etc. Write code that answers the following:\n\nRoll a 12 sided die 50 times. Store the result in an object roll. What is the mean (average) of your 10 die rolls?\nCreate a object named trusttheforce that stores the following information:\n\nInformation for five Star Wars characters: Luke, Han, Leia, Vader, Rey\nOne string variable storing their name: name\nOne boolean (true/false) variable indicating if the character can use the force (F - Han, else - T): force\nOne boolean (true/false) variable indicating if the character is a Sith (T - Vader, else - F): sith\nOne numeric variable indicating the total number of Star Sars movie the character appeared in as a non-baby, non-ghost character (Vader/6, Luke/5, Leia/6, Han/4, Rey/3): movies\n\nDraw a histogram of trusttheforce$movies showing the distribution of number of movies\nLet’s take the Obi-Wan perspective, and say it only counts for “Vader” to show up if he’s actually wearing the suit after “betraying and murdering” Luke’s father.\n\nReplace “Vader’s” number of movies with 4.\nDraw another histogram of trusttheforce$movies showing the distribution of number of movies according to Obi-Wan\n\nLoad npsvisitation0910.csv. It has three variables: Park, year2009, and year2010, with the second two giving the number of vistors to the park in question in 2009 and 2010.\n\nWhat is the average number of park visitors in 2009? 2010?\nDraw a histogram of the number of park visitors in 2009.\n\nFrom the list of parks, identify Yellowstone National Park and Mount Rainier National Park. (They are in rows 359 and 235).\n\nHow many more visitors did each park, individually, have in 2010 compared to 2009? (Subtract one cell from the other)\nWhat is the difference in the number of visitors between those two parks in 2009? (Subtract one cell from the other)\nHow many visitors did the parks have, combined, in 2010? (Add one cell to the other)\n\nBONUS:1 Roll one twelve sided die 1000 times. Then, roll two six sided dice (together) 1000 times. What is the mean of the twelve sided die rolls and two six sided dice rolls? How do the distributions (histogram) of these two rolls differ?\n\nSubmit this .R file to Blackboard.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "2. Very Basic Data in R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign2.html#submit-pdf-file",
+    "href": "assignments/assign2.html#submit-pdf-file",
+    "title": "2. Very Basic Data in R",
+    "section": "Submit: PDF file",
+    "text": "Submit: PDF file\nAnswer the following questions and upload as a PDF to Blackboard.\n\nInclude your histogram showing the distribution of movies. Include both the “normal” version and the “Obi-Wan” version.\nInclude your histogram of number of park visitors in 2009.\nHow many visitors did Yellowstone and Rainier have in 2009 and 2010, respectively?\nBONUS If you did the bonus problem, include your histograms for your two die rolls above.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "2. Very Basic Data in R"
+    ]
+  },
+  {
+    "objectID": "assignments/assign2.html#footnotes",
+    "href": "assignments/assign2.html#footnotes",
+    "title": "2. Very Basic Data in R",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis bonus is for no actual bonus points - it’s just a optional problem to try to begin thinking your way through code.↩︎",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "2. Very Basic Data in R"
     ]
   },
   {
