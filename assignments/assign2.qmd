@@ -16,7 +16,7 @@ subtitle: "Due Week 2"
 
 Last time, you installed software.  This time, we're going to begin to use it.
 
-## Submit: .R File  
+## Submit: .R File 1
 
 *(If you did not submit this last week)*
 
@@ -31,7 +31,7 @@ In an .R file, write code to answer the following questions. Make sure your file
 7. Add `ebullient` and `fastidious` together, and store it in an object named `george`
 8. Find the mean (average) of `fastidious`, and store it in an object named `zoinks`
 
-## Submit: .R File
+## Submit: .R File 2
 
 Create an R file to write all of your code in.  Make sure this file is properly titled and headered, etc.  Write code that answers the following:
 
