@@ -60,9 +60,9 @@ Create an R file to write all of your code in.  Make sure this file is properly 
     - What is the difference in the number of visitors between those two parks in 2009?  (Subtract one cell from the other)
     - How many visitors did the parks have, combined, in 2010? (Add one cell to the other)
 
-7. **BONUS**:[^:bonus] Roll one twelve sided die 1000 times.  Then, roll *two* six sided dice (together) 1000 times.  What is the mean of the twelve sided die rolls and two six sided dice rolls?  How do the *distributions* (histogram) of these two rolls differ?
+7. **BONUS**:[^:bonus] Roll one twelve sided die 1000 times.  Then, roll *two* six sided dice (together) 1000 times.  Add the two six sided die rolls together, so you can get a "combined" roll that goes from 2 to 12 (the way you would in a normal board game).  What is the mean of the twelve sided die rolls and two six sided dice rolls?  How do the *distributions* (histogram) of these two rolls differ?
 
-[^:bonus]: This bonus is for no actual bonus points - it's just a optional problem to try to begin thinking your way through code.
+[^:bonus]: This bonus is for no actual bonus points - it's an optional problem to help you begin thinking your way through code.
 
 Submit this .R file to Blackboard.
 
