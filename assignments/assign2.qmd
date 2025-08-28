@@ -51,7 +51,7 @@ Create an R file to write all of your code in.  Make sure this file is properly 
     - Replace "Vader's" number of movies with 4.
     - Draw another histogram of `trusttheforce$movies` showing the distribution of number of movies according to Obi-Wan
 
-5. Load `npsvisitation0910.csv`.  It has three variables: Park, year2009, and year2010, with the second two giving the number of vistors to the park in question in 2009 and 2010.
+5. Load `npsvisitation0910.csv`.  It has three variables: `park`, `year2009`, and `year2010`, with the second two giving the number of visitors to the park in question in 2009 and 2010.
     - What is the average number of park visitors in 2009? 2010? 
     - Draw a histogram of the number of park visitors in 2009.
 
