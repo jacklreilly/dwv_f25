@@ -26,7 +26,7 @@ format:
 | 10   | Census Data                        | tidycensus                       |         |
 | 11   | Maps & GIS I                       | sf; tigris                       |         |
 | 12   | Maps & GIS II                      | mapgl; mapbox; osm               |         |
-| 13   | Accessing & Using Databases        | SQL                              |         |
+| 13   | Accessing & Using External Data        | SQL, other APIs                              |         |
 | 14   | Project Work                       |                                  |         |
 | 15   | Project Presentations              |                                  |         |
 | F    | **Finals Week (Project Due)**      |                                  |         |
