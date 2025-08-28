@@ -1,5 +1,5 @@
 ---
-title: "Syllabus"
+title: "Overview"
 format: 
     html: default
     pdf: default
@@ -38,14 +38,15 @@ No formal pre-requisites.  It is assumed you have either previously taken or are
 - Required:
     - Weidmann, Nils. *Data Management for Social Scientists*. Open access: <https://doi.org/10.1017/9781108990424>
 	- Healy, Kieran. *Data Visualization: A Practical Introduction*. Open access: <https://socviz.co>
-- Recommended:
-    - Braun & Murdoch, *A First Course in Statistical Programming*, 3rd Edition
-    - Freeman & Ross, *Programming Skills for Data Science*
-    - Hadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*, 2nd ed. <https://r4ds.hadley.nz>.
+- Recommended: A book on R programming or data wrangling 
+     - *Recommended:* Braun & Murdoch, *A First Course in Statistical Programming*, 3rd Edition
+     - *Other options:*
+       - Freeman & Ross, *Programming Skills for Data Science*
+       - Hadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*, 2nd ed. <https://r4ds.hadley.nz>.
 
 ::: {.callout-note}
 ### A Programming Book
-There are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming.  For the first two, I've required the open access books by Weidmann and Healy (**DMSS** and **DV**, respectively).  For the third, you have options.  I'm partial to Braun and Murdoch or Freeman and Ross (**FCSP** and **PSDS**), and will be suggesting readings primarily from them. Wickham et al (**RDS**), however, has the advantage of being open access (always useful), but is primarily focused on the tidyverse, which our course is not exclusively focused on. 
+There are, in essence, three kinds of books that are useful for the class - a book on data management, a book on data visualization, and a book on data programming.  For the first two, I've required the open access books by Weidmann and Healy (**DMSS** and **DV**, respectively).  For the third, you have options.  I recommend Braun and Murdoch (**FCSP**), which is a good general overview of the R language from a statistical programming perspecitve. Freeman & Ross (**PSDS**) is a more general introduction to the overall data science technical environment, and Wickham et al (**RDS**) has the advantage of being open access (always useful).  **PSDS**, however, doesn't have as detailed information on actual programming in it, and **RDW** but is primarily focused on the tidyverse, which our course is not exclusively focused on. We will cover all programming and scripting content in class, so the book you choose for background reference is up to you, but you will find it valuable to have one.
 
 
 :::
