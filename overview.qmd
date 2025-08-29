@@ -55,7 +55,7 @@ There are, in essence, three kinds of books that are useful for the class - a bo
 You will need access to a personal computer for this class.  It will need to run a full operating system, where you have the ability to install local applications outside of app stores and have access to the command line. MacOS, Windows, and Linux are all fine. Tablet or web-book OSes - like Chromebooks or iPads - won't be sufficient.  Aside from the computer, all significant software we use will be free/open-source, and we'll cover usage and installation in class.
 
 ## Online Course Resources
-Blackboard is our internet-based course platform:  <http://blackboard.syr.edu>. In it, you will find submission portals for assignments and a link to this course webpage, where you can find the course syllabus, problem sets, and links to readings. 
+Blackboard is our internet-based course platform:  <http://blackboard.syr.edu>. In it, you will find submission portals for assignments and a link to the [course webpage](https://jacklreilly.github.io/dwv_f25/), where you can find the course syllabus, problem sets, and links to readings. 
 
 You can also link to our [course drive here](https://sumailsyr-my.sharepoint.com/:f:/g/personal/jlreilly_syr_edu/EoZ9P8tT-JBLjEHb1XzVqnMBVwBozLfeD0XJm2yoDzTPJw), which contains lecture slides, data sets, and some other useful things for the class. 
 
