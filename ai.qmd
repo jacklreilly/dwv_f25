@@ -57,7 +57,7 @@ Remember: whenever you use AI tools for a project you attach your name to, you a
 Just like any other tool or source you use, all use of AI, in anything you turn in for this class, should be documented and identified in your work. If you used AI to help you write code, note you used AI to help you write code. If you use it to help you write analysis, not how you used it to help you write analysis.
 :::
 
-## Guidelines: AI usage in our course
+## Suggestions and Guidelines: AI usage in our course
 
 For the reasons above, I would strongly encourage you to be **skeptical** and not overuse AI as you learn. My job, goal, and interest in this class is to help **you, my human student, learn how to valuable things** like write code; wrangle and visualize data; critically interpret information; and learn how to be a more effective citizen and human engaging in data analysis, management, and policy study. My interest is not in correcting AI slop,[^9] nor does my interest lie in trying to figure out if you are attempting to pass unaldeterated AI slop[^bsagain] off as your own work.[^aiassign] After all, you are allowed to use AI on assignments, if you wish, and I encourage you to do so in productive and valuable ways to enhance your learning, rather than as a way to cheat. Your education, as always, is only as valuable as what you put into it.
 
