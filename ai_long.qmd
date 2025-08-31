@@ -1,6 +1,6 @@
 ---
 title: "Artificial Intelligence & LLMs"
-subtitle: "A Slightly Opinionated Discussion about Education and Technology"
+subtitle: "An Opinionated Discussion and Digression about Education and Technology"
 format: 
     html: default
     pdf: default
