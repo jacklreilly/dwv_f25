@@ -39,7 +39,7 @@ No formal pre-requisites.  It is assumed you have either previously taken or are
     - Weidmann, Nils. *Data Management for Social Scientists*. Open access: <https://doi.org/10.1017/9781108990424>
 	- Healy, Kieran. *Data Visualization: A Practical Introduction*. Open access: <https://socviz.co>
 - Recommended: A book on R programming or data wrangling 
-     - *Recommended:* Braun & Murdoch, *A First Course in Statistical Programming*, 3rd Edition
+     - *Recommended:* Braun & Murdoch, *A First Course in Statistical Programming*, 3rd Edition. *Purchase links:* [cambridge](https://doi.org/10.1017/9781108993456) [amazon](https://www.amazon.com/First-Course-Statistical-Programming/dp/1108995144)
      - *Other options:*
        - Freeman & Ross, *Programming Skills for Data Science*
        - Hadley Wickham, Garrett Grolemund, and Mine Çetinkaya-Rundel, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data*, 2nd ed. <https://r4ds.hadley.nz>.
