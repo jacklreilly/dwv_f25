@@ -129,7 +129,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#course-information" id="toc-course-information" class="nav-link active" data-scroll-target="#course-information">Course Information</a></li>
   <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a>
   <ul class="collapse">
-  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
+  <li><a href="#expanded-description" id="toc-expanded-description" class="nav-link" data-scroll-target="#expanded-description">Expanded Description</a></li>
   <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
   </ul></li>
   <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials">Materials</a>
@@ -151,6 +152,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#etiquette-decorum" id="toc-etiquette-decorum" class="nav-link" data-scroll-target="#etiquette-decorum">Etiquette &amp; Decorum</a></li>
   <li><a href="#office-consultation-hours-appointments" id="toc-office-consultation-hours-appointments" class="nav-link" data-scroll-target="#office-consultation-hours-appointments">Office &amp; Consultation Hours, Appointments</a></li>
   <li><a href="#e-mail" id="toc-e-mail" class="nav-link" data-scroll-target="#e-mail">E-mail</a></li>
+  </ul></li>
+  <li><a href="#colophon" id="toc-colophon" class="nav-link" data-scroll-target="#colophon">Colophon</a>
+  <ul class="collapse">
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#technical" id="toc-technical" class="nav-link" data-scroll-target="#technical">Technical</a></li>
   <li><a href="#course-schedule" id="toc-course-schedule" class="nav-link" data-scroll-target="#course-schedule">Course Schedule</a></li>
   </ul></li>
   <li><a href="#campus-academic-resources-policies" id="toc-campus-academic-resources-policies" class="nav-link" data-scroll-target="#campus-academic-resources-policies">Campus Academic Resources &amp; Policies</a>
@@ -209,14 +215,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<p>This course introduces students to data management, wrangling, and visualization as well as the technical tools necessary to do such analysis in an open and reproducible fashion.</p>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>Data preprocessing, wrangling, and management often consumes a large fraction of the time spent doing quantitative data analysis in public administration, public policy, and the broader social sciences. This class introduces students to the technical tools necessary to do these tasks in an open and reproducible fashion suitable for modern computational data workflows. Throughout the course of the semester, students will learn the principles and practice of conducting reproducible quantitative research, including readable programming and coding, version control, methods of documentation, data storage, workflow management, and exploratory data visualization. A variety of relevant open technical software tools will be introduced and used, including but not limited to R (and RStudio), git (and github), markdown, LaTeX, and a variety of helper programs to tie things together.</p>
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p>Every step in policymaking relies on data. This course introduces students to data management, wrangling, and visualization as well as the technical tools necessary to do such work in an open and reproducible fashion.</p>
+</section>
+<section id="expanded-description" class="level2">
+<h2 class="anchored" data-anchor-id="expanded-description">Expanded Description</h2>
+<p>Data preprocessing, wrangling, and management often consumes a large fraction of the time spent doing quantitative data analysis in public administration, public policy, and behavioral science research. Yet these topics frequently do not receive regular attention in methodological courses that focus on statistical inference. This class introduces students to the technical tools necessary to do these tasks in an open and reproducible fashion suitable for modern computational data workflows. Throughout the course of the semester, students will learn the principles and practice of conducting reproducible quantitative research, including readable programming and coding, version control, methods of documentation, data storage, workflow management, and exploratory data visualization. A variety of relevant open technical software tools will be introduced and used, including but not limited to R (and RStudio), git (and github), markdown, and a variety of helper programs to tie things together.</p>
 </section>
 <section id="prerequisites" class="level2">
 <h2 class="anchored" data-anchor-id="prerequisites">Prerequisites</h2>
-<p>No formal pre-requisites. It is assumed you have either previously taken or are currently enrolled in an “Introduction to Statistics” or “Quantitative Methods” class (ie, PAI 721 or MAX 201).</p>
+<p>No formal pre-requisites. It is assumed you have either previously taken or are currently enrolled in an “Introduction to Statistics” or “Quantitative Methods” class (ie, PAI 721 or MAX 201), and are conversant enough in statistics to be able to work with concepts like “mean” and “standard deviation”.</p>
+<p>While this course has no <em>formal</em> pre-requisites, it does have a substantial <em>informal</em> prerequisite: <strong>motivation</strong>. Learning a programming langauge is challenging work, and students must be prepared to invest the appropriate time, energy, effort, and - <em>above all</em> - patience.</p>
 </section>
 </section>
 <section id="materials" class="level1">
@@ -336,6 +346,17 @@ Note
 <p>If your email requires a long response, expect me to encourage you to schedule an appointment with me so that we can more effectively discuss the matter.</p>
 </div>
 </div>
+</section>
+</section>
+<section id="colophon" class="level1">
+<h1>Colophon</h1>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>Numerous other materials and syllabi were used in the creation of the material for this class. In addition to textbooks and sources referenced in assignments, structure and content from similar courses developed by Matt Pietryka, Andrew Heiss, and Kieran Healy were used, both as general inspiration and for particular course elements. I am grateful to them for permission to use their materials.</p>
+</section>
+<section id="technical" class="level2">
+<h2 class="anchored" data-anchor-id="technical">Technical</h2>
+<p>This website was written in <a href="https://quarto.org/">quarto</a> and hosted by <a href="https://github.com">github</a>. Course assignments are developed in <a href="https://www.r-project.org">R</a> with <a href="https://rstudio.posit.co">RStudio</a> and <a href="https://positron.posit.co">Positron</a>.</p>
 </section>
 <section id="course-schedule" class="level2">
 <h2 class="anchored" data-anchor-id="course-schedule">Course Schedule</h2>
