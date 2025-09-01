@@ -128,7 +128,7 @@ If your email requires a long response, expect me to encourage you to schedule a
 
 ## Acknowledgements 
 
-Numerous other materials and syllabi were used in the creation of the material for this class.  In particular, structure and content from similar courses developed by Matt Pietryka, Andrew Heiss, and Kieran Healy were used, both as general inspiration and for particular course elements, and I am grateful to all of them.
+Numerous other materials and syllabi were used in the creation of the material for this class.  In addition to textbooks and sources referenced in assignments, structure and content from similar courses developed by Matt Pietryka, Andrew Heiss, and Kieran Healy were used, both as general inspiration and for particular course elements.  I am grateful to them for permission to use their materials. 
 
 ## Technical
 
