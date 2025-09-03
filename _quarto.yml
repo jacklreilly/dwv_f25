@@ -29,7 +29,8 @@ website:
   sidebar:
     - id: assign
       style: docked
-      search: true
+      title: "Content"
+      #logo: images/pai600_dwv_logo2.svg
       contents:
         - section: "Weekly Content"
           href: assignments/index.qmd
