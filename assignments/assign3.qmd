@@ -2,4 +2,30 @@
 title: "3. Data Notebooks in Quarto"
 ---
 
-In progress
+## Readings
+
+- Recommended reference reading:
+  - In the course drive, find the file `Week 3 Files.zip`.  Unzip the file in the directory on your computer that you use for coursework.  Inside the .zip file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.
+  - **The Markdown Guide**, <<https://www.markdownguide.org>>
+  - **The Plain Person's Guide to Plain Text Social Science**, ch 3-4 (<https://plain-text.co/index.html>)
+    - *Note: The Plain Person's Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to*
+
+## Data & Computational Work
+
+There is no major new software to install.  However, we will be rendering text to output document types, like pdf, docx, and html.  Docx and html files will render without additional software, but .pdfs need extra bits added.  If you would like to compile to PDF, run the following lines of code:
+
+`install.packages("tinytex")`
+
+`tinytex::install_tinytex()`
+
+This places a small tex installation inside R for you.
+
+## Submit: .qmd file; HTML file; docx file
+
+1. Create an Quarto file; title it "Week 3 Homework.qmd"
+2. Use the 2005 British Election study file (`bes2005subset.csv`) to create a jittered scatterplot of Feelings toward Blair and Feelings on Social Spending.
+3. In a brief text segment, interpret what the figure shows you.
+4. Load the 2000 National Election study file (`nes2000subset.csv`).
+5. Find the correlation between income and partisanship, and draw a jittered scatter plot of partisanship (Y axis) and income (X-axis)
+6. In a brief text segment, interpret what the correlation and figure tells you.
+7. Render the document to HTML and docx and upload all three (.qmd, the .html, and .docx files) to Blackboard.
