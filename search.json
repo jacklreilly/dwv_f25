@@ -213,7 +213,7 @@
     "href": "assignments/assign3.html",
     "title": "3. Data Notebooks in Quarto",
     "section": "",
-    "text": "Recommended reference reading:\n\nIn the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework. Inside the .zip file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "In the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -225,7 +225,7 @@
     "href": "assignments/assign3.html#readings",
     "title": "3. Data Notebooks in Quarto",
     "section": "",
-    "text": "Recommended reference reading:\n\nIn the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework. Inside the .zip file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "In the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -250,6 +250,18 @@
     "title": "3. Data Notebooks in Quarto",
     "section": "Submit: .qmd file; HTML file; docx file",
     "text": "Submit: .qmd file; HTML file; docx file\n\nCreate an Quarto file (File&gt;&gt;New File&gt;&gt;Quarto Document). Title it “Week 3 Homework.qmd”, select “HTML” output, and uncheck “use visual markdown editor”. (You can switch to this later.)\nUse the 2005 British Election study file (bes2005subset.csv) to create a jittered scatterplot of Feelings toward Blair and Feelings on Social Spending.\nIn a brief text segment, interpret what the figure shows you.\nLoad the 2000 National Election study file (nes2000subset.csv).\nFind the correlation between income and partisanship, and draw a jittered scatter plot of partisanship (Y axis) and income (X-axis)\nIn a brief text segment, interpret what the correlation and figure tells you.\nRender the document to HTML and docx and upload all three (.qmd, the .html, and .docx files) to Blackboard.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "3. Data Notebooks in Quarto"
+    ]
+  },
+  {
+    "objectID": "assignments/assign3.html#footnotes",
+    "href": "assignments/assign3.html#footnotes",
+    "title": "3. Data Notebooks in Quarto",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWindows tries to help you by letting you click directly into .zip files without unzipping them. This lets you see into the file, which is helpful, but prevents you from editing things inside the file, which is not (and will make R throw you errors). So make sure to unzip the file before loading it and rendering.↩︎",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
