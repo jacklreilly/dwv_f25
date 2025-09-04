@@ -4,11 +4,13 @@ title: "3. Data Notebooks in Quarto"
 
 ## Readings
 
+- In the course drive, find the file `Week 3 Files.zip`.  Unzip the file in the directory on your computer that you use for coursework.[^zip]  Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.
 - Recommended reference reading:
-  - In the course drive, find the file `Week 3 Files.zip`.  Unzip the file in the directory on your computer that you use for coursework.  Inside the .zip file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.
   - **The Markdown Guide**, <<https://www.markdownguide.org>>
   - **The Plain Person's Guide to Plain Text Social Science**, ch 3-4 (<https://plain-text.co/index.html>)
     - *Note: The Plain Person's Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to*
+
+[^zip]: Windows tries to help you by letting you click directly into .zip files without unzipping them. This lets you see into the file, which is helpful, but prevents you from editing things inside the file, which is not (and will make R throw you errors).  So make sure to unzip the file before loading it and rendering.
 
 ## Data & Computational Work
 
