@@ -82,6 +82,54 @@
     ]
   },
   {
+    "objectID": "assignments/assign4.html#readings-reference-material",
+    "href": "assignments/assign4.html#readings-reference-material",
+    "title": "4. Version Tracking in GitHub",
+    "section": "Readings & Reference Material",
+    "text": "Readings & Reference Material\n\n“Happy Git with R” https://happygitwithr.com/\nThe Plain Person’s Guide to Plain Text Social Science, ch 2 (https://plain-text.co/index.html)\nBryan, Jennifer. “Excuse me, do you have a moment to talk about version control?”\nWickham, Hadley. “Tidy Data”.\nKuriwaki, Shuri. “Git for Students in the Social Sciences: A Pitch",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "4. Version Tracking in GitHub"
+    ]
+  },
+  {
+    "objectID": "assignments/assign4.html#computer-work",
+    "href": "assignments/assign4.html#computer-work",
+    "title": "4. Version Tracking in GitHub",
+    "section": "Computer Work",
+    "text": "Computer Work\nIf you do not have one already, create a GitHub account and obtain a GitHub Personal Access Token.\n\nRegister a GitHub Account.\n(Optional) Install Git. Note: this step is only optional if you use the GitHub Desktop Client; if you use any other client, you must install Git at the command line.\nInstall a Git Client. I strongly recommend you use the GitHub Desktop Client, which comes with git built-in, so that you do not have to install git separately (and can thus skip step 2).\nGet a Personal Access Token.\nConnect to GitHub and start an initial repo..",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "4. Version Tracking in GitHub"
+    ]
+  },
+  {
+    "objectID": "assignments/assign4.html#data-work",
+    "href": "assignments/assign4.html#data-work",
+    "title": "4. Version Tracking in GitHub",
+    "section": "Data Work",
+    "text": "Data Work",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "4. Version Tracking in GitHub"
+    ]
+  },
+  {
+    "objectID": "assignments/assign4.html#submission-files",
+    "href": "assignments/assign4.html#submission-files",
+    "title": "4. Version Tracking in GitHub",
+    "section": "Submission Files",
+    "text": "Submission Files",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "4. Version Tracking in GitHub"
+    ]
+  },
+  {
     "objectID": "assignments/assign12.html",
     "href": "assignments/assign12.html",
     "title": "Week 12",
