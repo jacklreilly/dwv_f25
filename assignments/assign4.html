@@ -246,8 +246,14 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#readings-reference-material" id="toc-readings-reference-material" class="nav-link active" data-scroll-target="#readings-reference-material">Readings &amp; Reference Material</a></li>
   <li><a href="#computer-work" id="toc-computer-work" class="nav-link" data-scroll-target="#computer-work">Computer Work</a></li>
-  <li><a href="#data-work" id="toc-data-work" class="nav-link" data-scroll-target="#data-work">Data Work</a></li>
-  <li><a href="#submission-files" id="toc-submission-files" class="nav-link" data-scroll-target="#submission-files">Submission Files</a></li>
+  <li><a href="#data-work" id="toc-data-work" class="nav-link" data-scroll-target="#data-work">Data Work</a>
+  <ul class="collapse">
+  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
+  <li><a href="#part-1.-lines" id="toc-part-1.-lines" class="nav-link" data-scroll-target="#part-1.-lines">Part 1. Lines</a></li>
+  <li><a href="#part-2.-protected-lands" id="toc-part-2.-protected-lands" class="nav-link" data-scroll-target="#part-2.-protected-lands">Part 2. Protected Lands</a></li>
+  <li><a href="#part-3.-national-election-studies" id="toc-part-3.-national-election-studies" class="nav-link" data-scroll-target="#part-3.-national-election-studies">Part 3. National Election Studies</a></li>
+  </ul></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="assign4.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="assign4.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="assign4.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
     </div>
@@ -304,20 +310,74 @@ ul.task-list li input[type="checkbox"] {
 <li>Register a <a href="https://happygitwithr.com/github-acct.html">GitHub Account</a>.</li>
 <li>(Optional) Install <a href="https://happygitwithr.com/install-git">Git</a>. <em>Note: this step is only optional if you use the GitHub Desktop Client; if you use any other client, you must install Git at the command line.</em></li>
 <li>Install a <a href="https://happygitwithr.com/git-client.html">Git Client</a>. I strongly recommend you use the <a href="https://github.com/apps/desktop">GitHub Desktop Client</a>, which comes with git built-in, so that you do not have to install git separately (and can thus skip step 2).</li>
-<li>Get a <a href="https://happygitwithr.com/https-pat">Personal Access Token</a>.</li>
-<li>Connect to <a href="https://happygitwithr.com/push-pull-github.html">GitHub and start an initial repo.</a>.</li>
+<li>Get a <a href="https://happygitwithr.com/https-pat">Personal Access Token</a> and connect your GitHub Desktop Client to GitHub.</li>
+<li><strong>(Optional)</strong> Start an <a href="https://happygitwithr.com/push-pull-github.html">initial repo</a>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> We will do this together in workshop this week, as well, but you can get a head start if you like.</li>
 </ol>
 </section>
 <section id="data-work" class="level2">
 <h2 class="anchored" data-anchor-id="data-work">Data Work</h2>
+<section id="setup" class="level3">
+<h3 class="anchored" data-anchor-id="setup">Setup</h3>
+<ol type="1">
+<li>Create a GitHub repository for this assignment. (Don’t forget a readme file and a .gitignore file!) It’s OK if it is a private repository.</li>
+<li>Generate a Quarto document (like last week). Title it <code>DWV Assignment 4.qmd</code>. Answer all questions for this assignment in this quarto document.</li>
+<li>Practice good file management: keep all documents for this assignment in your assignment folder (github repo) dedicated to just this assignment. It is OK - it’s advisable, actually - to have the datasets themselves in a separate folder.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+</ol>
 </section>
-<section id="submission-files" class="level2">
-<h2 class="anchored" data-anchor-id="submission-files">Submission Files</h2>
+<section id="part-1.-lines" class="level3">
+<h3 class="anchored" data-anchor-id="part-1.-lines">Part 1. Lines</h3>
+<ol type="1">
+<li>Draw a y=4x+3 on a plot that ranges from -20 to +20 on both x and y.</li>
+<li>Label the line appropriately next to itself.</li>
+<li>Color the line in an interesting color! And make it dashed.</li>
+<li><strong>Bonus</strong> Use a combination of the above options (plus others, if you feel like looking them up) to create the wildest looking series of lines on a graph that you can. (Remember, you can overplot lines!)</li>
+</ol>
+</section>
+<section id="part-2.-protected-lands" class="level3">
+<h3 class="anchored" data-anchor-id="part-2.-protected-lands">Part 2. Protected Lands</h3>
+<p>Consider the <code>protected_lands.csv</code> dataset. This dataset contains information about a sample of countries sourced from the <a href="https://data.worldbank.org">World Bank</a>. <code>Protected Lands</code> represents the terrestrial protected land of a country as a percentage of total land area. GDP is represented in the dataset on a per capita (<code>gdp_percap</code>) as well as total basis (with total being measured in billions - <code>tot_gdp_billions</code>).</p>
+<ol type="1">
+<li>Find the mean, standard deviation, and range of each of the three variables: protected lands, GDP per capita, and total GDP.</li>
+<li>Create a scatterplot where “protected lands” is on the Y axis and GDP per capita is on the X axis. Place a title on the graph and labels on the X and Y axis appropriately.</li>
+<li>Create a scatterplot where “protected lands” is on the Y axis and total GDP is on the X axis. Place a title on the graph and labels on the X and Y axis appropriately.</li>
+<li>Regress “protected lands” on GDP per capita.</li>
+<li>where “protected lands” is on the Y axis and GDP per capita is on the X axis. Then, overlay the plot with a line representing the slope.</li>
+<li>Regress “protected land” on total GDP.</li>
+</ol>
+</section>
+<section id="part-3.-national-election-studies" class="level3">
+<h3 class="anchored" data-anchor-id="part-3.-national-election-studies">Part 3. National Election Studies</h3>
+<ol type="1">
+<li>Using <code>nes2000subset_age.csv</code>, regress partisanship on age.</li>
+<li>Plot the resulting regression line, and properly label all axes. (Hint: don’t forget to rescale the X axis!)</li>
+<li>Color the line! Label the line next to itself with “OLS Line”</li>
+</ol>
+</section>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<ol type="1">
+<li>Render your quarto file to .html and .docx.</li>
+<li><strong>Push</strong> your completed assignment, including your .html and .docx files, to your GitHub repo.</li>
+<li>Either:
+<ul>
+<li>Ensure the repo is public, or</li>
+<li>Share the repo with me (I’m <code>@jacklreilly</code> on GitHub).</li>
+</ul></li>
+<li>On Blackboard, under assginment 4, upload a link to the repo so that I can click straight through to it.</li>
+</ol>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Jargon alert: repo is short for “repository”.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I recommend that you have a folder on your computer where all of your assignments for the class are kept. Inside this folder, you should have a folder for each assignment; you can also have a folder that stores the data. The data folder should not be entered into a github repo; the individual assignments folders can be (or need to be, depending on the assignment.)<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
