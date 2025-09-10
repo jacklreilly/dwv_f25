@@ -21,7 +21,7 @@ format:
 | 5    | Wrangling Tidy Data; Flow Control   | Loops                            |         |
 | 6    | Data Visualization I               | Grammar of Graphics; ggplot2     |         |
 | 7    | Data Visualization II              | ggplot2                          |         |
-| 8    | **Midterm Exam (Thursday, October 16)** |                                  |         |
+| 8    | **Core Exam (Thursday, October 16)** |                                  |         |
 | 9    | Social Networks & Network Data     | iGraph; statnet                  |         |
 | 10   | Census Data                        | tidycensus                       |         |
 | 11   | Maps & GIS I                       | sf; tigris                       |         |
