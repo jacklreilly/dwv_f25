@@ -15,10 +15,10 @@ format:
 | Week | **Topic**                          | **Tools**                        |  |
 |------|------------------------------------|----------------------------------|---------|
 | 1    | Course Introduction                | Scripts; R and RStudio  |         |
-| 2    | Reproducible Data Analyses         | Filesystems; Markup Languages; Quarto     |         |
-| 3    | A Field Guide to Data              | Version Control; Git; Data Formats                     |         |
-| 4    | Wrangling Tidy Data                | Tidyverse                        |         |
-| 5    | Flow Control                       | Loops                            |         |
+| 2    | Reproducible Data Analyses         | Markup Languages; Quarto     |         |
+| 3    | File Management & Version Control  | Filesystems; Git; GitHub                    |         |
+| 4    | A Field Guide to Data              |  Data Formats; Tidyverse                        |         |
+| 5    | Wrangling Tidy Data; Flow Control   | Loops                            |         |
 | 6    | Data Visualization I               | Grammar of Graphics; ggplot2     |         |
 | 7    | Data Visualization II              | ggplot2                          |         |
 | 8    | **Midterm Exam (Thursday, October 16)** |                                  |         |
