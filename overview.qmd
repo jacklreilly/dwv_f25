@@ -49,7 +49,7 @@ While this course has no *formal* pre-requisites, it does have a substantial *in
 
 ## Learning Objectives
 
-1. Demonstrate capability in open science and contemporary reproducible data analysis tools
+1. Demonstrate capability in open science and contemporary reproducible data processing, wrangling, and management tools
 2. Apply appropriate principles of data and file management to data projects
 3. Evaluate the credibility and clarity of data visualizations
 4. Create effective, reproducible, and well designed data visualizations with appropriate tools
