@@ -2,8 +2,6 @@
 title: "4. Version Tracking in GitHub"
 ---
 
-***In progress***
-
 ## Readings & Reference Material
 
 - "Happy Git with R" <https://happygitwithr.com/>
