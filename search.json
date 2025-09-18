@@ -263,13 +263,61 @@
   {
     "objectID": "assignments/assign5.html",
     "href": "assignments/assign5.html",
-    "title": "Week 5",
+    "title": "5. Data in the Tidyverse",
     "section": "",
-    "text": "Nothing to see here (yet)",
+    "text": "in progress",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 5"
+      "5. Data in the Tidyverse"
+    ]
+  },
+  {
+    "objectID": "assignments/assign5.html#readings-reference-material",
+    "href": "assignments/assign5.html#readings-reference-material",
+    "title": "5. Data in the Tidyverse",
+    "section": "Readings & Reference Material",
+    "text": "Readings & Reference Material\n\nRDS, chs\nTidyverse cheatsheets: https://rstudio.github.io/cheatsheets/, especially:\n\ndata tidying with tidyr: html and pdf\ndata transformation with dplyr: html and pdf\ndata import with readr: html and pdf\ndata visualization with ggplot2: html and pdf",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "5. Data in the Tidyverse"
+    ]
+  },
+  {
+    "objectID": "assignments/assign5.html#computer-work",
+    "href": "assignments/assign5.html#computer-work",
+    "title": "5. Data in the Tidyverse",
+    "section": "Computer Work",
+    "text": "Computer Work\nIn case you have not yet done so, install the `tidyverse’ series of packages in your local R installation.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "5. Data in the Tidyverse"
+    ]
+  },
+  {
+    "objectID": "assignments/assign5.html#data-work",
+    "href": "assignments/assign5.html#data-work",
+    "title": "5. Data in the Tidyverse",
+    "section": "Data Work",
+    "text": "Data Work",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "5. Data in the Tidyverse"
+    ]
+  },
+  {
+    "objectID": "assignments/assign5.html#submission",
+    "href": "assignments/assign5.html#submission",
+    "title": "5. Data in the Tidyverse",
+    "section": "Submission",
+    "text": "Submission",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "5. Data in the Tidyverse"
     ]
   },
   {
