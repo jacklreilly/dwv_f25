@@ -1,8 +1,24 @@
 ---
-title: "Week 5"
-format: 
-    html: default
-    pdf: default
+title: "5. Data in the Tidyverse"
 ---
 
-Nothing to see here (yet)
+***in progress***
+
+## Readings & Reference Material
+
+- **RDS**, chs 
+- Tidyverse cheatsheets: <https://rstudio.github.io/cheatsheets/>, especially:
+    - data tidying with tidyr: [html](https://rstudio.github.io/cheatsheets/html/tidyr.html) and [pdf](https://rstudio.github.io/cheatsheets/tidyr.pdf)
+    - data transformation with dplyr: [html](https://rstudio.github.io/cheatsheets/html/data-transformation.html) and [pdf](https://rstudio.github.io/cheatsheets/data-transformation.pdf)
+    - data import with readr: [html](https://rstudio.github.io/cheatsheets/html/data-import.html) and [pdf](https://rstudio.github.io/cheatsheets/data-import.pdf)
+    - data visualization with ggplot2: [html](https://rstudio.github.io/cheatsheets/html/data-visualization.html) and [pdf](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
+
+## Computer Work
+
+In case you have not yet done so, install the `tidyverse' series of packages in your local R installation.
+
+## Data Work
+
+
+
+## Submission 
