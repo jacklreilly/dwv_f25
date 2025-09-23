@@ -182,13 +182,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../assignments/assign6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6. Data Wrangling</span></a>
+ <span class="menu-text">6. The General Social Survey</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../assignments/assign7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Week 7</span></a>
+ <span class="menu-text">7. The American National Election Studies</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -251,7 +251,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#readings-reference-material" id="toc-readings-reference-material" class="nav-link active" data-scroll-target="#readings-reference-material">Readings &amp; Reference Material</a></li>
+  <li><a href="#readings-reference-material" id="toc-readings-reference-material" class="nav-link active" data-scroll-target="#readings-reference-material">Readings &amp; Reference Material</a>
+  <ul class="collapse">
+  <li><a href="#lecture-a-field-guide-to-data" id="toc-lecture-a-field-guide-to-data" class="nav-link" data-scroll-target="#lecture-a-field-guide-to-data">Lecture: A Field Guide to Data</a></li>
+  </ul></li>
   <li><a href="#computer-work" id="toc-computer-work" class="nav-link" data-scroll-target="#computer-work">Computer Work</a></li>
   <li><a href="#data-work" id="toc-data-work" class="nav-link" data-scroll-target="#data-work">Data Work</a></li>
   <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
@@ -293,11 +296,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong><em>in progress</em></strong></p>
 <section id="readings-reference-material" class="level2">
 <h2 class="anchored" data-anchor-id="readings-reference-material">Readings &amp; Reference Material</h2>
+<section id="lecture-a-field-guide-to-data" class="level3">
+<h3 class="anchored" data-anchor-id="lecture-a-field-guide-to-data">Lecture: A Field Guide to Data</h3>
 <ul>
-<li><strong>RDS</strong>, chs</li>
+<li><strong>DMSS</strong>, ch 3 &amp; 4</li>
+<li><strong>RDS</strong>, chs 7 &amp; 8</li>
+<li><strong>FCSP</strong>, ch 5.4-5.6</li>
 <li>Tidyverse cheatsheets: <a href="https://rstudio.github.io/cheatsheets/" class="uri">https://rstudio.github.io/cheatsheets/</a>, especially:
 <ul>
 <li>data tidying with tidyr: <a href="https://rstudio.github.io/cheatsheets/html/tidyr.html">html</a> and <a href="https://rstudio.github.io/cheatsheets/tidyr.pdf">pdf</a></li>
@@ -307,15 +313,27 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
+</section>
 <section id="computer-work" class="level2">
 <h2 class="anchored" data-anchor-id="computer-work">Computer Work</h2>
 <p>In case you have not yet done so, install the `tidyverse’ series of packages in your local R installation.</p>
 </section>
 <section id="data-work" class="level2">
 <h2 class="anchored" data-anchor-id="data-work">Data Work</h2>
+<ol type="1">
+<li><p>Use the Cooperative Congressional Election Study/Cooperative Election Study (CCES/CES) Cumulative file.</p></li>
+<li><p>Use only the 2024 data. Recode the 5 category ideology variable to a three category variable: liberal, moderate, conservative.</p></li>
+<li><p>Recode the presidential vote variable to look <em>just</em> at two party vote (in other words, recode vote so that respondents who reported voting for candidates other than Trump or Harris are “missing”).</p></li>
+<li><p>Create a table. What proportion of respondents who are liberal voted for Trump? What proportion of respondents who are conservative voted for Harris?</p></li>
+<li><p>Find the variable that refers to whether people own or rent their home. Recode the variable so that “other” is missing.</p></li>
+<li><p>Create a table. What portion of people who own their homes voted for Trump? Harris? What portion of people who rented voted for Trump? Harris?</p></li>
+<li><p>Finally, locate the education variable. Recode the variable so that those with a high school degree or less are in one category, those with some college but less than a four year degree are in a second, those with a college degree are in a third, and those with a post-grad degree are in a fourth.</p></li>
+<li><p>Create a table. What does education tell us about vote in the 2024 election?</p></li>
+</ol>
 </section>
 <section id="submission" class="level2">
 <h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<p>This is an optional assignment. We will go over it in class, but work is not due for it.</p>
 
 
 </section>

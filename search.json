@@ -151,7 +151,7 @@
     "href": "assignments/assign2.html",
     "title": "2. Very Basic Data in R",
     "section": "",
-    "text": "Recommended reference reading:\n\nFCSP chapter 2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "Recommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapter 2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -163,7 +163,7 @@
     "href": "assignments/assign2.html#readings",
     "title": "2. Very Basic Data in R",
     "section": "",
-    "text": "Recommended reference reading:\n\nFCSP chapter 2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "Recommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapter 2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -251,13 +251,49 @@
   {
     "objectID": "assignments/assign6.html",
     "href": "assignments/assign6.html",
-    "title": "6. Data Wrangling",
+    "title": "6. The General Social Survey",
     "section": "",
-    "text": "Nothing to see here (yet)",
+    "text": "in progress",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "6. Data Wrangling"
+      "6. The General Social Survey"
+    ]
+  },
+  {
+    "objectID": "assignments/assign6.html#readings-reference-material",
+    "href": "assignments/assign6.html#readings-reference-material",
+    "title": "6. The General Social Survey",
+    "section": "Readings & Reference Material",
+    "text": "Readings & Reference Material\n\nLecture: Structural Data Manipulation\n\nDMSS, ch 5, 6, & 7\nRDS, chs 3-6\nFCSP, ch 5.4-5.6",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "6. The General Social Survey"
+    ]
+  },
+  {
+    "objectID": "assignments/assign6.html#data-work",
+    "href": "assignments/assign6.html#data-work",
+    "title": "6. The General Social Survey",
+    "section": "Data Work",
+    "text": "Data Work\n\nReplication: Read Mondak and Sanders (2003) - “Tolerance and Intolerance, 1976-1998”. Using the Cumulative General Social Survey (GSS) file, replicate Figures 1, 2, and 5. (Don’t worry about getting the particular value arrows in your graph.)\nExtend the analysis to include more recent years as well.\nOriginal Work: explore the codebook for the GSS. Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "6. The General Social Survey"
+    ]
+  },
+  {
+    "objectID": "assignments/assign6.html#submission",
+    "href": "assignments/assign6.html#submission",
+    "title": "6. The General Social Survey",
+    "section": "Submission",
+    "text": "Submission\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Mondak and Saunders found in figures 1, 2, and 5?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "6. The General Social Survey"
     ]
   },
   {
@@ -265,7 +301,7 @@
     "href": "assignments/assign5.html",
     "title": "5. Data in the Tidyverse",
     "section": "",
-    "text": "in progress",
+    "text": "DMSS, ch 3 & 4\nRDS, chs 7 & 8\nFCSP, ch 5.4-5.6\nTidyverse cheatsheets: https://rstudio.github.io/cheatsheets/, especially:\n\ndata tidying with tidyr: html and pdf\ndata transformation with dplyr: html and pdf\ndata import with readr: html and pdf\ndata visualization with ggplot2: html and pdf",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -276,8 +312,8 @@
     "objectID": "assignments/assign5.html#readings-reference-material",
     "href": "assignments/assign5.html#readings-reference-material",
     "title": "5. Data in the Tidyverse",
-    "section": "Readings & Reference Material",
-    "text": "Readings & Reference Material\n\nRDS, chs\nTidyverse cheatsheets: https://rstudio.github.io/cheatsheets/, especially:\n\ndata tidying with tidyr: html and pdf\ndata transformation with dplyr: html and pdf\ndata import with readr: html and pdf\ndata visualization with ggplot2: html and pdf",
+    "section": "",
+    "text": "DMSS, ch 3 & 4\nRDS, chs 7 & 8\nFCSP, ch 5.4-5.6\nTidyverse cheatsheets: https://rstudio.github.io/cheatsheets/, especially:\n\ndata tidying with tidyr: html and pdf\ndata transformation with dplyr: html and pdf\ndata import with readr: html and pdf\ndata visualization with ggplot2: html and pdf",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -301,7 +337,7 @@
     "href": "assignments/assign5.html#data-work",
     "title": "5. Data in the Tidyverse",
     "section": "Data Work",
-    "text": "Data Work",
+    "text": "Data Work\n\nUse the Cooperative Congressional Election Study/Cooperative Election Study (CCES/CES) Cumulative file.\nUse only the 2024 data. Recode the 5 category ideology variable to a three category variable: liberal, moderate, conservative.\nRecode the presidential vote variable to look just at two party vote (in other words, recode vote so that respondents who reported voting for candidates other than Trump or Harris are “missing”).\nCreate a table. What proportion of respondents who are liberal voted for Trump? What proportion of respondents who are conservative voted for Harris?\nFind the variable that refers to whether people own or rent their home. Recode the variable so that “other” is missing.\nCreate a table. What portion of people who own their homes voted for Trump? Harris? What portion of people who rented voted for Trump? Harris?\nFinally, locate the education variable. Recode the variable so that those with a high school degree or less are in one category, those with some college but less than a four year degree are in a second, those with a college degree are in a third, and those with a post-grad degree are in a fourth.\nCreate a table. What does education tell us about vote in the 2024 election?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -313,7 +349,7 @@
     "href": "assignments/assign5.html#submission",
     "title": "5. Data in the Tidyverse",
     "section": "Submission",
-    "text": "Submission",
+    "text": "Submission\nThis is an optional assignment. We will go over it in class, but work is not due for it.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -506,7 +542,7 @@
     "href": "syllabus.html#course-schedule",
     "title": "PAI 400/600: Data Wrangling and Visualization",
     "section": "Course Schedule",
-    "text": "Course Schedule\nsubject to change\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; Git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; Tidyverse\n\n\n\n5\nWrangling Tidy Data; Flow Control\nLoops\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\n\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\n\n\n\n\n19\nLocal LLMs"
+    "text": "Course Schedule\nsubject to change\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; readr; tidyr\n\n\n\n5\nStructural Data Manipulation\ndplyr\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\nquarto, shiny\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\ngithub copilot\n\n\n\n19\nLocal LLMs"
   },
   {
     "objectID": "syllabus.html#academic-drop-deadline",
@@ -779,7 +815,7 @@
     "href": "assignments/assign3.html",
     "title": "3. Data Notebooks in Quarto",
     "section": "",
-    "text": "In the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "In the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nDV, ch 2\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -791,7 +827,7 @@
     "href": "assignments/assign3.html#readings",
     "title": "3. Data Notebooks in Quarto",
     "section": "",
-    "text": "In the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "In the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nDV, ch 2\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -904,13 +940,49 @@
   {
     "objectID": "assignments/assign7.html",
     "href": "assignments/assign7.html",
-    "title": "Week 7",
+    "title": "7. The American National Election Studies",
     "section": "",
-    "text": "Nothing to see here (yet)",
+    "text": "in progress",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 7"
+      "7. The American National Election Studies"
+    ]
+  },
+  {
+    "objectID": "assignments/assign7.html#readings-reference-material",
+    "href": "assignments/assign7.html#readings-reference-material",
+    "title": "7. The American National Election Studies",
+    "section": "Readings & Reference Material",
+    "text": "Readings & Reference Material\n\nLecture: Data Visualization I\n\nDV, chs 3-4\nRDS, chs 9-10\nFCSP, ch 3",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "7. The American National Election Studies"
+    ]
+  },
+  {
+    "objectID": "assignments/assign7.html#data-work",
+    "href": "assignments/assign7.html#data-work",
+    "title": "7. The American National Election Studies",
+    "section": "Data Work",
+    "text": "Data Work\n\nRead Bartels (2000) - “Partisanship and Voting Behavior, 1952-1996”. Using the Cumulative American National Eleciton Studies (ANES) file, replicate Figures 1 and 2.\nExtend the analysis to include recent years as well.\nExtend the analysis to 2024, using the 2024 ANES file. (This will require using the 2024 file in conjuction with the cumulative file.)\nCreate figures that include midterm election years as well.\nOriginal Work: explore the codebook for the ANES. Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "7. The American National Election Studies"
+    ]
+  },
+  {
+    "objectID": "assignments/assign7.html#submission",
+    "href": "assignments/assign7.html#submission",
+    "title": "7. The American National Election Studies",
+    "section": "Submission",
+    "text": "Submission\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Bartels found in figures 1 & 2?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?\nDoes anything change about the analysis in a substantive way when you include midterm election years?",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "7. The American National Election Studies"
     ]
   },
   {
@@ -1038,14 +1110,14 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "subject to change\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; Git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; Tidyverse\n\n\n\n5\nWrangling Tidy Data; Flow Control\nLoops\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\n\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\n\n\n\n\n19\nLocal LLMs"
+    "text": "subject to change\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; readr; tidyr\n\n\n\n5\nStructural Data Manipulation\ndplyr\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\nquarto, shiny\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\ngithub copilot\n\n\n\n19\nLocal LLMs"
   },
   {
     "objectID": "schedule.html#course-schedule",
     "href": "schedule.html#course-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "subject to change\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; Git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; Tidyverse\n\n\n\n5\nWrangling Tidy Data; Flow Control\nLoops\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\nWeek\nTopic\nTools\nReading\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\n\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\n\n\n\n\n19\nLocal LLMs"
+    "text": "subject to change\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; readr; tidyr\n\n\n\n5\nStructural Data Manipulation\ndplyr\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\nquarto, shiny\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\ngithub copilot\n\n\n\n19\nLocal LLMs"
   },
   {
     "objectID": "about.html",
