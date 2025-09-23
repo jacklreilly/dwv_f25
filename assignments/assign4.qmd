@@ -1,5 +1,5 @@
 ---
-title: "Week 3. File Management"
+title: "Week 3: File Management"
 subtitle: "Assignment: Version Tracking in GitHub (Due Week 4)"
 ---
 

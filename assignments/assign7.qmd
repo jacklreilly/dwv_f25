@@ -1,5 +1,5 @@
 ---
-title: "Week 6. Data Visualization I"
+title: "Week 6: Data Visualization I"
 subtitle: "Assignment: The American National Election Studies (Due Week 7)"
 ---
 
