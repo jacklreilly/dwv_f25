@@ -1,5 +1,5 @@
 ---
-title: "Week 4. A Field Guide to Data"
+title: "Week 4. Data: A Field Guide"
 subtitle: "Assignment: Data in the Tidyverse (Covered Week 5; Optional)"
 ---
 
