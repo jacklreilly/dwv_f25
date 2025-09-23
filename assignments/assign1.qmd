@@ -55,7 +55,7 @@ In an .R file, write code to answer the following questions. Make sure your file
 7. Add `ebullient` and `fastidious` together, and store it in an object named `george`
 8. Find the mean (average) of `fastidious`, and store it in an object named `zoinks`
 
-## Submit: PDF file
+## Submit: PDF file (Due Week 1)
 
 Answer the following questions and upload as a PDF to Blackboard.
 

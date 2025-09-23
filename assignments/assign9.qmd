@@ -1,8 +1,10 @@
 ---
-title: "Week 9"
-format: 
-    html: default
-    pdf: default
+title: "Week 8: Core Exam"
+subtitle: "Practicum 1 Due Week 9"
 ---
 
-Nothing to see here (yet)
+## Readings
+No readings or assignment due this week.
+
+## Submission
+Practicum 1 is due next week.

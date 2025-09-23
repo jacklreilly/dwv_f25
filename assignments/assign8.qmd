@@ -9,3 +9,9 @@ subtitle: "Assignment: Study! Core Exam Next Week"
 ### Lecture: Data Visualization I
 - **DV**, ch 5
 - **RDS**, ch 11
+
+## Computational Work
+There is no new computational work this week, or assignment due during the core exam week.
+
+## Submission
+There is nothing to submit this week.  Information about Practicum 1 will be delivered next week, and due during Week 9.

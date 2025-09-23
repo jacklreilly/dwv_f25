@@ -51,7 +51,7 @@ Consider the `protected_lands.csv` dataset.  This dataset contains information a
 5. Regress “protected land” on total GDP.
 5. Creat a scatterplot where “protected lands” is on the Y axis and total is on the X axis.  Then, overlay the plot with a best fit line.
 
-## Submission 
+## Submission (Due Week 5)
 1. Render your quarto file to .html and .docx.
 2. **Push** your completed assignment, including your .html and .docx files, to your GitHub repo.
 3. Either:

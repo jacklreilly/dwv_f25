@@ -1,6 +1,6 @@
 ---
 title: "Week 4. A Field Guide to Data"
-subtitle: "Assignment: Data in the Tidyverse (Due Week 5; Optional)"
+subtitle: "Assignment: Data in the Tidyverse (Covered Week 5; Optional)"
 ---
 
 ## Readings & Reference Material
@@ -37,6 +37,6 @@ In case you have not yet done so, install the `tidyverse` series of packages in 
 
 8. Create a table.  What does education tell us about vote in the 2024 election?
 
-## Submission 
+## Submission (Covered Week 5)
 
 This is an optional assignment.  We will go over it in class, but work is not due for it.

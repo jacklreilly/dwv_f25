@@ -24,7 +24,7 @@ There is no major new software to install.  However, we will be rendering text t
 
 This places a small tex installation inside R for you.
 
-## Submit: .qmd file; HTML file; docx file
+## Submit: .qmd file; HTML file; docx file  (Due Week 3)
 
 1. Create an Quarto file (`File>>New File>>Quarto Document`). Title it "Week 3 Homework.qmd",[^name] select "HTML" output, and **uncheck** "use visual markdown editor".  (You can always switch later.)
 2. Use the 2005 British Election study file (`bes2005subset.csv`) to create a jittered scatterplot of Feelings toward Blair and Feelings on Social Spending.
