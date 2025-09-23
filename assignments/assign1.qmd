@@ -7,8 +7,6 @@ subtitle: "Due Week 1"
 
 - Read the course syllabus (all parts of [this website](../index.qmd))
 - Recommended reading:
-   - **FCSP** chapter 1, *or* 
-   - **PSDS**, chapter 5 *or* 
    - **RDS**, introduction
 
 ## Data & Computational Work
