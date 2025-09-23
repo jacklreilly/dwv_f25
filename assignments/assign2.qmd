@@ -18,7 +18,7 @@ subtitle: "Assignment: Very Basic Data in R (Due Week 2)"
 
 ## Data & Computational Work
 
-Last time, you installed software.  This time, we're going to begin to use it.
+If you haven't yet followed the instructions for installing R & RStudio under ["preliminaries", now is the time to do so](assign1.qmd). 
 
 ## Submit: .R File 1 (Due Week 2)
 

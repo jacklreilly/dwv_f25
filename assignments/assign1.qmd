@@ -1,5 +1,5 @@
 ---
-title: "Preliminary Setup"
+title: "Preliminaries"
 subtitle: "Assignment: Hello & Welcome to R (Due Week 1)"
 ---
 
