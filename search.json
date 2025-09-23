@@ -183,11 +183,11 @@
     ]
   },
   {
-    "objectID": "assignments/assign2.html#submit-.r-file-1",
-    "href": "assignments/assign2.html#submit-.r-file-1",
+    "objectID": "assignments/assign2.html#submit-.r-file-1-due-week-2",
+    "href": "assignments/assign2.html#submit-.r-file-1-due-week-2",
     "title": "Week 1. Course Introduction",
-    "section": "Submit: .R File 1",
-    "text": "Submit: .R File 1\n(If you did not submit this last week)\nIn an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.\n\nCreate an object named aardvark that stores a 3 as a single number\nCreate a second object named boomba that stores a 6 as a single number\nCreate a third object named centauri that is the addition of aardvark and boomba\nCreate a fourth object named diabolical that is the multiplication aardvark and boomba\nCreate an object named ebullient that stores three numbers as a vector: 4,5,and 6\nCreate an object named fastidious that stores three numbers as a vector: 8,9, and 11\nAdd ebullient and fastidious together, and store it in an object named george\nFind the mean (average) of fastidious, and store it in an object named zoinks",
+    "section": "Submit: .R File 1 (Due Week 2)",
+    "text": "Submit: .R File 1 (Due Week 2)\n(If you did not submit this last week)\nIn an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.\n\nCreate an object named aardvark that stores a 3 as a single number\nCreate a second object named boomba that stores a 6 as a single number\nCreate a third object named centauri that is the addition of aardvark and boomba\nCreate a fourth object named diabolical that is the multiplication aardvark and boomba\nCreate an object named ebullient that stores three numbers as a vector: 4,5,and 6\nCreate an object named fastidious that stores three numbers as a vector: 8,9, and 11\nAdd ebullient and fastidious together, and store it in an object named george\nFind the mean (average) of fastidious, and store it in an object named zoinks",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -195,11 +195,11 @@
     ]
   },
   {
-    "objectID": "assignments/assign2.html#submit-.r-file-2",
-    "href": "assignments/assign2.html#submit-.r-file-2",
+    "objectID": "assignments/assign2.html#submit-.r-file-2-due-week-2",
+    "href": "assignments/assign2.html#submit-.r-file-2-due-week-2",
     "title": "Week 1. Course Introduction",
-    "section": "Submit: .R File 2",
-    "text": "Submit: .R File 2\nCreate an R file to write all of your code in. Make sure this file is properly titled and headered, etc. Write code that answers the following:\n\nRoll a 12 sided die 50 times. Store the result in an object roll. What is the mean (average) of your 10 die rolls?\nCreate a object named trusttheforce that stores the following information:\n\nInformation for five Star Wars characters: Luke, Han, Leia, Vader, Rey\nOne string variable storing their name: name\nOne boolean (true/false) variable indicating if the character can use the force (F - Han, else - T): force\nOne boolean (true/false) variable indicating if the character is a Sith (T - Vader, else - F): sith\nOne numeric variable indicating the total number of Star Sars movie the character appeared in as a non-baby, non-ghost character (Vader/6, Luke/5, Leia/6, Han/4, Rey/3): movies\n\nDraw a histogram of trusttheforce$movies showing the distribution of number of movies\nLet’s take the Obi-Wan perspective, and say it only counts for “Vader” to show up if he’s actually wearing the suit after “betraying and murdering” Luke’s father.\n\nReplace “Vader’s” number of movies with 4.\nDraw another histogram of trusttheforce$movies showing the distribution of number of movies according to Obi-Wan\n\nLoad npsvisitation0910.csv. It has three variables: park, year2009, and year2010, with the second two giving the number of visitors to the park in question in 2009 and 2010.\n\nWhat is the average number of park visitors in 2009? 2010?\nDraw a histogram of the number of park visitors in 2009.\n\nFrom the list of parks, identify Yellowstone National Park and Mount Rainier National Park. (They are in rows 359 and 235).\n\nHow many more visitors did each park, individually, have in 2010 compared to 2009? (Subtract one cell from the other)\nWhat is the difference in the number of visitors between those two parks in 2009? (Subtract one cell from the other)\nHow many visitors did the parks have, combined, in 2010? (Add one cell to the other)\n\nBONUS:1 Roll one twelve sided die 1000 times. Then, roll two six sided dice (together) 1000 times. Add the two six sided die rolls together, so you can get a “combined” roll that goes from 2 to 12 (the way you would in a normal board game). What is the mean of the twelve sided die rolls and two six sided dice rolls? How do the distributions (histogram) of these two rolls differ?\n\nSubmit this .R file to Blackboard.",
+    "section": "Submit: .R File 2 (Due Week 2)",
+    "text": "Submit: .R File 2 (Due Week 2)\nCreate an R file to write all of your code in. Make sure this file is properly titled and headered, etc. Write code that answers the following:\n\nRoll a 12 sided die 50 times. Store the result in an object roll. What is the mean (average) of your 10 die rolls?\nCreate a object named trusttheforce that stores the following information:\n\nInformation for five Star Wars characters: Luke, Han, Leia, Vader, Rey\nOne string variable storing their name: name\nOne boolean (true/false) variable indicating if the character can use the force (F - Han, else - T): force\nOne boolean (true/false) variable indicating if the character is a Sith (T - Vader, else - F): sith\nOne numeric variable indicating the total number of Star Sars movie the character appeared in as a non-baby, non-ghost character (Vader/6, Luke/5, Leia/6, Han/4, Rey/3): movies\n\nDraw a histogram of trusttheforce$movies showing the distribution of number of movies\nLet’s take the Obi-Wan perspective, and say it only counts for “Vader” to show up if he’s actually wearing the suit after “betraying and murdering” Luke’s father.\n\nReplace “Vader’s” number of movies with 4.\nDraw another histogram of trusttheforce$movies showing the distribution of number of movies according to Obi-Wan\n\nLoad npsvisitation0910.csv. It has three variables: park, year2009, and year2010, with the second two giving the number of visitors to the park in question in 2009 and 2010.\n\nWhat is the average number of park visitors in 2009? 2010?\nDraw a histogram of the number of park visitors in 2009.\n\nFrom the list of parks, identify Yellowstone National Park and Mount Rainier National Park. (They are in rows 359 and 235).\n\nHow many more visitors did each park, individually, have in 2010 compared to 2009? (Subtract one cell from the other)\nWhat is the difference in the number of visitors between those two parks in 2009? (Subtract one cell from the other)\nHow many visitors did the parks have, combined, in 2010? (Add one cell to the other)\n\nBONUS:1 Roll one twelve sided die 1000 times. Then, roll two six sided dice (together) 1000 times. Add the two six sided die rolls together, so you can get a “combined” roll that goes from 2 to 12 (the way you would in a normal board game). What is the mean of the twelve sided die rolls and two six sided dice rolls? How do the distributions (histogram) of these two rolls differ?\n\nSubmit this .R file to Blackboard.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -288,8 +288,8 @@
     "objectID": "assignments/assign6.html#submission-due-week-6",
     "href": "assignments/assign6.html#submission-due-week-6",
     "title": "Week 5. Structural Data Manipulation",
-    "section": "Submission: Due Week 6",
-    "text": "Submission: Due Week 6\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Mondak and Saunders found in figures 1, 2, and 5?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?",
+    "section": "Submission (Due Week 6)",
+    "text": "Submission (Due Week 6)\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Mondak and Saunders found in figures 1, 2, and 5?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -345,11 +345,11 @@
     ]
   },
   {
-    "objectID": "assignments/assign5.html#submission",
-    "href": "assignments/assign5.html#submission",
+    "objectID": "assignments/assign5.html#submission-covered-week-5",
+    "href": "assignments/assign5.html#submission-covered-week-5",
     "title": "Week 4. A Field Guide to Data",
-    "section": "Submission",
-    "text": "Submission\nThis is an optional assignment. We will go over it in class, but work is not due for it.",
+    "section": "Submission (Covered Week 5)",
+    "text": "Submission (Covered Week 5)\nThis is an optional assignment. We will go over it in class, but work is not due for it.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -371,13 +371,37 @@
   {
     "objectID": "assignments/assign9.html",
     "href": "assignments/assign9.html",
-    "title": "Week 9",
+    "title": "Week 8: Core Exam",
     "section": "",
-    "text": "Nothing to see here (yet)",
+    "text": "No readings or assignment due this week.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 9"
+      "Week 8: Core Exam"
+    ]
+  },
+  {
+    "objectID": "assignments/assign9.html#readings",
+    "href": "assignments/assign9.html#readings",
+    "title": "Week 8: Core Exam",
+    "section": "",
+    "text": "No readings or assignment due this week.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "Week 8: Core Exam"
+    ]
+  },
+  {
+    "objectID": "assignments/assign9.html#submission",
+    "href": "assignments/assign9.html#submission",
+    "title": "Week 8: Core Exam",
+    "section": "Submission",
+    "text": "Submission\nPracticum 1 is due next week.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "Week 8: Core Exam"
     ]
   },
   {
@@ -410,6 +434,30 @@
     "title": "Week 7. Data Visualization II",
     "section": "Readings & Reference Material",
     "text": "Readings & Reference Material\n\nLecture: Data Visualization I\n\nDV, ch 5\nRDS, ch 11",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "Week 7. Data Visualization II"
+    ]
+  },
+  {
+    "objectID": "assignments/assign8.html#computational-work",
+    "href": "assignments/assign8.html#computational-work",
+    "title": "Week 7. Data Visualization II",
+    "section": "Computational Work",
+    "text": "Computational Work\nThere is no new computational work this week, or assignment due during the core exam week.",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "Week 7. Data Visualization II"
+    ]
+  },
+  {
+    "objectID": "assignments/assign8.html#submission",
+    "href": "assignments/assign8.html#submission",
+    "title": "Week 7. Data Visualization II",
+    "section": "Submission",
+    "text": "Submission\nThere is nothing to submit this week. Information about Practicum 1 will be delivered next week, and due during Week 9.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -554,7 +602,7 @@
     "href": "syllabus.html#course-schedule",
     "title": "PAI 400/600: Data Wrangling and Visualization",
     "section": "Course Schedule",
-    "text": "Course Schedule\nsubject to change\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; readr; tidyr\n\n\n\n5\nStructural Data Manipulation\ndplyr\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\nquarto, shiny\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\ngithub copilot\n\n\n\n19\nLocal LLMs"
+    "text": "Course Schedule\nsubject to change\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n\nPreliminaries\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; readr; tidyr\n\n\n\n5\nStructural Data Manipulation\ndplyr; srvyr\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\nquarto, shiny\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\ngithub copilot\n\n\n\n19\nLocal LLMs"
   },
   {
     "objectID": "syllabus.html#academic-drop-deadline",
@@ -859,11 +907,11 @@
     ]
   },
   {
-    "objectID": "assignments/assign3.html#submit-.qmd-file-html-file-docx-file",
-    "href": "assignments/assign3.html#submit-.qmd-file-html-file-docx-file",
+    "objectID": "assignments/assign3.html#submit-.qmd-file-html-file-docx-file-due-week-3",
+    "href": "assignments/assign3.html#submit-.qmd-file-html-file-docx-file-due-week-3",
     "title": "Week 2. A Practical Guide to Your Computer",
-    "section": "Submit: .qmd file; HTML file; docx file",
-    "text": "Submit: .qmd file; HTML file; docx file\n\nCreate an Quarto file (File&gt;&gt;New File&gt;&gt;Quarto Document). Title it “Week 3 Homework.qmd”,2 select “HTML” output, and uncheck “use visual markdown editor”. (You can always switch later.)\nUse the 2005 British Election study file (bes2005subset.csv) to create a jittered scatterplot of Feelings toward Blair and Feelings on Social Spending.\nIn a brief text segment, interpret what the figure shows you.\nLoad the 2000 National Election study file (nes2000subset.csv).\nFind the correlation between income and partisanship, and draw a jittered scatter plot of partisanship (Y axis) and income (X-axis)\nIn a brief text segment, interpret what the correlation and figure tells you.\nRender the document to HTML and docx and zip all three (.qmd, .html, and .docx files) together. Upload the .zip to Blackboard.3",
+    "section": "Submit: .qmd file; HTML file; docx file (Due Week 3)",
+    "text": "Submit: .qmd file; HTML file; docx file (Due Week 3)\n\nCreate an Quarto file (File&gt;&gt;New File&gt;&gt;Quarto Document). Title it “Week 3 Homework.qmd”,2 select “HTML” output, and uncheck “use visual markdown editor”. (You can always switch later.)\nUse the 2005 British Election study file (bes2005subset.csv) to create a jittered scatterplot of Feelings toward Blair and Feelings on Social Spending.\nIn a brief text segment, interpret what the figure shows you.\nLoad the 2000 National Election study file (nes2000subset.csv).\nFind the correlation between income and partisanship, and draw a jittered scatter plot of partisanship (Y axis) and income (X-axis)\nIn a brief text segment, interpret what the correlation and figure tells you.\nRender the document to HTML and docx and zip all three (.qmd, .html, and .docx files) together. Upload the .zip to Blackboard.3",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -931,11 +979,11 @@
     ]
   },
   {
-    "objectID": "assignments/assign1.html#submit-pdf-file",
-    "href": "assignments/assign1.html#submit-pdf-file",
+    "objectID": "assignments/assign1.html#submit-pdf-file-due-week-1",
+    "href": "assignments/assign1.html#submit-pdf-file-due-week-1",
     "title": "Preliminary Setup",
-    "section": "Submit: PDF file",
-    "text": "Submit: PDF file\nAnswer the following questions and upload as a PDF to Blackboard.\n\nWhat is your name and program of study at Syracuse?\n(Optional: provide your pronouns, if you wish.)\nWhat is your prior experience with statistics, data analysis, R, and computer programming generally?\nWhat are you hoping to get out of this class?\nPlease include a picture of yourself!\n\nIt can be anything – just make sure that you are the only person in the picture so I can clearly identify you.\n\nWhat is the mean of the fastidious object from your .R assignment above?",
+    "section": "Submit: PDF file (Due Week 1)",
+    "text": "Submit: PDF file (Due Week 1)\nAnswer the following questions and upload as a PDF to Blackboard.\n\nWhat is your name and program of study at Syracuse?\n(Optional: provide your pronouns, if you wish.)\nWhat is your prior experience with statistics, data analysis, R, and computer programming generally?\nWhat are you hoping to get out of this class?\nPlease include a picture of yourself!\n\nIt can be anything – just make sure that you are the only person in the picture so I can clearly identify you.\n\nWhat is the mean of the fastidious object from your .R assignment above?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -989,8 +1037,8 @@
     "objectID": "assignments/assign7.html#submission-due-week-7",
     "href": "assignments/assign7.html#submission-due-week-7",
     "title": "Week 6. Data Visualization I",
-    "section": "Submission: Due Week 7",
-    "text": "Submission: Due Week 7\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Bartels found in figures 1 & 2?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?\nDoes anything change about the analysis in a substantive way when you include midterm election years?",
+    "section": "Submission (Due Week 7)",
+    "text": "Submission (Due Week 7)\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Bartels found in figures 1 & 2?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?\nDoes anything change about the analysis in a substantive way when you include midterm election years?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -1012,13 +1060,13 @@
   {
     "objectID": "assignments/assign10.html",
     "href": "assignments/assign10.html",
-    "title": "Week 10",
+    "title": "Week 9: Social Networks",
     "section": "",
     "text": "Nothing to see here (yet)",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 10"
+      "Week 9: Social Networks"
     ]
   },
   {
@@ -1094,11 +1142,11 @@
     ]
   },
   {
-    "objectID": "assignments/assign4.html#submission",
-    "href": "assignments/assign4.html#submission",
+    "objectID": "assignments/assign4.html#submission-due-week-5",
+    "href": "assignments/assign4.html#submission-due-week-5",
     "title": "Week 3. File Management and Version Control",
-    "section": "Submission",
-    "text": "Submission\n\nRender your quarto file to .html and .docx.\nPush your completed assignment, including your .html and .docx files, to your GitHub repo.\nEither:\n\nEnsure the repo is public, or\nIf it is private, share the repo with me (I’m @jacklreilly on GitHub).\n\nOn Blackboard, under assignment 4, place a link to the repo so that I can click straight through to it.",
+    "section": "Submission (Due Week 5)",
+    "text": "Submission (Due Week 5)\n\nRender your quarto file to .html and .docx.\nPush your completed assignment, including your .html and .docx files, to your GitHub repo.\nEither:\n\nEnsure the repo is public, or\nIf it is private, share the repo with me (I’m @jacklreilly on GitHub).\n\nOn Blackboard, under assignment 4, place a link to the repo so that I can click straight through to it.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -1122,14 +1170,14 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "subject to change\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; readr; tidyr\n\n\n\n5\nStructural Data Manipulation\ndplyr\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\nquarto, shiny\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\ngithub copilot\n\n\n\n19\nLocal LLMs"
+    "text": "subject to change\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n\nPreliminaries\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; readr; tidyr\n\n\n\n5\nStructural Data Manipulation\ndplyr; srvyr\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\nquarto, shiny\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\ngithub copilot\n\n\n\n19\nLocal LLMs"
   },
   {
     "objectID": "schedule.html#course-schedule",
     "href": "schedule.html#course-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "subject to change\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; readr; tidyr\n\n\n\n5\nStructural Data Manipulation\ndplyr\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\nquarto, shiny\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\ngithub copilot\n\n\n\n19\nLocal LLMs"
+    "text": "subject to change\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n\nPreliminaries\n\n\n\n\n1\nCourse Introduction\nScripts; R and RStudio\n\n\n\n2\nReproducible Data Analyses\nMarkup Languages; Quarto\n\n\n\n3\nFile Management & Version Control\nFilesystems; git; GitHub\n\n\n\n4\nA Field Guide to Data\nData Formats; readr; tidyr\n\n\n\n5\nStructural Data Manipulation\ndplyr; srvyr\n\n\n\n6\nData Visualization I\nGrammar of Graphics; ggplot2\n\n\n\n7\nData Visualization II\nggplot2\n\n\n\n8\nCore Exam (Thursday, October 16)\n\n\n\n\n9\nSocial Networks & Network Data\niGraph; statnet\n\n\n\n10\nCensus Data\ntidycensus\n\n\n\n11\nMaps & GIS I\nsf; tigris\n\n\n\n12\nMaps & GIS II\nmapgl; mapbox; osm\n\n\n\n13\nAccessing & Using External Data\nSQL, other APIs\n\n\n\n14\nProject Work\n\n\n\n\n15\nProject Presentations\n\n\n\n\nF\nFinals Week (Project Due)\n\n\n\n\n\n\nAdvanced Topics (if we have time)\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nTools\n\n\n\n\n\n16\nText Data & Data Scraping\n\n\n\n\n17\nWeb Apps & Visualization\nquarto, shiny\n\n\n\n18\nAI Pair Programming & “Vibe Coding”\ngithub copilot\n\n\n\n19\nLocal LLMs"
   },
   {
     "objectID": "about.html",
