@@ -16,9 +16,9 @@ title: "5. Data in the Tidyverse"
 
 ## Computer Work
 
-In case you have not yet done so, install the `tidyverse' series of packages in your local R installation.
+In case you have not yet done so, install the `tidyverse` series of packages in your local R installation.
 
-## Data Work
+## Data Work *(Optional)*
 
 1. Use the Cooperative Congressional Election Study/Cooperative Election Study (CCES/CES) Cumulative file.  
 
