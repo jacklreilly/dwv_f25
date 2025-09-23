@@ -285,11 +285,11 @@
     ]
   },
   {
-    "objectID": "assignments/assign6.html#submission",
-    "href": "assignments/assign6.html#submission",
+    "objectID": "assignments/assign6.html#submission-due-week-6",
+    "href": "assignments/assign6.html#submission-due-week-6",
     "title": "Week 5. Structural Data Manipulation",
-    "section": "Submission",
-    "text": "Submission\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Mondak and Saunders found in figures 1, 2, and 5?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?",
+    "section": "Submission: Due Week 6",
+    "text": "Submission: Due Week 6\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Mondak and Saunders found in figures 1, 2, and 5?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -986,11 +986,11 @@
     ]
   },
   {
-    "objectID": "assignments/assign7.html#submission",
-    "href": "assignments/assign7.html#submission",
+    "objectID": "assignments/assign7.html#submission-due-week-7",
+    "href": "assignments/assign7.html#submission-due-week-7",
     "title": "Week 6. Data Visualization I",
-    "section": "Submission",
-    "text": "Submission\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Bartels found in figures 1 & 2?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?\nDoes anything change about the analysis in a substantive way when you include midterm election years?",
+    "section": "Submission: Due Week 7",
+    "text": "Submission: Due Week 7\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Bartels found in figures 1 & 2?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?\nDoes anything change about the analysis in a substantive way when you include midterm election years?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
