@@ -1,5 +1,6 @@
 ---
-title: "4. Version Tracking in GitHub"
+title: "Week 3. File Management and Version Control"
+subtitle: "Assignment: Version Tracking in GitHub (Due Week 4)"
 ---
 
 ## Readings & Reference Material

@@ -1,5 +1,6 @@
 ---
-title: "5. Data in the Tidyverse"
+title: "Week 4. A Field Guide to Data"
+subtitle: "Assignment: Data in the Tidyverse (Due Week 5; Optional)"
 ---
 
 ## Readings & Reference Material

@@ -1,6 +1,6 @@
 ---
-title: "2. Very Basic Data in R"
-subtitle: "Due Week 2"
+title: "Week 1. Course Introduction"
+subtitle: "Assignment: Very Basic Data in R (Due Week 2)"
 ---
 
 ## Readings

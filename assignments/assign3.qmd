@@ -1,9 +1,9 @@
 ---
-title: "3. Data Notebooks in Quarto"
+title: "Week 2. A Practical Guide to Your Computer"
+subtitle: "Assignment: Data Notebooks in Quarto (Due Week 3)"
 ---
 
 ## Readings
-### Lecture: Computing 
 
 - In the course drive, find the file `Week 3 Files.zip`.  Unzip the file in the directory on your computer that you use for coursework.[^zip]  Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.
 - Recommended reference reading:

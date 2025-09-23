@@ -1,8 +1,11 @@
 ---
-title: "Week 8"
-format: 
-    html: default
-    pdf: default
+title: "Week 7. Data Visualization II"
+subtitle: "Assignment: Study! Core Exam Next Week"
 ---
 
-Nothing to see here (yet)
+***in progress***
+
+## Readings & Reference Material
+### Lecture: Data Visualization I
+- **DV**, ch 5
+- **RDS**, ch 11

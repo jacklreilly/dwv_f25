@@ -1,8 +1,6 @@
 ---
-title: "7. The American National Election Studies"
-format: 
-    html: default
-    pdf: default
+title: "Week 6. Data Visualization I"
+subtitle: "Assignment: The American National Election Studies (Due Week 7)"
 ---
 
 ***in progress***

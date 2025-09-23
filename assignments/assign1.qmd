@@ -1,6 +1,6 @@
 ---
-title: "1. Introduction to R"
-subtitle: "Due Week 1"
+title: "Week 0. Course Setup"
+subtitle: "Assignment: Hello & Welcome to R (Due Week 1)"
 ---
 
 ## Readings
