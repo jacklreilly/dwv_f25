@@ -151,7 +151,7 @@
     "href": "assignments/assign2.html",
     "title": "2. Very Basic Data in R",
     "section": "",
-    "text": "Recommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapter 2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "Recommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapters 1-2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -163,7 +163,7 @@
     "href": "assignments/assign2.html#readings",
     "title": "2. Very Basic Data in R",
     "section": "",
-    "text": "Recommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapter 2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "Recommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapters 1-2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -875,7 +875,7 @@
     "href": "assignments/assign1.html",
     "title": "1. Introduction to R",
     "section": "",
-    "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nFCSP chapter 1, or\nPSDS, chapter 5 or\nRDS, introduction",
+    "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -887,7 +887,7 @@
     "href": "assignments/assign1.html#readings",
     "title": "1. Introduction to R",
     "section": "",
-    "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nFCSP chapter 1, or\nPSDS, chapter 5 or\nRDS, introduction",
+    "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
