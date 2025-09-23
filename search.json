@@ -885,61 +885,61 @@
   {
     "objectID": "assignments/assign1.html",
     "href": "assignments/assign1.html",
-    "title": "Week 0. Course Setup",
+    "title": "Course Setup",
     "section": "",
     "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 0. Course Setup"
+      "Course Setup"
     ]
   },
   {
     "objectID": "assignments/assign1.html#readings",
     "href": "assignments/assign1.html#readings",
-    "title": "Week 0. Course Setup",
+    "title": "Course Setup",
     "section": "",
     "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 0. Course Setup"
+      "Course Setup"
     ]
   },
   {
     "objectID": "assignments/assign1.html#data-computational-work",
     "href": "assignments/assign1.html#data-computational-work",
-    "title": "Week 0. Course Setup",
+    "title": "Course Setup",
     "section": "Data & Computational Work",
     "text": "Data & Computational Work\nThe main purpose of this week’s assignment is to get your computer ready for all the work in the class. This means, primarily, installing software.\n\nInstall R on your computer\nBegin by installing R (http://cloud.r-project.org). Choose the version appropriate for your computing platform:\n\nIf you use macOS with an Apple Silicon processor (i.e. an M-series processor), then install R for macOS’s Apple Silicon build. This version does not work on older, Intel-based Macs.\nIf you use macOS with an Intel processor, then install R for macOS’s Intel build.\nIf you use Microsoft Windows, then install R for Windows.\nIf you use Linux, choose your distribution and install the R package for it.\n\n\n\nInstall RStudio on your computer\n\nIf you use macOS (whether Apple Silicon or Intel), install this version of RStudio.\nIf you use Windows, install this version of RStudio.\nIf you use Linux, choose your distribution from the download page.\n\n\n\nConfirm things work\n\nR is really a great big calculator. Let’s do some calculations!\n\nAdd 2 and 3 together\nMultiply 4 by 6\nDivide 10 by 5",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 0. Course Setup"
+      "Course Setup"
     ]
   },
   {
     "objectID": "assignments/assign1.html#submit-.r-file-optional",
     "href": "assignments/assign1.html#submit-.r-file-optional",
-    "title": "Week 0. Course Setup",
+    "title": "Course Setup",
     "section": "Submit: .R File (Optional)",
     "text": "Submit: .R File (Optional)\nIn an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.\nNote: You can submit this R file in Week 2, if you prefer.\n\nCreate an object named aardvark that stores a 3 as a single number\nCreate a second object named boomba that stores a 6 as a single number\nCreate a third object named centauri that is the addition of aardvark and boomba\nCreate a fourth object named diabolical that is the multiplication aardvark and boomba\nCreate an object named ebullient that stores three numbers as a vector: 4,5,and 6\nCreate an object named fastidious that stores three numbers as a vector: 8,9, and 11\nAdd ebullient and fastidious together, and store it in an object named george\nFind the mean (average) of fastidious, and store it in an object named zoinks",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 0. Course Setup"
+      "Course Setup"
     ]
   },
   {
     "objectID": "assignments/assign1.html#submit-pdf-file",
     "href": "assignments/assign1.html#submit-pdf-file",
-    "title": "Week 0. Course Setup",
+    "title": "Course Setup",
     "section": "Submit: PDF file",
     "text": "Submit: PDF file\nAnswer the following questions and upload as a PDF to Blackboard.\n\nWhat is your name and program of study at Syracuse?\n(Optional: provide your pronouns, if you wish.)\nWhat is your prior experience with statistics, data analysis, R, and computer programming generally?\nWhat are you hoping to get out of this class?\nPlease include a picture of yourself!\n\nIt can be anything – just make sure that you are the only person in the picture so I can clearly identify you.\n\nWhat is the mean of the fastidious object from your .R assignment above?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 0. Course Setup"
+      "Course Setup"
     ]
   },
   {
