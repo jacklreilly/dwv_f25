@@ -149,85 +149,85 @@
   {
     "objectID": "assignments/assign2.html",
     "href": "assignments/assign2.html",
-    "title": "2. Very Basic Data in R",
+    "title": "Week 1. Course Introduction",
     "section": "",
     "text": "Recommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapters 1-2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "2. Very Basic Data in R"
+      "Week 1. Course Introduction"
     ]
   },
   {
     "objectID": "assignments/assign2.html#readings",
     "href": "assignments/assign2.html#readings",
-    "title": "2. Very Basic Data in R",
+    "title": "Week 1. Course Introduction",
     "section": "",
     "text": "Recommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapters 1-2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "2. Very Basic Data in R"
+      "Week 1. Course Introduction"
     ]
   },
   {
     "objectID": "assignments/assign2.html#data-computational-work",
     "href": "assignments/assign2.html#data-computational-work",
-    "title": "2. Very Basic Data in R",
+    "title": "Week 1. Course Introduction",
     "section": "Data & Computational Work",
     "text": "Data & Computational Work\nLast time, you installed software. This time, we’re going to begin to use it.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "2. Very Basic Data in R"
+      "Week 1. Course Introduction"
     ]
   },
   {
     "objectID": "assignments/assign2.html#submit-.r-file-1",
     "href": "assignments/assign2.html#submit-.r-file-1",
-    "title": "2. Very Basic Data in R",
+    "title": "Week 1. Course Introduction",
     "section": "Submit: .R File 1",
     "text": "Submit: .R File 1\n(If you did not submit this last week)\nIn an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.\n\nCreate an object named aardvark that stores a 3 as a single number\nCreate a second object named boomba that stores a 6 as a single number\nCreate a third object named centauri that is the addition of aardvark and boomba\nCreate a fourth object named diabolical that is the multiplication aardvark and boomba\nCreate an object named ebullient that stores three numbers as a vector: 4,5,and 6\nCreate an object named fastidious that stores three numbers as a vector: 8,9, and 11\nAdd ebullient and fastidious together, and store it in an object named george\nFind the mean (average) of fastidious, and store it in an object named zoinks",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "2. Very Basic Data in R"
+      "Week 1. Course Introduction"
     ]
   },
   {
     "objectID": "assignments/assign2.html#submit-.r-file-2",
     "href": "assignments/assign2.html#submit-.r-file-2",
-    "title": "2. Very Basic Data in R",
+    "title": "Week 1. Course Introduction",
     "section": "Submit: .R File 2",
     "text": "Submit: .R File 2\nCreate an R file to write all of your code in. Make sure this file is properly titled and headered, etc. Write code that answers the following:\n\nRoll a 12 sided die 50 times. Store the result in an object roll. What is the mean (average) of your 10 die rolls?\nCreate a object named trusttheforce that stores the following information:\n\nInformation for five Star Wars characters: Luke, Han, Leia, Vader, Rey\nOne string variable storing their name: name\nOne boolean (true/false) variable indicating if the character can use the force (F - Han, else - T): force\nOne boolean (true/false) variable indicating if the character is a Sith (T - Vader, else - F): sith\nOne numeric variable indicating the total number of Star Sars movie the character appeared in as a non-baby, non-ghost character (Vader/6, Luke/5, Leia/6, Han/4, Rey/3): movies\n\nDraw a histogram of trusttheforce$movies showing the distribution of number of movies\nLet’s take the Obi-Wan perspective, and say it only counts for “Vader” to show up if he’s actually wearing the suit after “betraying and murdering” Luke’s father.\n\nReplace “Vader’s” number of movies with 4.\nDraw another histogram of trusttheforce$movies showing the distribution of number of movies according to Obi-Wan\n\nLoad npsvisitation0910.csv. It has three variables: park, year2009, and year2010, with the second two giving the number of visitors to the park in question in 2009 and 2010.\n\nWhat is the average number of park visitors in 2009? 2010?\nDraw a histogram of the number of park visitors in 2009.\n\nFrom the list of parks, identify Yellowstone National Park and Mount Rainier National Park. (They are in rows 359 and 235).\n\nHow many more visitors did each park, individually, have in 2010 compared to 2009? (Subtract one cell from the other)\nWhat is the difference in the number of visitors between those two parks in 2009? (Subtract one cell from the other)\nHow many visitors did the parks have, combined, in 2010? (Add one cell to the other)\n\nBONUS:1 Roll one twelve sided die 1000 times. Then, roll two six sided dice (together) 1000 times. Add the two six sided die rolls together, so you can get a “combined” roll that goes from 2 to 12 (the way you would in a normal board game). What is the mean of the twelve sided die rolls and two six sided dice rolls? How do the distributions (histogram) of these two rolls differ?\n\nSubmit this .R file to Blackboard.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "2. Very Basic Data in R"
+      "Week 1. Course Introduction"
     ]
   },
   {
     "objectID": "assignments/assign2.html#submit-pdf-file",
     "href": "assignments/assign2.html#submit-pdf-file",
-    "title": "2. Very Basic Data in R",
+    "title": "Week 1. Course Introduction",
     "section": "Submit: PDF file",
     "text": "Submit: PDF file\nAnswer the following questions and upload as a PDF to Blackboard.\n\nInclude your histogram showing the distribution of movies. Include both the “normal” version and the “Obi-Wan” version.\nInclude your histogram of number of park visitors in 2009.\nHow many visitors did Yellowstone and Rainier have in 2009 and 2010, respectively?\nBONUS If you did the bonus problem, include your histograms for your two die rolls above.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "2. Very Basic Data in R"
+      "Week 1. Course Introduction"
     ]
   },
   {
     "objectID": "assignments/assign2.html#footnotes",
     "href": "assignments/assign2.html#footnotes",
-    "title": "2. Very Basic Data in R",
+    "title": "Week 1. Course Introduction",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nThis bonus is for no actual bonus points - it’s an optional problem to help you begin thinking your way through code.↩︎",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "2. Very Basic Data in R"
+      "Week 1. Course Introduction"
     ]
   },
   {
@@ -251,109 +251,109 @@
   {
     "objectID": "assignments/assign6.html",
     "href": "assignments/assign6.html",
-    "title": "6. The General Social Survey",
+    "title": "Week 5. Structural Data Manipulation",
     "section": "",
     "text": "in progress",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "6. The General Social Survey"
+      "Week 5. Structural Data Manipulation"
     ]
   },
   {
     "objectID": "assignments/assign6.html#readings-reference-material",
     "href": "assignments/assign6.html#readings-reference-material",
-    "title": "6. The General Social Survey",
+    "title": "Week 5. Structural Data Manipulation",
     "section": "Readings & Reference Material",
     "text": "Readings & Reference Material\n\nLecture: Structural Data Manipulation\n\nDMSS, ch 5, 6, & 7\nRDS, chs 3-6\nFCSP, ch 5.4-5.6",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "6. The General Social Survey"
+      "Week 5. Structural Data Manipulation"
     ]
   },
   {
     "objectID": "assignments/assign6.html#data-work",
     "href": "assignments/assign6.html#data-work",
-    "title": "6. The General Social Survey",
+    "title": "Week 5. Structural Data Manipulation",
     "section": "Data Work",
     "text": "Data Work\n\nReplication: Read Mondak and Sanders (2003) - “Tolerance and Intolerance, 1976-1998”. Using the Cumulative General Social Survey (GSS) file, replicate Figures 1, 2, and 5. (Don’t worry about getting the particular value arrows in your graph.)\nExtend the analysis to include more recent years as well.\nOriginal Work: explore the codebook for the GSS. Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "6. The General Social Survey"
+      "Week 5. Structural Data Manipulation"
     ]
   },
   {
     "objectID": "assignments/assign6.html#submission",
     "href": "assignments/assign6.html#submission",
-    "title": "6. The General Social Survey",
+    "title": "Week 5. Structural Data Manipulation",
     "section": "Submission",
     "text": "Submission\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Mondak and Saunders found in figures 1, 2, and 5?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "6. The General Social Survey"
+      "Week 5. Structural Data Manipulation"
     ]
   },
   {
     "objectID": "assignments/assign5.html",
     "href": "assignments/assign5.html",
-    "title": "5. Data in the Tidyverse",
+    "title": "Week 4. A Field Guide to Data",
     "section": "",
     "text": "DMSS, ch 3 & 4\nRDS, chs 7 & 8\nFCSP, ch 5.4-5.6\nTidyverse cheatsheets: https://rstudio.github.io/cheatsheets/, especially:\n\ndata tidying with tidyr: html and pdf\ndata transformation with dplyr: html and pdf\ndata import with readr: html and pdf\ndata visualization with ggplot2: html and pdf",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "5. Data in the Tidyverse"
+      "Week 4. A Field Guide to Data"
     ]
   },
   {
     "objectID": "assignments/assign5.html#readings-reference-material",
     "href": "assignments/assign5.html#readings-reference-material",
-    "title": "5. Data in the Tidyverse",
+    "title": "Week 4. A Field Guide to Data",
     "section": "",
     "text": "DMSS, ch 3 & 4\nRDS, chs 7 & 8\nFCSP, ch 5.4-5.6\nTidyverse cheatsheets: https://rstudio.github.io/cheatsheets/, especially:\n\ndata tidying with tidyr: html and pdf\ndata transformation with dplyr: html and pdf\ndata import with readr: html and pdf\ndata visualization with ggplot2: html and pdf",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "5. Data in the Tidyverse"
+      "Week 4. A Field Guide to Data"
     ]
   },
   {
     "objectID": "assignments/assign5.html#computer-work",
     "href": "assignments/assign5.html#computer-work",
-    "title": "5. Data in the Tidyverse",
+    "title": "Week 4. A Field Guide to Data",
     "section": "Computer Work",
     "text": "Computer Work\nIn case you have not yet done so, install the tidyverse series of packages in your local R installation.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "5. Data in the Tidyverse"
+      "Week 4. A Field Guide to Data"
     ]
   },
   {
     "objectID": "assignments/assign5.html#data-work-optional",
     "href": "assignments/assign5.html#data-work-optional",
-    "title": "5. Data in the Tidyverse",
+    "title": "Week 4. A Field Guide to Data",
     "section": "Data Work (Optional)",
     "text": "Data Work (Optional)\n\nUse the Cooperative Congressional Election Study/Cooperative Election Study (CCES/CES) Cumulative file.\nUse only the 2024 data. Recode the 5 category ideology variable to a three category variable: liberal, moderate, conservative.\nRecode the presidential vote variable to look just at two party vote (in other words, recode vote so that respondents who reported voting for candidates other than Trump or Harris are “missing”).\nCreate a table. What proportion of respondents who are liberal voted for Trump? What proportion of respondents who are conservative voted for Harris?\nFind the variable that refers to whether people own or rent their home. Recode the variable so that “other” is missing.\nCreate a table. What portion of people who own their homes voted for Trump? Harris? What portion of people who rented voted for Trump? Harris?\nFinally, locate the education variable. Recode the variable so that those with a high school degree or less are in one category, those with some college but less than a four year degree are in a second, those with a college degree are in a third, and those with a post-grad degree are in a fourth.\nCreate a table. What does education tell us about vote in the 2024 election?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "5. Data in the Tidyverse"
+      "Week 4. A Field Guide to Data"
     ]
   },
   {
     "objectID": "assignments/assign5.html#submission",
     "href": "assignments/assign5.html#submission",
-    "title": "5. Data in the Tidyverse",
+    "title": "Week 4. A Field Guide to Data",
     "section": "Submission",
     "text": "Submission\nThis is an optional assignment. We will go over it in class, but work is not due for it.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "5. Data in the Tidyverse"
+      "Week 4. A Field Guide to Data"
     ]
   },
   {
@@ -395,13 +395,25 @@
   {
     "objectID": "assignments/assign8.html",
     "href": "assignments/assign8.html",
-    "title": "Week 8",
+    "title": "Week 7. Data Visualization II",
     "section": "",
-    "text": "Nothing to see here (yet)",
+    "text": "in progress",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "Week 8"
+      "Week 7. Data Visualization II"
+    ]
+  },
+  {
+    "objectID": "assignments/assign8.html#readings-reference-material",
+    "href": "assignments/assign8.html#readings-reference-material",
+    "title": "Week 7. Data Visualization II",
+    "section": "Readings & Reference Material",
+    "text": "Readings & Reference Material\n\nLecture: Data Visualization I\n\nDV, ch 5\nRDS, ch 11",
+    "crumbs": [
+      "📚 Overview",
+      "Weekly Content",
+      "Week 7. Data Visualization II"
     ]
   },
   {
@@ -813,121 +825,121 @@
   {
     "objectID": "assignments/assign3.html",
     "href": "assignments/assign3.html",
-    "title": "3. Data Notebooks in Quarto",
+    "title": "Week 2. A Practical Guide to Your Computer",
     "section": "",
     "text": "In the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nDV, ch 2\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "3. Data Notebooks in Quarto"
+      "Week 2. A Practical Guide to Your Computer"
     ]
   },
   {
     "objectID": "assignments/assign3.html#readings",
     "href": "assignments/assign3.html#readings",
-    "title": "3. Data Notebooks in Quarto",
+    "title": "Week 2. A Practical Guide to Your Computer",
     "section": "",
     "text": "In the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nDV, ch 2\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "3. Data Notebooks in Quarto"
+      "Week 2. A Practical Guide to Your Computer"
     ]
   },
   {
     "objectID": "assignments/assign3.html#data-computational-work",
     "href": "assignments/assign3.html#data-computational-work",
-    "title": "3. Data Notebooks in Quarto",
+    "title": "Week 2. A Practical Guide to Your Computer",
     "section": "Data & Computational Work",
     "text": "Data & Computational Work\nThere is no major new software to install. However, we will be rendering text to output document types, like pdf, docx, and html. Docx and html files will render without additional software, but .pdfs need extra bits added. If you would like to compile to PDF, run the following lines of code:\ninstall.packages(\"tinytex\")\ntinytex::install_tinytex()\nThis places a small tex installation inside R for you.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "3. Data Notebooks in Quarto"
+      "Week 2. A Practical Guide to Your Computer"
     ]
   },
   {
     "objectID": "assignments/assign3.html#submit-.qmd-file-html-file-docx-file",
     "href": "assignments/assign3.html#submit-.qmd-file-html-file-docx-file",
-    "title": "3. Data Notebooks in Quarto",
+    "title": "Week 2. A Practical Guide to Your Computer",
     "section": "Submit: .qmd file; HTML file; docx file",
     "text": "Submit: .qmd file; HTML file; docx file\n\nCreate an Quarto file (File&gt;&gt;New File&gt;&gt;Quarto Document). Title it “Week 3 Homework.qmd”,2 select “HTML” output, and uncheck “use visual markdown editor”. (You can always switch later.)\nUse the 2005 British Election study file (bes2005subset.csv) to create a jittered scatterplot of Feelings toward Blair and Feelings on Social Spending.\nIn a brief text segment, interpret what the figure shows you.\nLoad the 2000 National Election study file (nes2000subset.csv).\nFind the correlation between income and partisanship, and draw a jittered scatter plot of partisanship (Y axis) and income (X-axis)\nIn a brief text segment, interpret what the correlation and figure tells you.\nRender the document to HTML and docx and zip all three (.qmd, .html, and .docx files) together. Upload the .zip to Blackboard.3",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "3. Data Notebooks in Quarto"
+      "Week 2. A Practical Guide to Your Computer"
     ]
   },
   {
     "objectID": "assignments/assign3.html#footnotes",
     "href": "assignments/assign3.html#footnotes",
-    "title": "3. Data Notebooks in Quarto",
+    "title": "Week 2. A Practical Guide to Your Computer",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nWindows tries to help you by letting you click directly into .zip files without unzipping them. This lets you see into the file, which is helpful, but prevents you from editing things inside the file, which is not (and will make R throw you errors). So make sure to unzip the file before loading it and rendering.↩︎\nMake sure to not put a special character in the title (like #) - Quarto doesn’t like those and sometimes won’t render your file properly.↩︎\nBlackboard doesn’t like .html files, so you won’t be able to upload unless you .zip it.↩︎",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "3. Data Notebooks in Quarto"
+      "Week 2. A Practical Guide to Your Computer"
     ]
   },
   {
     "objectID": "assignments/assign1.html",
     "href": "assignments/assign1.html",
-    "title": "1. Introduction to R",
+    "title": "Week 0. Course Setup",
     "section": "",
     "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "1. Introduction to R"
+      "Week 0. Course Setup"
     ]
   },
   {
     "objectID": "assignments/assign1.html#readings",
     "href": "assignments/assign1.html#readings",
-    "title": "1. Introduction to R",
+    "title": "Week 0. Course Setup",
     "section": "",
     "text": "Read the course syllabus (all parts of this website)\nRecommended reading:\n\nRDS, introduction",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "1. Introduction to R"
+      "Week 0. Course Setup"
     ]
   },
   {
     "objectID": "assignments/assign1.html#data-computational-work",
     "href": "assignments/assign1.html#data-computational-work",
-    "title": "1. Introduction to R",
+    "title": "Week 0. Course Setup",
     "section": "Data & Computational Work",
     "text": "Data & Computational Work\nThe main purpose of this week’s assignment is to get your computer ready for all the work in the class. This means, primarily, installing software.\n\nInstall R on your computer\nBegin by installing R (http://cloud.r-project.org). Choose the version appropriate for your computing platform:\n\nIf you use macOS with an Apple Silicon processor (i.e. an M-series processor), then install R for macOS’s Apple Silicon build. This version does not work on older, Intel-based Macs.\nIf you use macOS with an Intel processor, then install R for macOS’s Intel build.\nIf you use Microsoft Windows, then install R for Windows.\nIf you use Linux, choose your distribution and install the R package for it.\n\n\n\nInstall RStudio on your computer\n\nIf you use macOS (whether Apple Silicon or Intel), install this version of RStudio.\nIf you use Windows, install this version of RStudio.\nIf you use Linux, choose your distribution from the download page.\n\n\n\nConfirm things work\n\nR is really a great big calculator. Let’s do some calculations!\n\nAdd 2 and 3 together\nMultiply 4 by 6\nDivide 10 by 5",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "1. Introduction to R"
+      "Week 0. Course Setup"
     ]
   },
   {
     "objectID": "assignments/assign1.html#submit-.r-file-optional",
     "href": "assignments/assign1.html#submit-.r-file-optional",
-    "title": "1. Introduction to R",
+    "title": "Week 0. Course Setup",
     "section": "Submit: .R File (Optional)",
     "text": "Submit: .R File (Optional)\nIn an .R file, write code to answer the following questions. Make sure your file is appropriately titled and headered.\nNote: You can submit this R file in Week 2, if you prefer.\n\nCreate an object named aardvark that stores a 3 as a single number\nCreate a second object named boomba that stores a 6 as a single number\nCreate a third object named centauri that is the addition of aardvark and boomba\nCreate a fourth object named diabolical that is the multiplication aardvark and boomba\nCreate an object named ebullient that stores three numbers as a vector: 4,5,and 6\nCreate an object named fastidious that stores three numbers as a vector: 8,9, and 11\nAdd ebullient and fastidious together, and store it in an object named george\nFind the mean (average) of fastidious, and store it in an object named zoinks",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "1. Introduction to R"
+      "Week 0. Course Setup"
     ]
   },
   {
     "objectID": "assignments/assign1.html#submit-pdf-file",
     "href": "assignments/assign1.html#submit-pdf-file",
-    "title": "1. Introduction to R",
+    "title": "Week 0. Course Setup",
     "section": "Submit: PDF file",
     "text": "Submit: PDF file\nAnswer the following questions and upload as a PDF to Blackboard.\n\nWhat is your name and program of study at Syracuse?\n(Optional: provide your pronouns, if you wish.)\nWhat is your prior experience with statistics, data analysis, R, and computer programming generally?\nWhat are you hoping to get out of this class?\nPlease include a picture of yourself!\n\nIt can be anything – just make sure that you are the only person in the picture so I can clearly identify you.\n\nWhat is the mean of the fastidious object from your .R assignment above?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "1. Introduction to R"
+      "Week 0. Course Setup"
     ]
   },
   {
@@ -940,49 +952,49 @@
   {
     "objectID": "assignments/assign7.html",
     "href": "assignments/assign7.html",
-    "title": "7. The American National Election Studies",
+    "title": "Week 6. Data Visualization I",
     "section": "",
     "text": "in progress",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "7. The American National Election Studies"
+      "Week 6. Data Visualization I"
     ]
   },
   {
     "objectID": "assignments/assign7.html#readings-reference-material",
     "href": "assignments/assign7.html#readings-reference-material",
-    "title": "7. The American National Election Studies",
+    "title": "Week 6. Data Visualization I",
     "section": "Readings & Reference Material",
     "text": "Readings & Reference Material\n\nLecture: Data Visualization I\n\nDV, chs 3-4\nRDS, chs 9-10\nFCSP, ch 3",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "7. The American National Election Studies"
+      "Week 6. Data Visualization I"
     ]
   },
   {
     "objectID": "assignments/assign7.html#data-work",
     "href": "assignments/assign7.html#data-work",
-    "title": "7. The American National Election Studies",
+    "title": "Week 6. Data Visualization I",
     "section": "Data Work",
     "text": "Data Work\n\nRead Bartels (2000) - “Partisanship and Voting Behavior, 1952-1996”. Using the Cumulative American National Eleciton Studies (ANES) file, replicate Figures 1 and 2.\nExtend the analysis to include recent years as well.\nExtend the analysis to 2024, using the 2024 ANES file. (This will require using the 2024 file in conjuction with the cumulative file.)\nCreate figures that include midterm election years as well.\nOriginal Work: explore the codebook for the ANES. Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "7. The American National Election Studies"
+      "Week 6. Data Visualization I"
     ]
   },
   {
     "objectID": "assignments/assign7.html#submission",
     "href": "assignments/assign7.html#submission",
-    "title": "7. The American National Election Studies",
+    "title": "Week 6. Data Visualization I",
     "section": "Submission",
     "text": "Submission\nYour completed assignment should include a copy of your .R script file(s) (with comments, etc) used to code the variables and do the analysis, a .quarto file that contains your writeup and figures, and a .PDF file with all of your (properly labeled and attractively laid out) tables/figures.\nIn your writeup, address the following questions:\n\nWhere did you encounter problems with this replication? Was there anything that was particular tricky?\nHow would you interpret (explain) what Bartels found in figures 1 & 2?\nHas anything changed since 1998 that would alter the substantive takeaway points in their findings?\nDoes anything change about the analysis in a substantive way when you include midterm election years?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "7. The American National Election Studies"
+      "Week 6. Data Visualization I"
     ]
   },
   {
@@ -1036,73 +1048,73 @@
   {
     "objectID": "assignments/assign4.html",
     "href": "assignments/assign4.html",
-    "title": "4. Version Tracking in GitHub",
+    "title": "Week 3. File Management and Version Control",
     "section": "",
     "text": "“Happy Git with R” https://happygitwithr.com/\nThe Plain Person’s Guide to Plain Text Social Science, ch 2 (https://plain-text.co/index.html)\nBryan, Jennifer. “Excuse me, do you have a moment to talk about version control?”\nWickham, Hadley. “Tidy Data”.\nKuriwaki, Shuri. “Git for Students in the Social Sciences: A Pitch",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "4. Version Tracking in GitHub"
+      "Week 3. File Management and Version Control"
     ]
   },
   {
     "objectID": "assignments/assign4.html#readings-reference-material",
     "href": "assignments/assign4.html#readings-reference-material",
-    "title": "4. Version Tracking in GitHub",
+    "title": "Week 3. File Management and Version Control",
     "section": "",
     "text": "“Happy Git with R” https://happygitwithr.com/\nThe Plain Person’s Guide to Plain Text Social Science, ch 2 (https://plain-text.co/index.html)\nBryan, Jennifer. “Excuse me, do you have a moment to talk about version control?”\nWickham, Hadley. “Tidy Data”.\nKuriwaki, Shuri. “Git for Students in the Social Sciences: A Pitch",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "4. Version Tracking in GitHub"
+      "Week 3. File Management and Version Control"
     ]
   },
   {
     "objectID": "assignments/assign4.html#computer-work",
     "href": "assignments/assign4.html#computer-work",
-    "title": "4. Version Tracking in GitHub",
+    "title": "Week 3. File Management and Version Control",
     "section": "Computer Work",
     "text": "Computer Work\nIf you do not have one already, create a GitHub account and obtain a GitHub Personal Access Token.\n\nRegister a GitHub Account.\n(Optional) Install Git. Note: this step is only optional if you use the GitHub Desktop Client; if you use any other client, you must install Git at the command line.\nInstall a Git Client. I strongly recommend you use the GitHub Desktop Client, which comes with git built-in, so that you do not have to install git separately (and can thus skip step 2).\nGet a Personal Access Token and connect your GitHub Desktop Client to GitHub.\n(Optional) Start an initial repo.1 We will do this together in workshop this week, as well, but you can get a head start if you like.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "4. Version Tracking in GitHub"
+      "Week 3. File Management and Version Control"
     ]
   },
   {
     "objectID": "assignments/assign4.html#data-work",
     "href": "assignments/assign4.html#data-work",
-    "title": "4. Version Tracking in GitHub",
+    "title": "Week 3. File Management and Version Control",
     "section": "Data Work",
     "text": "Data Work\n\nSetup\n\nCreate a GitHub repository for this assignment. (Don’t forget a readme file and a .gitignore file!) It’s OK if it is a private repository.\nGenerate a Quarto document (like last week). Title it DWV Assignment 4.qmd. Answer all questions for this assignment in this quarto document.\nPractice good file management: keep all documents for this assignment in your assignment folder (github repo) dedicated to just this assignment. It is OK - it’s advisable, actually - to have the datasets themselves in a separate folder.2\n\n\n\nPart 1. Lines\n\nDraw a y=4x+3 on a plot that ranges from -20 to +20 on both x and y.\nLabel the line appropriately next to itself.\nColor the line in an interesting color! And make it dashed.\nBonus Use a combination of the above options (plus others, if you feel like looking them up) to create the wildest looking series of lines on a graph that you can. (Remember, you can overplot lines!)\n\n\n\nPart 2. Protected Lands\nConsider the protected_lands.csv dataset. This dataset contains information about a sample of countries sourced from the World Bank. Protected Lands represents the terrestrial protected land of a country as a percentage of total land area. GDP is represented in the dataset on a per capita (gdp_percap) as well as total basis (with total being measured in billions - tot_gdp_billions).\n\nFind the mean, standard deviation, and range of each of the three variables: protected lands, GDP per capita, and total GDP.\nCreate a scatterplot where “protected lands” is on the Y axis and GDP per capita is on the X axis. Place a title on the graph and labels on the X and Y axis appropriately.\nCreate a scatterplot where “protected lands” is on the Y axis and total GDP is on the X axis. Place a title on the graph and labels on the X and Y axis appropriately.\nRegress “protected lands” on GDP per capita.\nCreat a scatterplot where “protected lands” is on the Y axis and GDP per capita is on the X axis. Then, overlay the plot with a best fit line.\nRegress “protected land” on total GDP.\nCreat a scatterplot where “protected lands” is on the Y axis and total is on the X axis. Then, overlay the plot with a best fit line.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "4. Version Tracking in GitHub"
+      "Week 3. File Management and Version Control"
     ]
   },
   {
     "objectID": "assignments/assign4.html#submission",
     "href": "assignments/assign4.html#submission",
-    "title": "4. Version Tracking in GitHub",
+    "title": "Week 3. File Management and Version Control",
     "section": "Submission",
     "text": "Submission\n\nRender your quarto file to .html and .docx.\nPush your completed assignment, including your .html and .docx files, to your GitHub repo.\nEither:\n\nEnsure the repo is public, or\nIf it is private, share the repo with me (I’m @jacklreilly on GitHub).\n\nOn Blackboard, under assignment 4, place a link to the repo so that I can click straight through to it.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "4. Version Tracking in GitHub"
+      "Week 3. File Management and Version Control"
     ]
   },
   {
     "objectID": "assignments/assign4.html#footnotes",
     "href": "assignments/assign4.html#footnotes",
-    "title": "4. Version Tracking in GitHub",
+    "title": "Week 3. File Management and Version Control",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nJargon alert: repo is short for “repository”.↩︎\nI recommend that you have a folder on your computer where all of your assignments for the class are kept. Inside this folder, you should have a folder for each assignment; you can also have a folder that stores the data. The data folder should not be entered into a github repo; the individual assignments folders can be (or need to be, depending on the assignment.)↩︎",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
-      "4. Version Tracking in GitHub"
+      "Week 3. File Management and Version Control"
     ]
   },
   {
