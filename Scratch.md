@@ -18,3 +18,11 @@ Demonstrate knowledge of open science and contemporary reproducible data process
 Apply principles of data wrangling and management to data analysis tasks
 Create reproducible data projects that incorporate effective, well-designed data visualizations 
 Analyze large-N datasets commonly used in public policy and behavioral science
+
+
+9 Networks
+10 Advanced Workflow, Census, & Databases
+11 Maps & GIS
+12 Text as Data
+13 Web
+14 Bonus: AI (Pair Programming & Local LLMs)
