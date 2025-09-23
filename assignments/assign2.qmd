@@ -4,8 +4,11 @@ subtitle: "Due Week 2"
 ---
 
 ## Readings
+### Lecture: Course Introduction 
 
 - Recommended reference reading:
+  - **DV**, chapter 1
+  - **RDS** chapter 2
   - **FCSP** chapter 2
     - *We will not cover all of this material in ch 2 this week; don't get too caught up on things not in course slides or course R scripts*
   - **DMSS** chapters 1-2

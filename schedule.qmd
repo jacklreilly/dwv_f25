@@ -16,9 +16,9 @@ format:
 |------|------------------------------------|----------------------------------|---------|
 | 1    | Course Introduction                | Scripts; R and RStudio  |         |
 | 2    | Reproducible Data Analyses         | Markup Languages; Quarto     |         |
-| 3    | File Management & Version Control  | Filesystems; Git; GitHub                    |         |
-| 4    | A Field Guide to Data              |  Data Formats; Tidyverse                        |         |
-| 5    | Wrangling Tidy Data; Flow Control   | Loops                            |         |
+| 3    | File Management & Version Control  | Filesystems; git; GitHub                    |         |
+| 4    | A Field Guide to Data              | Data Formats; readr; tidyr                       |         |
+| 5    | Structural Data Manipulation       | dplyr                            |         |
 | 6    | Data Visualization I               | Grammar of Graphics; ggplot2     |         |
 | 7    | Data Visualization II              | ggplot2                          |         |
 | 8    | **Core Exam (Thursday, October 16)** |                                  |         |
@@ -35,9 +35,9 @@ format:
 
 *Advanced Topics (if we have time)*
 
-| Week | **Topic**                      | **Tools** | Reading |
+| Week | **Topic**                      | **Tools** |  |
 |------|--------------------------------|-----------|---------|
 | 16   | Text Data & Data Scraping      |           |         |
-| 17   | Web Apps & Visualization       |           |         |
-| 18   | AI Pair Programming & “Vibe Coding” |       |         |
+| 17   | Web Apps & Visualization       |  quarto, shiny         |         |
+| 18   | AI Pair Programming & “Vibe Coding” |  github copilot     |         |
 | 19   | Local LLMs                     |           |         |

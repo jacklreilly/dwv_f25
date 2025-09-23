@@ -3,9 +3,11 @@ title: "3. Data Notebooks in Quarto"
 ---
 
 ## Readings
+### Lecture: Computing 
 
 - In the course drive, find the file `Week 3 Files.zip`.  Unzip the file in the directory on your computer that you use for coursework.[^zip]  Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.
 - Recommended reference reading:
+  - **DV**, ch 2
   - **The Markdown Guide**, <<https://www.markdownguide.org>>
   - **The Plain Person's Guide to Plain Text Social Science**, ch 3-4 (<https://plain-text.co/index.html>)
     - *Note: The Plain Person's Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to*

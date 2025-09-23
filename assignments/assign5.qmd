@@ -2,11 +2,12 @@
 title: "5. Data in the Tidyverse"
 ---
 
-***in progress***
-
 ## Readings & Reference Material
+### Lecture: A Field Guide to Data
 
-- **RDS**, chs 
+- **DMSS**, ch 3 & 4
+- **RDS**, chs 7 & 8
+- **FCSP**, ch 5.4-5.6
 - Tidyverse cheatsheets: <https://rstudio.github.io/cheatsheets/>, especially:
     - data tidying with tidyr: [html](https://rstudio.github.io/cheatsheets/html/tidyr.html) and [pdf](https://rstudio.github.io/cheatsheets/tidyr.pdf)
     - data transformation with dplyr: [html](https://rstudio.github.io/cheatsheets/html/data-transformation.html) and [pdf](https://rstudio.github.io/cheatsheets/data-transformation.pdf)
@@ -19,7 +20,22 @@ In case you have not yet done so, install the `tidyverse' series of packages in 
 
 ## Data Work
 
+1. Use the Cooperative Congressional Election Study/Cooperative Election Study (CCES/CES) Cumulative file.  
 
+2. Use only the 2024 data.  Recode the 5 category ideology variable to a three category variable: liberal, moderate, conservative.
+
+3. Recode the presidential vote variable to look *just* at two party vote (in other words, recode vote so that respondents who reported voting for candidates other than Trump or Harris are "missing").
+
+4. Create a table.  What proportion of respondents who are liberal voted for Trump?  What proportion of respondents who are conservative voted for Harris?
+
+5. Find the variable that refers to whether people own or rent their home.  Recode the variable so that "other" is missing.
+
+6. Create a table.  What portion of people who own their homes voted for Trump?  Harris?  What portion of people who rented voted for Trump? Harris?
+
+7. Finally, locate the education variable.  Recode the variable so that those with a high school degree or less are in one category, those with some college but less than a four year degree are in a second, those with a college degree are in a third, and those with a post-grad degree are in a fourth.
+
+8. Create a table.  What does education tell us about vote in the 2024 election?
 
 ## Submission 
 
+This is an optional assignment.  We will go over it in class, but work is not due for it.

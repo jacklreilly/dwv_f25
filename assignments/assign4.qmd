@@ -3,6 +3,7 @@ title: "4. Version Tracking in GitHub"
 ---
 
 ## Readings & Reference Material
+### Lecture: File Management and Version Control
 
 - "Happy Git with R" <https://happygitwithr.com/>
 - **The Plain Person's Guide to Plain Text Social Science**, ch 2 (<https://plain-text.co/index.html>)
