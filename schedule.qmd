@@ -14,13 +14,13 @@ format:
 
 | Week | **Topic**                          | **Tools**                        |  |
 |------|------------------------------------|----------------------------------|---------|
-| 1    | Course Introduction                | Scripts; R and RStudio  |         |
-| 2    | Reproducible Data Analyses         | Markup Languages; Quarto     |         |
-| 3    | File Management & Version Control  | Filesystems; git; GitHub                    |         |
-| 4    | A Field Guide to Data              | Data Formats; readr; tidyr                       |         |
-| 5    | Structural Data Manipulation       | dplyr                            |         |
-| 6    | Data Visualization I               | Grammar of Graphics; ggplot2     |         |
-| 7    | Data Visualization II              | ggplot2                          |         |
+| 1    | [Course Introduction](assignments/assign2.qmd)                | Scripts; R and RStudio  |         |
+| 2    | [Reproducible Data Analyses](assignments/assign3.qmd)         | Markup Languages; Quarto     |         |
+| 3    | [File Management & Version Control](assignments/assign4.qmd)  | Filesystems; git; GitHub                    |         |
+| 4    | [A Field Guide to Data](assignments/assign5.qmd)              | Data Formats; readr; tidyr                       |         |
+| 5    | [Structural Data Manipulation](assignments/assign6.qmd)       | dplyr                            |         |
+| 6    | [Data Visualization I](assignments/assign7.qmd)               | Grammar of Graphics; ggplot2     |         |
+| 7    | [Data Visualization II](assignments/assign8.qmd)              | ggplot2                          |         |
 | 8    | **Core Exam (Thursday, October 16)** |                                  |         |
 | 9    | Social Networks & Network Data     | iGraph; statnet                  |         |
 | 10   | Census Data                        | tidycensus                       |         |
