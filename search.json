@@ -325,7 +325,7 @@
     "href": "assignments/assign5.html#computer-work",
     "title": "5. Data in the Tidyverse",
     "section": "Computer Work",
-    "text": "Computer Work\nIn case you have not yet done so, install the `tidyverse’ series of packages in your local R installation.",
+    "text": "Computer Work\nIn case you have not yet done so, install the tidyverse series of packages in your local R installation.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -333,11 +333,11 @@
     ]
   },
   {
-    "objectID": "assignments/assign5.html#data-work",
-    "href": "assignments/assign5.html#data-work",
+    "objectID": "assignments/assign5.html#data-work-optional",
+    "href": "assignments/assign5.html#data-work-optional",
     "title": "5. Data in the Tidyverse",
-    "section": "Data Work",
-    "text": "Data Work\n\nUse the Cooperative Congressional Election Study/Cooperative Election Study (CCES/CES) Cumulative file.\nUse only the 2024 data. Recode the 5 category ideology variable to a three category variable: liberal, moderate, conservative.\nRecode the presidential vote variable to look just at two party vote (in other words, recode vote so that respondents who reported voting for candidates other than Trump or Harris are “missing”).\nCreate a table. What proportion of respondents who are liberal voted for Trump? What proportion of respondents who are conservative voted for Harris?\nFind the variable that refers to whether people own or rent their home. Recode the variable so that “other” is missing.\nCreate a table. What portion of people who own their homes voted for Trump? Harris? What portion of people who rented voted for Trump? Harris?\nFinally, locate the education variable. Recode the variable so that those with a high school degree or less are in one category, those with some college but less than a four year degree are in a second, those with a college degree are in a third, and those with a post-grad degree are in a fourth.\nCreate a table. What does education tell us about vote in the 2024 election?",
+    "section": "Data Work (Optional)",
+    "text": "Data Work (Optional)\n\nUse the Cooperative Congressional Election Study/Cooperative Election Study (CCES/CES) Cumulative file.\nUse only the 2024 data. Recode the 5 category ideology variable to a three category variable: liberal, moderate, conservative.\nRecode the presidential vote variable to look just at two party vote (in other words, recode vote so that respondents who reported voting for candidates other than Trump or Harris are “missing”).\nCreate a table. What proportion of respondents who are liberal voted for Trump? What proportion of respondents who are conservative voted for Harris?\nFind the variable that refers to whether people own or rent their home. Recode the variable so that “other” is missing.\nCreate a table. What portion of people who own their homes voted for Trump? Harris? What portion of people who rented voted for Trump? Harris?\nFinally, locate the education variable. Recode the variable so that those with a high school degree or less are in one category, those with some college but less than a four year degree are in a second, those with a college degree are in a third, and those with a post-grad degree are in a fourth.\nCreate a table. What does education tell us about vote in the 2024 election?",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
