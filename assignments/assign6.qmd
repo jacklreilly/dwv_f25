@@ -27,6 +27,6 @@ In your writeup, address the following questions:
 
 1. Where did you encounter problems with this replication?  Was there anything that was particular tricky?
 
-2. How would you *interpret* (explain) what Mondak and Saunders found in figures 1, 2, and 5?  
+2. How would you *interpret* (in other words, explain to a general audience) what Mondak and Saunders found in figures 1, 2, and 5?  
 
 3. Has anything changed since 1998 that would alter the substantive takeaway points in their findings?
