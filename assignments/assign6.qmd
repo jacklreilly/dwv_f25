@@ -3,8 +3,6 @@ title: "Week 5: Data Manipulation"
 subtitle: "Assignment: The General Social Survey (Due Week 6)"
 ---
 
-***in progress***
-
 ## Readings & Reference Material
 ### Lecture: Structural Data Manipulation
 
