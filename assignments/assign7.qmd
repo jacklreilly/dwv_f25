@@ -3,8 +3,6 @@ title: "Week 6: Data Visualization I"
 subtitle: "Assignment: The American National Election Studies (Due Week 7)"
 ---
 
-***in progress***
-
 ## Readings & Reference Material
 ### Lecture: Data Visualization I
 - **DV**, chs 3-4
@@ -12,7 +10,7 @@ subtitle: "Assignment: The American National Election Studies (Due Week 7)"
 - **FCSP**, ch 3
 
 ## Data Work
-1. Read Bartels (2000) - “Partisanship and Voting Behavior, 1952-1996”. Using the Cumulative American National Eleciton Studies (ANES) file, replicate Figures 1 and 2.
+1. Browse [Bartels (2000) - “Partisanship and Voting Behavior, 1952-1996”](https://www.jstor.org/stable/2669291). Using the Cumulative American National Eleciton Studies (ANES) file, replicate Figures 1 and 2.
 
 2. Extend the analysis to include recent years as well.
 
