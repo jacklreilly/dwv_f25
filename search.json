@@ -228,7 +228,7 @@
     "href": "assignments/assign7.html",
     "title": "Week 6: Data Visualization I",
     "section": "",
-    "text": "in progress",
+    "text": "DV, chs 3-4\nRDS, chs 9-10\nFCSP, ch 3",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -239,8 +239,8 @@
     "objectID": "assignments/assign7.html#readings-reference-material",
     "href": "assignments/assign7.html#readings-reference-material",
     "title": "Week 6: Data Visualization I",
-    "section": "Readings & Reference Material",
-    "text": "Readings & Reference Material\n\nLecture: Data Visualization I\n\nDV, chs 3-4\nRDS, chs 9-10\nFCSP, ch 3",
+    "section": "",
+    "text": "DV, chs 3-4\nRDS, chs 9-10\nFCSP, ch 3",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -252,7 +252,7 @@
     "href": "assignments/assign7.html#data-work",
     "title": "Week 6: Data Visualization I",
     "section": "Data Work",
-    "text": "Data Work\n\nRead Bartels (2000) - “Partisanship and Voting Behavior, 1952-1996”. Using the Cumulative American National Eleciton Studies (ANES) file, replicate Figures 1 and 2.\nExtend the analysis to include recent years as well.\nExtend the analysis to 2024, using the 2024 ANES file. (This will require using the 2024 file in conjuction with the cumulative file.)\nCreate figures that include midterm election years as well.\nOriginal Work: explore the codebook for the ANES. Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.",
+    "text": "Data Work\n\nBrowse Bartels (2000) - “Partisanship and Voting Behavior, 1952-1996”. Using the Cumulative American National Eleciton Studies (ANES) file, replicate Figures 1 and 2.\nExtend the analysis to include recent years as well.\nExtend the analysis to 2024, using the 2024 ANES file. (This will require using the 2024 file in conjuction with the cumulative file.)\nCreate figures that include midterm election years as well.\nOriginal Work: explore the codebook for the ANES. Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
@@ -1058,7 +1058,7 @@
     "href": "assignments/assign6.html#data-work",
     "title": "Week 5: Data Manipulation",
     "section": "Data Work",
-    "text": "Data Work\n\nReplication: Browse Mondak and Sanders (2003) - “Tolerance and Intolerance, 1976-1998”. Using the Cumulative General Social Survey (GSS) file, replicate Figures 1, 2, and 5. (Don’t worry about getting the particular value arrows in your graph.)\nExtend the analysis to include more recent years as well.\nOriginal Work: explore the codebook for the GSS. Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.",
+    "text": "Data Work\n\nBrowse Mondak and Sanders (2003) - “Tolerance and Intolerance, 1976-1998”. Using the Cumulative General Social Survey (GSS) file, replicate Figures 1, 2, and 5. (Don’t worry about getting the particular value arrows in your graph.)\nExtend the analysis to include more recent years as well.\nOriginal Work: explore the codebook for the GSS. Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.",
     "crumbs": [
       "📚 Overview",
       "Weekly Content",
