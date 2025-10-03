@@ -10,7 +10,9 @@ subtitle: "Assignment: The American National Election Studies (Due Week 7)"
 - **FCSP**, ch 3
 
 ## Data Work
-1. Browse [Bartels (2000) - “Partisanship and Voting Behavior, 1952-1996”](https://www.jstor.org/stable/2669291). Using the Cumulative American National Eleciton Studies (ANES) file, replicate Figures 1 and 2.
+1. Browse [Bartels (2000) - “Partisanship and Voting Behavior, 1952-1996”](https://www.jstor.org/stable/2669291). Using the Cumulative American National Eleciton Studies (ANES) file, replicate both parts of Figure 1.  
+
+    - *Note: you can get very close on the top half of figure 1.  The bottom half, however, will look a little different in the early years due to Bartels having access to a different version of the ANES than is currently publicly available.*
 
 2. Extend the analysis to include recent years as well.
 
@@ -19,6 +21,8 @@ subtitle: "Assignment: The American National Election Studies (Due Week 7)"
 3. Create figures that include midterm election years as well.
 
 2. Original Work: explore the codebook for the ANES.  Find two interesting variables and create compelling univariate graphs to illustrate their central tendency, distribution, and spread.
+
+6. Bonus: Replicate Figure 2 from Bartels as well; add in recent years and 2024.
 
 ## Submission (Due Week 7)
 
