@@ -31,9 +31,6 @@ format:
 
 **e-mail**: <jlreilly@syr.edu>
 
-# Overview
-
-
 ## Course Description
 Every step in policymaking relies on data. This course introduces students to data management, wrangling, communication, and visualization in the context of public policy, public administration, and behavioral science as well as the technical tools necessary to do such work in an open and reproducible fashion.  
 
