@@ -4,7 +4,7 @@
     "href": "overview.html",
     "title": "Overview",
     "section": "",
-    "text": "Time: Tuesdays and Thursday, 2:00 PM - 3:20 PM\nLocation: Eggers 225B\n\n\n\nProfessor Jack Reilly\nOffice: Eggers 225F\nOffice Hours: Tuesday and Thursday, 11 AM - Noon (drop in) and by appointment.1\nZoom Hours: Friday, 1-3 (schedule online)\nPhone: 315-443-2687 (office)\ne-mail: jlreilly@syr.edu"
+    "text": "Time: Tuesdays and Thursday, 2:00 PM - 3:20 PM\nLocation: Eggers 225B\n\n\n\nProfessor Jack Reilly\nOffice: Eggers 225F\nOffice Hours: Tuesday and Thursday, 11 AM - Noon (drop in) and by appointment.1\nZoom Hours: Friday, 1-3 (schedule online)\nPhone: 315-443-2687 (office)\ne-mail: jlreilly@syr.edu\n\n\n\nEvery step in policymaking relies on data. This course introduces students to data management, wrangling, communication, and visualization in the context of public policy, public administration, and behavioral science as well as the technical tools necessary to do such work in an open and reproducible fashion.\n\n\n\nData preprocessing, wrangling, and management often consumes a large fraction of the time spent doing quantitative data analysis in public administration, public policy, and behavioral science research. Yet these topics frequently do not receive regular attention in methodological courses that focus on statistical inference. This class introduces students to the technical tools necessary to do these tasks in an open and reproducible fashion suitable for modern computational data workflows in the public sector. Throughout the course of the semester, students will learn the principles and practice of conducting reproducible quantitative research, including readable programming and coding, version control, methods of documentation, data storage, workflow management, and exploratory data visualization. A variety of relevant open technical software tools will be introduced and used, including but not limited to R (and RStudio), git (and github), markdown, and a variety of helper programs to tie things together. Special attention will be paid to data frequently used in public policy, public administration, and behavioral science.\n\n\n\nNo formal pre-requisites. It is assumed you have either previously taken or are currently enrolled in an “Introduction to Statistics” or “Quantitative Methods” class (ie, PAI 721 or MAX 201), and are conversant enough in statistics to be able to work with concepts like “mean” and “standard deviation”.\nWhile this course has no formal pre-requisites, it does have a substantial informal prerequisite: motivation. Learning a programming langauge is challenging work, and students must be prepared to invest the appropriate time, energy, effort, and - above all - patience.\n\n\n\n\nDemonstrate capability in open science and contemporary reproducible data processing, wrangling, and management tools\nApply appropriate principles of data and file management to data projects\nEvaluate the credibility and clarity of data visualizations\nCreate effective, reproducible, and well designed data visualizations with appropriate tools\nAnalyze large-N datasets commonly used in public policy and behavioral science"
   },
   {
     "objectID": "overview.html#class",
@@ -24,29 +24,29 @@
     "objectID": "overview.html#course-description",
     "href": "overview.html#course-description",
     "title": "Overview",
-    "section": "Course Description",
-    "text": "Course Description\nEvery step in policymaking relies on data. This course introduces students to data management, wrangling, communication, and visualization in the context of public policy, public administration, and behavioral science as well as the technical tools necessary to do such work in an open and reproducible fashion."
+    "section": "",
+    "text": "Every step in policymaking relies on data. This course introduces students to data management, wrangling, communication, and visualization in the context of public policy, public administration, and behavioral science as well as the technical tools necessary to do such work in an open and reproducible fashion."
   },
   {
     "objectID": "overview.html#expanded-description",
     "href": "overview.html#expanded-description",
     "title": "Overview",
-    "section": "Expanded Description",
-    "text": "Expanded Description\nData preprocessing, wrangling, and management often consumes a large fraction of the time spent doing quantitative data analysis in public administration, public policy, and behavioral science research. Yet these topics frequently do not receive regular attention in methodological courses that focus on statistical inference. This class introduces students to the technical tools necessary to do these tasks in an open and reproducible fashion suitable for modern computational data workflows in the public sector. Throughout the course of the semester, students will learn the principles and practice of conducting reproducible quantitative research, including readable programming and coding, version control, methods of documentation, data storage, workflow management, and exploratory data visualization. A variety of relevant open technical software tools will be introduced and used, including but not limited to R (and RStudio), git (and github), markdown, and a variety of helper programs to tie things together. Special attention will be paid to data frequently used in public policy, public administration, and behavioral science."
+    "section": "",
+    "text": "Data preprocessing, wrangling, and management often consumes a large fraction of the time spent doing quantitative data analysis in public administration, public policy, and behavioral science research. Yet these topics frequently do not receive regular attention in methodological courses that focus on statistical inference. This class introduces students to the technical tools necessary to do these tasks in an open and reproducible fashion suitable for modern computational data workflows in the public sector. Throughout the course of the semester, students will learn the principles and practice of conducting reproducible quantitative research, including readable programming and coding, version control, methods of documentation, data storage, workflow management, and exploratory data visualization. A variety of relevant open technical software tools will be introduced and used, including but not limited to R (and RStudio), git (and github), markdown, and a variety of helper programs to tie things together. Special attention will be paid to data frequently used in public policy, public administration, and behavioral science."
   },
   {
     "objectID": "overview.html#prerequisites",
     "href": "overview.html#prerequisites",
     "title": "Overview",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nNo formal pre-requisites. It is assumed you have either previously taken or are currently enrolled in an “Introduction to Statistics” or “Quantitative Methods” class (ie, PAI 721 or MAX 201), and are conversant enough in statistics to be able to work with concepts like “mean” and “standard deviation”.\nWhile this course has no formal pre-requisites, it does have a substantial informal prerequisite: motivation. Learning a programming langauge is challenging work, and students must be prepared to invest the appropriate time, energy, effort, and - above all - patience."
+    "section": "",
+    "text": "No formal pre-requisites. It is assumed you have either previously taken or are currently enrolled in an “Introduction to Statistics” or “Quantitative Methods” class (ie, PAI 721 or MAX 201), and are conversant enough in statistics to be able to work with concepts like “mean” and “standard deviation”.\nWhile this course has no formal pre-requisites, it does have a substantial informal prerequisite: motivation. Learning a programming langauge is challenging work, and students must be prepared to invest the appropriate time, energy, effort, and - above all - patience."
   },
   {
     "objectID": "overview.html#learning-objectives",
     "href": "overview.html#learning-objectives",
     "title": "Overview",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nDemonstrate capability in open science and contemporary reproducible data processing, wrangling, and management tools\nApply appropriate principles of data and file management to data projects\nEvaluate the credibility and clarity of data visualizations\nCreate effective, reproducible, and well designed data visualizations with appropriate tools\nAnalyze large-N datasets commonly used in public policy and behavioral science"
+    "section": "",
+    "text": "Demonstrate capability in open science and contemporary reproducible data processing, wrangling, and management tools\nApply appropriate principles of data and file management to data projects\nEvaluate the credibility and clarity of data visualizations\nCreate effective, reproducible, and well designed data visualizations with appropriate tools\nAnalyze large-N datasets commonly used in public policy and behavioral science"
   },
   {
     "objectID": "overview.html#books",
@@ -70,8 +70,8 @@
     "text": "Online Course Resources\nBlackboard is our internet-based course platform: http://blackboard.syr.edu. In it, you will find submission portals for assignments and a link to the course webpage, where you can find the course syllabus, problem sets, and links to readings.\nYou can also link to our course drive here, which contains lecture slides, data sets, and some other useful things for the class.\nPlease note that class attendance is the primary source of course-related announcements and material."
   },
   {
-    "objectID": "overview.html#overview-1",
-    "href": "overview.html#overview-1",
+    "objectID": "overview.html#overview",
+    "href": "overview.html#overview",
     "title": "Overview",
     "section": "Overview",
     "text": "Overview\nSatisfactory completion of the course requires completion of the following:\n\nRegular course participation and attendance (10%)\nWeekly Assignments (30%)\nPracticum (Take Home) (15%)\nCore Exam (In Class) (15%)\nFinal Project (30%)"
@@ -720,7 +720,7 @@
     "href": "syllabus.html",
     "title": "PAI 400/600: Data Wrangling and Visualization",
     "section": "",
-    "text": "Time: Tuesdays and Thursday, 2:00 PM - 3:20 PM\nLocation: Eggers 225B\n\n\n\nProfessor Jack Reilly\nOffice: Eggers 225F\nOffice Hours: Tuesday and Thursday, 11 AM - Noon (drop in) and by appointment.1\nZoom Hours: Friday, 1-3 (schedule online)\nPhone: 315-443-2687 (office)\ne-mail: jlreilly@syr.edu"
+    "text": "Time: Tuesdays and Thursday, 2:00 PM - 3:20 PM\nLocation: Eggers 225B\n\n\n\nProfessor Jack Reilly\nOffice: Eggers 225F\nOffice Hours: Tuesday and Thursday, 11 AM - Noon (drop in) and by appointment.1\nZoom Hours: Friday, 1-3 (schedule online)\nPhone: 315-443-2687 (office)\ne-mail: jlreilly@syr.edu\n\n\n\nEvery step in policymaking relies on data. This course introduces students to data management, wrangling, communication, and visualization in the context of public policy, public administration, and behavioral science as well as the technical tools necessary to do such work in an open and reproducible fashion.\n\n\n\nData preprocessing, wrangling, and management often consumes a large fraction of the time spent doing quantitative data analysis in public administration, public policy, and behavioral science research. Yet these topics frequently do not receive regular attention in methodological courses that focus on statistical inference. This class introduces students to the technical tools necessary to do these tasks in an open and reproducible fashion suitable for modern computational data workflows in the public sector. Throughout the course of the semester, students will learn the principles and practice of conducting reproducible quantitative research, including readable programming and coding, version control, methods of documentation, data storage, workflow management, and exploratory data visualization. A variety of relevant open technical software tools will be introduced and used, including but not limited to R (and RStudio), git (and github), markdown, and a variety of helper programs to tie things together. Special attention will be paid to data frequently used in public policy, public administration, and behavioral science.\n\n\n\nNo formal pre-requisites. It is assumed you have either previously taken or are currently enrolled in an “Introduction to Statistics” or “Quantitative Methods” class (ie, PAI 721 or MAX 201), and are conversant enough in statistics to be able to work with concepts like “mean” and “standard deviation”.\nWhile this course has no formal pre-requisites, it does have a substantial informal prerequisite: motivation. Learning a programming langauge is challenging work, and students must be prepared to invest the appropriate time, energy, effort, and - above all - patience.\n\n\n\n\nDemonstrate capability in open science and contemporary reproducible data processing, wrangling, and management tools\nApply appropriate principles of data and file management to data projects\nEvaluate the credibility and clarity of data visualizations\nCreate effective, reproducible, and well designed data visualizations with appropriate tools\nAnalyze large-N datasets commonly used in public policy and behavioral science"
   },
   {
     "objectID": "syllabus.html#class",
@@ -740,29 +740,29 @@
     "objectID": "syllabus.html#course-description",
     "href": "syllabus.html#course-description",
     "title": "PAI 400/600: Data Wrangling and Visualization",
-    "section": "Course Description",
-    "text": "Course Description\nEvery step in policymaking relies on data. This course introduces students to data management, wrangling, communication, and visualization in the context of public policy, public administration, and behavioral science as well as the technical tools necessary to do such work in an open and reproducible fashion."
+    "section": "",
+    "text": "Every step in policymaking relies on data. This course introduces students to data management, wrangling, communication, and visualization in the context of public policy, public administration, and behavioral science as well as the technical tools necessary to do such work in an open and reproducible fashion."
   },
   {
     "objectID": "syllabus.html#expanded-description",
     "href": "syllabus.html#expanded-description",
     "title": "PAI 400/600: Data Wrangling and Visualization",
-    "section": "Expanded Description",
-    "text": "Expanded Description\nData preprocessing, wrangling, and management often consumes a large fraction of the time spent doing quantitative data analysis in public administration, public policy, and behavioral science research. Yet these topics frequently do not receive regular attention in methodological courses that focus on statistical inference. This class introduces students to the technical tools necessary to do these tasks in an open and reproducible fashion suitable for modern computational data workflows in the public sector. Throughout the course of the semester, students will learn the principles and practice of conducting reproducible quantitative research, including readable programming and coding, version control, methods of documentation, data storage, workflow management, and exploratory data visualization. A variety of relevant open technical software tools will be introduced and used, including but not limited to R (and RStudio), git (and github), markdown, and a variety of helper programs to tie things together. Special attention will be paid to data frequently used in public policy, public administration, and behavioral science."
+    "section": "",
+    "text": "Data preprocessing, wrangling, and management often consumes a large fraction of the time spent doing quantitative data analysis in public administration, public policy, and behavioral science research. Yet these topics frequently do not receive regular attention in methodological courses that focus on statistical inference. This class introduces students to the technical tools necessary to do these tasks in an open and reproducible fashion suitable for modern computational data workflows in the public sector. Throughout the course of the semester, students will learn the principles and practice of conducting reproducible quantitative research, including readable programming and coding, version control, methods of documentation, data storage, workflow management, and exploratory data visualization. A variety of relevant open technical software tools will be introduced and used, including but not limited to R (and RStudio), git (and github), markdown, and a variety of helper programs to tie things together. Special attention will be paid to data frequently used in public policy, public administration, and behavioral science."
   },
   {
     "objectID": "syllabus.html#prerequisites",
     "href": "syllabus.html#prerequisites",
     "title": "PAI 400/600: Data Wrangling and Visualization",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nNo formal pre-requisites. It is assumed you have either previously taken or are currently enrolled in an “Introduction to Statistics” or “Quantitative Methods” class (ie, PAI 721 or MAX 201), and are conversant enough in statistics to be able to work with concepts like “mean” and “standard deviation”.\nWhile this course has no formal pre-requisites, it does have a substantial informal prerequisite: motivation. Learning a programming langauge is challenging work, and students must be prepared to invest the appropriate time, energy, effort, and - above all - patience."
+    "section": "",
+    "text": "No formal pre-requisites. It is assumed you have either previously taken or are currently enrolled in an “Introduction to Statistics” or “Quantitative Methods” class (ie, PAI 721 or MAX 201), and are conversant enough in statistics to be able to work with concepts like “mean” and “standard deviation”.\nWhile this course has no formal pre-requisites, it does have a substantial informal prerequisite: motivation. Learning a programming langauge is challenging work, and students must be prepared to invest the appropriate time, energy, effort, and - above all - patience."
   },
   {
     "objectID": "syllabus.html#learning-objectives",
     "href": "syllabus.html#learning-objectives",
     "title": "PAI 400/600: Data Wrangling and Visualization",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nDemonstrate capability in open science and contemporary reproducible data processing, wrangling, and management tools\nApply appropriate principles of data and file management to data projects\nEvaluate the credibility and clarity of data visualizations\nCreate effective, reproducible, and well designed data visualizations with appropriate tools\nAnalyze large-N datasets commonly used in public policy and behavioral science"
+    "section": "",
+    "text": "Demonstrate capability in open science and contemporary reproducible data processing, wrangling, and management tools\nApply appropriate principles of data and file management to data projects\nEvaluate the credibility and clarity of data visualizations\nCreate effective, reproducible, and well designed data visualizations with appropriate tools\nAnalyze large-N datasets commonly used in public policy and behavioral science"
   },
   {
     "objectID": "syllabus.html#books",
@@ -786,8 +786,8 @@
     "text": "Online Course Resources\nBlackboard is our internet-based course platform: http://blackboard.syr.edu. In it, you will find submission portals for assignments and a link to the course webpage, where you can find the course syllabus, problem sets, and links to readings.\nYou can also link to our course drive here, which contains lecture slides, data sets, and some other useful things for the class.\nPlease note that class attendance is the primary source of course-related announcements and material."
   },
   {
-    "objectID": "syllabus.html#overview-1",
-    "href": "syllabus.html#overview-1",
+    "objectID": "syllabus.html#overview",
+    "href": "syllabus.html#overview",
     "title": "PAI 400/600: Data Wrangling and Visualization",
     "section": "Overview",
     "text": "Overview\nSatisfactory completion of the course requires completion of the following:\n\nRegular course participation and attendance (10%)\nWeekly Assignments (30%)\nPracticum (Take Home) (15%)\nCore Exam (In Class) (15%)\nFinal Project (30%)"
