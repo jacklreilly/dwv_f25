@@ -9,11 +9,13 @@ website:
   navbar:
     left:
       - href: overview.qmd
-        text: 📚 Overview
+        text: 🏠 Overview
       - href: schedule.qmd
         text: 📅 Schedule
       - href: assignments/index.qmd
-        text: 📝 Content
+        text: 📚 Content
+      - href: problemsets/index.qmd
+        text: 📝 Assignments 
       - href: policies.qmd
         text: 🏫 Policies
       - href: ai.qmd
@@ -50,6 +52,30 @@ website:
           - assignments/assign13.qmd
           - assignments/assign14.qmd
           - assignments/assign15.qmd
+
+    - id: ps
+      style: docked
+      title: "Assignments"
+      #logo: images/pai600_dwv_logo2.svg
+      contents:
+        - section: "Assignments"
+          href: problemsets/index.qmd
+          contents:
+          - problemsets/ps1.qmd
+          - problemsets/ps2.qmd
+          - problemsets/ps3.qmd
+          - problemsets/ps4.qmd
+          - problemsets/ps5.qmd
+          - problemsets/ps6.qmd
+          - problemsets/ps7.qmd
+          - problemsets/ps8.qmd
+          - problemsets/ps9.qmd
+          - problemsets/ps10.qmd
+          - problemsets/ps11.qmd
+          - problemsets/ps12.qmd
+          - problemsets/ps13.qmd
+          - problemsets/ps14.qmd
+          - problemsets/ps15.qmd
 
 format:
   html:
