@@ -1,6 +1,6 @@
 ---
 title: "📝 Problem Sets"
-sidebar: assign
+sidebar: ps
 format: html
 format-links: false
 ---
