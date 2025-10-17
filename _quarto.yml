@@ -72,6 +72,11 @@ website:
           - problemsets/ps9.qmd
           - problemsets/ps10.qmd
           
+        - section: "Practica"
+          href: problemsets/index.qmd
+          contents:
+          - problemsets/prac1.qmd
+          - problemsets/prac2.qmd
 
 format:
   html:
