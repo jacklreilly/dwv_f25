@@ -1,5 +1,5 @@
 ---
-title: "📝 Content"
+title: "📚 Content"
 sidebar: assign
 format: html
 format-links: false
