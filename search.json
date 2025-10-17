@@ -124,7 +124,7 @@
     "href": "problemsets/index.html",
     "title": "📝 Problem Sets",
     "section": "",
-    "text": "Hello and welcome to the content page for our course. Readings, guides, and assignments are posted here by week.\nNote that, while you can find assignments here, submission of assignments itself goes to in the course blackboard.",
+    "text": "Hello and welcome to the assignments page for our course. All weekly assignments will be posted here.\nNote that, while you can find assignments here, submission of assignments itself goes to in the course blackboard.",
     "crumbs": [
       "🏠 Overview",
       "Assignments"
@@ -972,7 +972,7 @@
   {
     "objectID": "assignments/index.html",
     "href": "assignments/index.html",
-    "title": "📝 Content",
+    "title": "📚 Content",
     "section": "",
     "text": "Hello and welcome to the content page for our course. Readings, guides, and assignments are posted here by week.\nNote that, while you can find assignments here, submission of assignments itself goes to in the course blackboard.",
     "crumbs": [
