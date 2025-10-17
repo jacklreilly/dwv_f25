@@ -3,7 +3,7 @@ title: "Week 2: Your Computer"
 subtitle: "Assignment: Data Notebooks in Quarto (Due Week 3)"
 ---
 
-## Due This Week: [Problem Set 2]((../problemsets/ps2.qmd))
+## Due This Week: [Problem Set 2](../problemsets/ps2.qmd)
 
 ## Readings
 ### Lecture: A Practical Guide to Your Computer 

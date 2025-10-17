@@ -3,7 +3,7 @@ title: "Week 1: Introduction"
 subtitle: "Assignment: Very Basic Data in R (Due Week 2)"
 ---
 
-## Due This Week: [Problem Set 1: Hello & Welcome to R]((../problemsets/ps1.qmd))
+## Due This Week: [Problem Set 1: Hello & Welcome to R](../problemsets/ps1.qmd)
 
 ## Readings
 ### Lecture: Course Introduction 

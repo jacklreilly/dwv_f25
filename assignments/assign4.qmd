@@ -2,7 +2,7 @@
 title: "Week 3: File Management"
 subtitle: "Assignment: Version Tracking in GitHub (Due Week 4)"
 ---
-## Due This Week: [Problem Set 3]((../problemsets/ps3.qmd))
+## Due This Week: [Problem Set 3](../problemsets/ps3.qmd)
 
 ## Readings & Reference Material
 ### Lecture: File Management and Version Control

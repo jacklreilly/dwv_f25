@@ -3,7 +3,7 @@ title: "Week 5: Data Manipulation"
 subtitle: "Assignment: The General Social Survey (Due Week 6)"
 ---
 
-## Due This Week: [Problem Set 5]((../problemsets/ps5.qmd))
+## Due This Week: [Problem Set 5](../problemsets/ps5.qmd)
 
 
 ## Readings & Reference Material

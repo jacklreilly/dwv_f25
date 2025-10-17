@@ -3,7 +3,7 @@ title: "Week 7: Data Visualization II"
 subtitle: "Assignment: Study! Core Exam Next Week"
 ---
 
-## Due This Week: [Problem Set 7]((../problemsets/ps7.qmd))
+## Due This Week: [Problem Set 7](../problemsets/ps7.qmd)
 
 ## Readings & Reference Material
 ### Lecture: Data Visualization II: Principles of Bivariate Graphing

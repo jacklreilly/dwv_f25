@@ -3,7 +3,7 @@ title: "Week 6: Data Visualization I"
 subtitle: "Assignment: The American National Election Studies (Due Week 7)"
 ---
 
-## Due This Week: [Problem Set 6]((../problemsets/ps6.qmd))
+## Due This Week: [Problem Set 6](../problemsets/ps6.qmd)
 
 ## Readings & Reference Material
 ### Lecture: Data Visualization I: Principles of Univariate Graphing

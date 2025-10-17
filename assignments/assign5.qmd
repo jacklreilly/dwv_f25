@@ -3,7 +3,7 @@ title: "Week 4: Data, A Field Guide"
 subtitle: "Assignment: Data in the Tidyverse (Covered Week 5; Optional)"
 ---
 
-## Due This Week: [Problem Set 4]((../problemsets/ps4.qmd))
+## Due This Week: [Problem Set 4](../problemsets/ps4.qmd)
 
 ## Readings & Reference Material
 ### Lecture: A Field Guide to Data

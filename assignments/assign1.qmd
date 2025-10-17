@@ -40,4 +40,4 @@ Begin by installing R (<http://cloud.r-project.org>). Choose the version appropr
  	- Multiply 4 by 6
  	- Divide 10 by 5
 
-## Due Next Week: [Problem Set 1: Hello & Welcome to R]((../problemsets/ps1.qmd))
+## Due Next Week: [Problem Set 1: Hello & Welcome to R](../problemsets/ps1.qmd)
