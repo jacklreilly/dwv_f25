@@ -1,5 +1,5 @@
 ---
-title: "📝 Problem Sets"
+title: "📝 Assignments"
 sidebar: ps
 format: html
 format-links: false

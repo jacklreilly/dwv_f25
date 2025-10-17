@@ -58,7 +58,7 @@ website:
       title: "Assignments"
       #logo: images/pai600_dwv_logo2.svg
       contents:
-        - section: "Assignments"
+        - section: "Problem Sets"
           href: problemsets/index.qmd
           contents:
           - problemsets/ps1.qmd
