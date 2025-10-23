@@ -28,13 +28,29 @@ You can use any data you find on the pages, including data from other countries 
 
 ## Submission
 
-Turn in three things:
+Turn in four things:
 
-1. An .R script (or scripts) that reproduce your analysis, in full, from original data files available from the Policy Agendas project.  Your code should use at least two different files and produce three different graphs (each of your choosing.)
+1. An .R script (or scripts) that reproduce your analysis, in full, from original data files available from the Policy Agendas project.  
+    - Your code should use at least two different data files and produce three different graphs (each of your choosing.)  
+    - Make sure you explicitly note what datasets you are using in a comment, so I know - don't just load the data.
+    - Use an R project to organize your work.
 
 2. A Quarto file that writes up and explains what you are showing.
 
-3. A rendered/typeset PDF file from that quarto file.
+3. A rendered/typeset PDF file from that quarto file.  This file should include all of your graphs.
+
+4. If you do not load data directly from the web, upload the datasets that you use in your R script. 
+
+Next week, as we go over our assignments, we'll do a "Show and Tell", so be prepared to talk about your visualizations in class!
+
+::: {.callout-note}
+### Important
+
+To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard.  Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.
+:::
+
+
+::: callout-tip
 
 Note that if you are using a .csv file from an online web location with a persistent hyperlink, you can read that file directly into R, once you identifying the URL, like this:
 
@@ -47,3 +63,5 @@ nytimes<-read.csv("https://minio.la.utexas.edu/compagendas/datasetfiles/US-Media
 ```
 
 It is always a good idea to make sure you have a local copy of the file, as well, just in case something changes with the online file or your web access.
+
+:::
