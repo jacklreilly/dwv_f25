@@ -345,12 +345,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="submission" class="level2">
 <h2 class="anchored" data-anchor-id="submission">Submission</h2>
-<p>Turn in three things:</p>
+<p>Turn in four things:</p>
 <ol type="1">
-<li><p>An .R script (or scripts) that reproduce your analysis, in full, from original data files available from the Policy Agendas project. Your code should use at least two different files and produce three different graphs (each of your choosing.)</p></li>
+<li><p>An .R script (or scripts) that reproduce your analysis, in full, from original data files available from the Policy Agendas project.</p>
+<ul>
+<li>Your code should use at least two different data files and produce three different graphs (each of your choosing.)<br>
+</li>
+<li>Make sure you explicitly note what datasets you are using in a comment, so I know - don’t just load the data.</li>
+<li>Use an R project to organize your work.</li>
+</ul></li>
 <li><p>A Quarto file that writes up and explains what you are showing.</p></li>
-<li><p>A rendered/typeset PDF file from that quarto file.</p></li>
+<li><p>A rendered/typeset PDF file from that quarto file. This file should include all of your graphs.</p></li>
+<li><p>If you do not load data directly from the web, upload the datasets that you use in your R script.</p></li>
 </ol>
+<p>Next week, as we go over our assignments, we’ll do a “Show and Tell”, so be prepared to talk about your visualizations in class!</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard. Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Note that if you are using a .csv file from an online web location with a persistent hyperlink, you can read that file directly into R, once you identifying the URL, like this:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This reads in the budget and tax dataset from the Syracuse webpage</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>data<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">"https://www.maxwell.syr.edu/docs/default-source/research/campbell/us-policy-agendas-project/budget-tax-dataset.csv"</span>)</span>
@@ -358,6 +389,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># This reads in the NYTimes front page dataset from the comparative agendas project webpage</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>nytimes<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">"https://minio.la.utexas.edu/compagendas/datasetfiles/US-Media-NYTimes_front_page_19.3.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>It is always a good idea to make sure you have a local copy of the file, as well, just in case something changes with the online file or your web access.</p>
+</div>
+</div>
 
 
 </section>
