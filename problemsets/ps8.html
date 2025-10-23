@@ -21,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -244,15 +279,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ps8.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ps8.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ps8.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#assignment" id="toc-assignment" class="nav-link" data-scroll-target="#assignment">Assignment</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ps8.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ps8.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ps8.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../problemsets/index.html">Problem Sets</a></li><li class="breadcrumb-item"><a href="../problemsets/ps8.html">Problem Set 8</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Problem Set 8</h1>
-<p class="subtitle lead">Data Wrangling and Visualization</p>
+<p class="subtitle lead">The Policy Agendas Project</p>
 </div>
 
 
@@ -281,11 +324,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong><em>in progress</em></strong></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The United States Policy Agendas Project, housed jointly at University of Texas-Austin and Syracuse Univeristy, is part of the broader Comparative Agnedas Project. It “collects and organizes data from various archived sources tracing changes in the U.S. national policy agenda and public policy outcomes since the WWII. The project’s datasets span from 1901-2068 and have close to one million observations.”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Links:</p>
+<ul>
+<li><a href="www.comparativeagendas.net">Comparative Agendas Project</a></li>
+<li><a href="https://www.comparativeagendas.net/project/us/datasets">United States Datasets</a></li>
+<li><a href="https://liberalarts.utexas.edu/government/news/feature-archive/the-policy-agendas-project.html">Policy Agendas Project Info Page at UT Austin</a></li>
+<li><a href="https://www.maxwell.syr.edu/research/campbell-public-affairs-institute/united-states-policy-agendas-project">Policy Agendas Project Info Page at Syracuse/Maxwell</a></li>
+<li><a href="https://www.maxwell.syr.edu/research/campbell-public-affairs-institute/united-states-policy-agendas-project/datasets-and-codebooks">Data Pages at Syracuse</a></li>
+<li><a href="https://www.maxwell.syr.edu/research/campbell-public-affairs-institute/united-states-policy-agendas-project/training-modules">Training Pages at Syracuse</a></li>
+</ul>
+</section>
+<section id="assignment" class="level2">
+<h2 class="anchored" data-anchor-id="assignment">Assignment</h2>
+<p>Explore the Policy Agendas project pages and get comfortable with what the project is and what kind of data it has. You are not required to go through any particular aspect of the above pages (for instance, I don’t expect you to watch the training videos unless you want to) but all are there as resources to orient yourself to the project.</p>
+<p>Once you are familiar with it, use <strong>multiple</strong> Policy Agendas project datasets to visualize how attention has varied across major policy/topic areas from 1950 to the present. This assignment is inherently open-ended - each of you should come up with a different visualization - and I encourage creativity in both substance and visualization style.</p>
+<p>You can use any data you find on the pages, including data from other countries if you wish, in creating your graphs.</p>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<p>Turn in three things:</p>
+<ol type="1">
+<li><p>An .R script (or scripts) that reproduce your analysis, in full, from original data files available from the Policy Agendas project. Your code should use at least two different files and produce three different graphs (each of your choosing.)</p></li>
+<li><p>A Quarto file that writes up and explains what you are showing.</p></li>
+<li><p>A rendered/typeset PDF file from that quarto file.</p></li>
+</ol>
+<p>Note that if you are using a .csv file from an online web location with a persistent hyperlink, you can read that file directly into R, once you identifying the URL, like this:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This reads in the budget and tax dataset from the Syracuse webpage</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>data<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">"https://www.maxwell.syr.edu/docs/default-source/research/campbell/us-policy-agendas-project/budget-tax-dataset.csv"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># This reads in the NYTimes front page dataset from the comparative agendas project webpage</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>nytimes<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">"https://minio.la.utexas.edu/compagendas/datasetfiles/US-Media-NYTimes_front_page_19.3.csv"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>It is always a good idea to make sure you have a local copy of the file, as well, just in case something changes with the online file or your web access.</p>
 
 
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://www.maxwell.syr.edu/research/campbell-public-affairs-institute/united-states-policy-agendas-project">Source</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

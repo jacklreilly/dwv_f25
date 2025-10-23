@@ -925,7 +925,55 @@
     "href": "problemsets/ps8.html",
     "title": "Problem Set 8",
     "section": "",
-    "text": "in progress",
+    "text": "The United States Policy Agendas Project, housed jointly at University of Texas-Austin and Syracuse Univeristy, is part of the broader Comparative Agnedas Project. It “collects and organizes data from various archived sources tracing changes in the U.S. national policy agenda and public policy outcomes since the WWII. The project’s datasets span from 1901-2068 and have close to one million observations.”1\nLinks:\n\nComparative Agendas Project\nUnited States Datasets\nPolicy Agendas Project Info Page at UT Austin\nPolicy Agendas Project Info Page at Syracuse/Maxwell\nData Pages at Syracuse\nTraining Pages at Syracuse",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 8"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps8.html#introduction",
+    "href": "problemsets/ps8.html#introduction",
+    "title": "Problem Set 8",
+    "section": "",
+    "text": "The United States Policy Agendas Project, housed jointly at University of Texas-Austin and Syracuse Univeristy, is part of the broader Comparative Agnedas Project. It “collects and organizes data from various archived sources tracing changes in the U.S. national policy agenda and public policy outcomes since the WWII. The project’s datasets span from 1901-2068 and have close to one million observations.”1\nLinks:\n\nComparative Agendas Project\nUnited States Datasets\nPolicy Agendas Project Info Page at UT Austin\nPolicy Agendas Project Info Page at Syracuse/Maxwell\nData Pages at Syracuse\nTraining Pages at Syracuse",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 8"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps8.html#assignment",
+    "href": "problemsets/ps8.html#assignment",
+    "title": "Problem Set 8",
+    "section": "Assignment",
+    "text": "Assignment\nExplore the Policy Agendas project pages and get comfortable with what the project is and what kind of data it has. You are not required to go through any particular aspect of the above pages (for instance, I don’t expect you to watch the training videos unless you want to) but all are there as resources to orient yourself to the project.\nOnce you are familiar with it, use multiple Policy Agendas project datasets to visualize how attention has varied across major policy/topic areas from 1950 to the present. This assignment is inherently open-ended - each of you should come up with a different visualization - and I encourage creativity in both substance and visualization style.\nYou can use any data you find on the pages, including data from other countries if you wish, in creating your graphs.",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 8"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps8.html#submission",
+    "href": "problemsets/ps8.html#submission",
+    "title": "Problem Set 8",
+    "section": "Submission",
+    "text": "Submission\nTurn in three things:\n\nAn .R script (or scripts) that reproduce your analysis, in full, from original data files available from the Policy Agendas project. Your code should use at least two different files and produce three different graphs (each of your choosing.)\nA Quarto file that writes up and explains what you are showing.\nA rendered/typeset PDF file from that quarto file.\n\nNote that if you are using a .csv file from an online web location with a persistent hyperlink, you can read that file directly into R, once you identifying the URL, like this:\n# This reads in the budget and tax dataset from the Syracuse webpage\ndata&lt;-read.csv(\"https://www.maxwell.syr.edu/docs/default-source/research/campbell/us-policy-agendas-project/budget-tax-dataset.csv\")\n\n# This reads in the NYTimes front page dataset from the comparative agendas project webpage\nnytimes&lt;-read.csv(\"https://minio.la.utexas.edu/compagendas/datasetfiles/US-Media-NYTimes_front_page_19.3.csv\")\nIt is always a good idea to make sure you have a local copy of the file, as well, just in case something changes with the online file or your web access.",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 8"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps8.html#footnotes",
+    "href": "problemsets/ps8.html#footnotes",
+    "title": "Problem Set 8",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSource↩︎",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",
