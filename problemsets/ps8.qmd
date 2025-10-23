@@ -11,7 +11,7 @@ The United States Policy Agendas Project, housed jointly at University of Texas-
 
 Links:
 
-- [Comparative Agendas Project](www.comparativeagendas.net)
+- [Comparative Agendas Project](https://www.comparativeagendas.net)
 - [United States Datasets](https://www.comparativeagendas.net/project/us/datasets)
 - [Policy Agendas Project Info Page at UT Austin](https://liberalarts.utexas.edu/government/news/feature-archive/the-policy-agendas-project.html)
 - [Policy Agendas Project Info Page at Syracuse/Maxwell](https://www.maxwell.syr.edu/research/campbell-public-affairs-institute/united-states-policy-agendas-project)
