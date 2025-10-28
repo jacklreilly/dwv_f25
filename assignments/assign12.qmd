@@ -1,5 +1,5 @@
 ---
-title: "Week 11"
+title: "Week 11: Mapping & GIS"
 format: 
     html: default
     pdf: default
