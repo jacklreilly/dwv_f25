@@ -244,15 +244,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ps9.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ps9.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ps9.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#assignment" id="toc-assignment" class="nav-link" data-scroll-target="#assignment">Assignment</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ps9.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ps9.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ps9.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../problemsets/index.html">Problem Sets</a></li><li class="breadcrumb-item"><a href="../problemsets/ps9.html">Problem Set 9</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Problem Set 9</h1>
-<p class="subtitle lead">Data Wrangling and Visualization</p>
+<p class="subtitle lead">Social Networks</p>
 </div>
 
 
@@ -281,9 +289,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>in progress</strong></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>For this assignment, you will draw your own social network using R and iGraph. (It is OK if it is relatively simple!)</p>
+</section>
+<section id="assignment" class="level2">
+<h2 class="anchored" data-anchor-id="assignment">Assignment</h2>
+<p>Please follow these steps:</p>
+<ol type="1">
+<li>Identify your chosen network. This can be any network you can think of - from politics, economics, public adminstration, social life, pop culture, literature, science, etc. It just has to be clear on two things:
+<ul>
+<li>What are the nodes of the network?</li>
+<li>What constitutes a tie (edge) between nodes of the network?</li>
+</ul></li>
+<li>Encode your network into a form readable by R and iGraph. Likely, this will be an adjacency matrix, but could also be an edge list, an adjacency list/node list, or an affiliation matrix.</li>
+<li>Read your network into R and into the iGraph package.</li>
+<li>Plot the network graph.</li>
+<li>Use visualization features to make your network graph visually compelling. Highlight the features of the network you most want to highlight.</li>
+<li>Write a short summary (a few sentences is fine) of what you notice about your network.</li>
+</ol>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<p>You should submit 4 things to Blackboard:</p>
+<ol type="1">
+<li>Your R script(s).</li>
+<li>A quarto file.</li>
+<li>A compiled quarto file, as a PDF, that includes your network graphs.</li>
+<li>Your data (adjacency matrix or edgelist) in a format readable by R (.csv).</li>
+</ol>
+<p>Make sure that your quarto writeup includes a clear definition of your network (nodes and edges) as well as a summary description of what is particularly noteworthy about the features of your network. It should also document the source of the data, and note steps done to manage the data (if any) before your R script(s) took over.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

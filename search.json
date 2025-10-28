@@ -344,11 +344,35 @@
     ]
   },
   {
-    "objectID": "assignments/assign11.html",
-    "href": "assignments/assign11.html",
+    "objectID": "assignments/assign11.html#readings-reference-material",
+    "href": "assignments/assign11.html#readings-reference-material",
     "title": "Week 10: Social Networks",
-    "section": "",
-    "text": "Nothing to see here (yet)",
+    "section": "Readings & Reference Material",
+    "text": "Readings & Reference Material\n\nLecture: Social Network Visualization\n\n\nReading\n\nCore Reading\n\nOgnyanova, “Static and dynamic network visualization with R”\nDMSS, ch 13\n\nReference Materials\n\nNewman, Networks.\n\nA technical and highly interdisciplinary look at networks, spanning physical networks, biological networks, social networks, and more. Comprehensive, lots of network theory.\n\nMenczer, Fortuanto, and Davis, A First Course in Network Science.\n\nA short introduction focused on networks in a broad sense, with a focus on computation for network analysis in Python.\n\nJackson, Social and Economic Network Analysis.\n\nAs befits the name, a focus on economic and social networks.\n\nScott, Social Network Analysis.\n\nAn introduction for beginners, with a focus on substance over computation.",
+    "crumbs": [
+      "🏠 Overview",
+      "Weekly Content",
+      "Week 10: Social Networks"
+    ]
+  },
+  {
+    "objectID": "assignments/assign11.html#network-visualization-examples",
+    "href": "assignments/assign11.html#network-visualization-examples",
+    "title": "Week 10: Social Networks",
+    "section": "Network Visualization Examples",
+    "text": "Network Visualization Examples\nSocial Networks has inspired a lot of creativity when it comes to think about things in relational contexts. A few examples are below to spark your interest and imagination ahead of your problem set this week.\n\nHamilton (Musical)\nGame of Thrones (TV Show and Books) see also news coverage here\nMyst (Computer Game)\nBiblical Gospels (Religion)\nStar Wars (Movies)\nMarvel (Movies/Comics)",
+    "crumbs": [
+      "🏠 Overview",
+      "Weekly Content",
+      "Week 10: Social Networks"
+    ]
+  },
+  {
+    "objectID": "assignments/assign11.html#due-next-week-problem-set-9",
+    "href": "assignments/assign11.html#due-next-week-problem-set-9",
+    "title": "Week 10: Social Networks",
+    "section": "Due Next Week: Problem Set 9",
+    "text": "Due Next Week: Problem Set 9",
     "crumbs": [
       "🏠 Overview",
       "Weekly Content",
@@ -446,7 +470,43 @@
     "href": "problemsets/ps9.html",
     "title": "Problem Set 9",
     "section": "",
-    "text": "in progress",
+    "text": "For this assignment, you will draw your own social network using R and iGraph. (It is OK if it is relatively simple!)",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 9"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps9.html#introduction",
+    "href": "problemsets/ps9.html#introduction",
+    "title": "Problem Set 9",
+    "section": "",
+    "text": "For this assignment, you will draw your own social network using R and iGraph. (It is OK if it is relatively simple!)",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 9"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps9.html#assignment",
+    "href": "problemsets/ps9.html#assignment",
+    "title": "Problem Set 9",
+    "section": "Assignment",
+    "text": "Assignment\nPlease follow these steps:\n\nIdentify your chosen network. This can be any network you can think of - from politics, economics, public adminstration, social life, pop culture, literature, science, etc. It just has to be clear on two things:\n\nWhat are the nodes of the network?\nWhat constitutes a tie (edge) between nodes of the network?\n\nEncode your network into a form readable by R and iGraph. Likely, this will be an adjacency matrix, but could also be an edge list, an adjacency list/node list, or an affiliation matrix.\nRead your network into R and into the iGraph package.\nPlot the network graph.\nUse visualization features to make your network graph visually compelling. Highlight the features of the network you most want to highlight.\nWrite a short summary (a few sentences is fine) of what you notice about your network.",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 9"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps9.html#submission",
+    "href": "problemsets/ps9.html#submission",
+    "title": "Problem Set 9",
+    "section": "Submission",
+    "text": "Submission\nYou should submit 4 things to Blackboard:\n\nYour R script(s).\nA quarto file.\nA compiled quarto file, as a PDF, that includes your network graphs.\nYour data (adjacency matrix or edgelist) in a format readable by R (.csv).\n\nMake sure that your quarto writeup includes a clear definition of your network (nodes and edges) as well as a summary description of what is particularly noteworthy about the features of your network. It should also document the source of the data, and note steps done to manage the data (if any) before your R script(s) took over.",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",
@@ -925,7 +985,7 @@
     "href": "problemsets/ps8.html",
     "title": "Problem Set 8",
     "section": "",
-    "text": "The United States Policy Agendas Project, housed jointly at University of Texas-Austin and Syracuse University, is part of the broader Comparative Agnedas Project. It “collects and organizes data from various archived sources tracing changes in the U.S. national policy agenda and public policy outcomes since the WWII. The project’s datasets span from 1901-2068 and have close to one million observations.”1\nLinks:\n\nComparative Agendas Project\nUnited States Datasets\nPolicy Agendas Project Info Page at UT Austin\nPolicy Agendas Project Info Page at Syracuse/Maxwell\nData Pages at Syracuse\nTraining Pages at Syracuse",
+    "text": "The United States Policy Agendas Project, housed jointly at University of Texas-Austin and Syracuse University, is part of the broader Comparative Agendas Project. It “collects and organizes data from various archived sources tracing changes in the U.S. national policy agenda and public policy outcomes since the WWII. The project’s datasets span from 1901-2068 and have close to one million observations.”1\nLinks:\n\nComparative Agendas Project\nUnited States Datasets\nPolicy Agendas Project Info Page at UT Austin\nPolicy Agendas Project Info Page at Syracuse/Maxwell\nData Pages at Syracuse\nTraining Pages at Syracuse",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",
@@ -937,7 +997,7 @@
     "href": "problemsets/ps8.html#introduction",
     "title": "Problem Set 8",
     "section": "",
-    "text": "The United States Policy Agendas Project, housed jointly at University of Texas-Austin and Syracuse University, is part of the broader Comparative Agnedas Project. It “collects and organizes data from various archived sources tracing changes in the U.S. national policy agenda and public policy outcomes since the WWII. The project’s datasets span from 1901-2068 and have close to one million observations.”1\nLinks:\n\nComparative Agendas Project\nUnited States Datasets\nPolicy Agendas Project Info Page at UT Austin\nPolicy Agendas Project Info Page at Syracuse/Maxwell\nData Pages at Syracuse\nTraining Pages at Syracuse",
+    "text": "The United States Policy Agendas Project, housed jointly at University of Texas-Austin and Syracuse University, is part of the broader Comparative Agendas Project. It “collects and organizes data from various archived sources tracing changes in the U.S. national policy agenda and public policy outcomes since the WWII. The project’s datasets span from 1901-2068 and have close to one million observations.”1\nLinks:\n\nComparative Agendas Project\nUnited States Datasets\nPolicy Agendas Project Info Page at UT Austin\nPolicy Agendas Project Info Page at Syracuse/Maxwell\nData Pages at Syracuse\nTraining Pages at Syracuse",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",
@@ -961,7 +1021,7 @@
     "href": "problemsets/ps8.html#submission",
     "title": "Problem Set 8",
     "section": "Submission",
-    "text": "Submission\nTurn in four things:\n\nAn .R script (or scripts) that reproduce your analysis, in full, from original data files available from the Policy Agendas project.\n\nYour code should use at least two different data files and produce three different graphs (each of your choosing.)\n\nMake sure you explicitly note what datasets you are using in a comment, so I know - don’t just load the data.\nUse an R project to organize your work.\n\nA Quarto file that writes up and explains what you are showing.\nA rendered/typeset PDF file from that quarto file. This file should include all of your graphs.\nIf you do not load data directly from the web, upload the datasets that you use in your R script.\n\nNext week, as we go over our assignments, we’ll do a “Show and Tell”, so be prepared to talk about your visualizations in class!\n\n\n\n\n\n\nNoteImportant\n\n\n\nTo submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard. Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.\n\n\n\n\n\n\n\n\nTip\n\n\n\nNote that if you are using a .csv file from an online web location with a persistent hyperlink, you can read that file directly into R, once you identifying the URL, like this:\n# This reads in the budget and tax dataset from the Syracuse webpage\ndata&lt;-read.csv(\"https://www.maxwell.syr.edu/docs/default-source/research/campbell/us-policy-agendas-project/budget-tax-dataset.csv\")\n\n# This reads in the NYTimes front page dataset from the comparative agendas project webpage\nnytimes&lt;-read.csv(\"https://minio.la.utexas.edu/compagendas/datasetfiles/US-Media-NYTimes_front_page_19.3.csv\")\nIt is always a good idea to make sure you have a local copy of the file, as well, just in case something changes with the online file or your web access.",
+    "text": "Submission\nTurn in four things:\n\nAn .R script (or scripts) that reproduce your analysis, in full, from original data files available from the Policy Agendas project.\n\nYour code should use at least two different data files and produce three different graphs (each of your choosing.)\n\nMake sure you explicitly note what datasets you are using in a comment, so I know - don’t just load the data.\nUse an R project to organize your work.\n\nA Quarto file that writes up and explains what you are showing.\nA rendered/typeset PDF file from that quarto file. This file should include all of your graphs.\nIf you do not load data directly from the web, upload the datasets that you use in your R script.\n\nNext week, as we go over our assignments, we’ll do a “Show and Tell”, so be prepared to talk about your visualizations in class!\n\n\n\n\n\n\nNoteImportant\n\n\n\nTo submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard. Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.\n\n\n\n\n\n\n\n\nTip\n\n\n\nNote that if you are using a .csv file from an online web location with a persistent hyperlink, you can read that file directly into R, once you identify the URL, like this:\n# This reads in the budget and tax dataset from the Syracuse webpage\ndata&lt;-read.csv(\"https://www.maxwell.syr.edu/docs/default-source/research/campbell/us-policy-agendas-project/budget-tax-dataset.csv\")\n\n# This reads in the NYTimes front page dataset from the comparative agendas project webpage\nnytimes&lt;-read.csv(\"https://minio.la.utexas.edu/compagendas/datasetfiles/US-Media-NYTimes_front_page_19.3.csv\")\nIt is always a good idea to make sure you have a local copy of the file, as well, just in case something changes with the online file or your web access.",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",
@@ -1306,30 +1366,6 @@
     "crumbs": [
       "🏠 Overview",
       "Weekly Content"
-    ]
-  },
-  {
-    "objectID": "assignments/assign10.html",
-    "href": "assignments/assign10.html",
-    "title": "Week 9: Data Retrieval",
-    "section": "",
-    "text": "in progress",
-    "crumbs": [
-      "🏠 Overview",
-      "Weekly Content",
-      "Week 9: Data Retrieval"
-    ]
-  },
-  {
-    "objectID": "assignments/assign10.html#due-this-week-practicum-1",
-    "href": "assignments/assign10.html#due-this-week-practicum-1",
-    "title": "Week 9: Data Retrieval",
-    "section": "Due This Week: Practicum 1",
-    "text": "Due This Week: Practicum 1",
-    "crumbs": [
-      "🏠 Overview",
-      "Weekly Content",
-      "Week 9: Data Retrieval"
     ]
   },
   {
