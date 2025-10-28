@@ -5,7 +5,7 @@ subtitle: "The Policy Agendas Project"
 
 ## Introduction
 
-The United States Policy Agendas Project, housed jointly at University of Texas-Austin and Syracuse University, is part of the broader Comparative Agnedas Project. It "collects and organizes data from various archived sources tracing changes in the U.S. national policy agenda and public policy outcomes since the WWII. The project's datasets span from 1901-2068 and have close to one million observations."[^pap]
+The United States Policy Agendas Project, housed jointly at University of Texas-Austin and Syracuse University, is part of the broader Comparative Agendas Project. It "collects and organizes data from various archived sources tracing changes in the U.S. national policy agenda and public policy outcomes since the WWII. The project's datasets span from 1901-2068 and have close to one million observations."[^pap]
 
 [^pap]: [Source](https://www.maxwell.syr.edu/research/campbell-public-affairs-institute/united-states-policy-agendas-project) 
 

@@ -5,8 +5,6 @@ format:
     pdf: default
 ---
 
-**in progress**
-
 ## Due This Week: [Practicum 1](../problemsets/prac1.qmd)
 
 ## Readings & Reference Material
