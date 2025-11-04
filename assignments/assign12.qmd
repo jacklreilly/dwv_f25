@@ -1,8 +1,34 @@
 ---
-title: "Week 11: Mapping & GIS"
+title: "Week 11: Cartography"
 format: 
     html: default
     pdf: default
 ---
 
-Nothing to see here (yet)
+## Due This Week: [Problem Set 9](../problemsets/ps9.qmd)
+
+## Readings & Reference Material
+
+### Lecture: An Introduction to Cartography
+
+### Reading
+
+- Core Reading
+    - **DV**, ch 7
+    - **DMSS**, ch 11
+    - ["Color, Classification, and Choropleth Symbolization"](https://www.e-education.psu.edu/geog486/node/846)
+- Cartography Illustrations
+    - [Why all world maps are wrong](https://www.youtube.com/watch?v=kIID5FDi2JQ)
+    - [How to avoid being fooled by bad maps](https://www.bloomberg.com/news/articles/2015-06-25/how-to-avoid-being-fooled-by-bad-maps)
+    - [Projection comparison](https://observablehq.com/@d3/projection-comparison)
+    - [The True Size Of](https://thetruesize.com)
+- Reference Materials
+    - Brunsdon and Comber, *An Introduction to R for Spatial Analysis and Mapping*.  An excellent introdution to using R as a GIS package.
+    - Brunsdon and Comber, *Geographical Data Science and Spatial Data Analysis: An Introduction in R*.  Despite its name, a companion book to the above, not a replacement.  It's a little higher level.
+    - Field, *Cartography*.  A foundational guide to cartography with a computer.
+    - Lovelace, et al. *Geocomputation with R*.  A more in depth guide to spatial data in R.
+    - Bivand, et al. *Applied Spatial Data Anlaysis with R*. Another more in depth guide to spatial data in R.
+    - Singleton, et al. *Urban Anlaytics*.
+
+
+## Due Next Week: [Problem Set 10](../problemsets/ps10.qmd)
