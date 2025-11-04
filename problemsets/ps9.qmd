@@ -23,11 +23,17 @@ Please follow these steps:
 
 ## Submission
 
-You should submit 4 things to Blackboard:
+Turn in 4 things:
 
 1. Your R script(s).
-2. A quarto file.
+2. A quarto file that addresses or answers the steps above and includes your graphics.  Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.
 3. A compiled quarto file, as a PDF, that includes your network graphs.
-4. Your data (adjacency matrix or edgelist) in a format readable by R (.csv).
+4. Your data (adjacency matrix or edgelist, nodelist) in a format readable by R.  (If you read data directly from a web source in your script, you can skip this step.)
 
 Make sure that your quarto writeup includes a clear definition of your network (nodes and edges) as well as a summary description of what is particularly noteworthy about the features of your network. It should also document the source of the data, and note steps done to manage the data (if any) before your R script(s) took over.
+
+::: {.callout-note}
+### Important
+
+To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard.  Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.
+:::
