@@ -644,7 +644,43 @@
     "href": "problemsets/ps10.html",
     "title": "Problem Set 10",
     "section": "",
-    "text": "Nothing to see here (yet)",
+    "text": "For this assignment, you will draw your a series of maps using R. You’ll need the following data:\n\nelection2020.csv - 2020 Election Results (by state)\n2020results_county.csv - 2020 Election Results (by county)",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 10"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps10.html#introduction",
+    "href": "problemsets/ps10.html#introduction",
+    "title": "Problem Set 10",
+    "section": "",
+    "text": "For this assignment, you will draw your a series of maps using R. You’ll need the following data:\n\nelection2020.csv - 2020 Election Results (by state)\n2020results_county.csv - 2020 Election Results (by county)",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 10"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps10.html#assignment",
+    "href": "problemsets/ps10.html#assignment",
+    "title": "Problem Set 10",
+    "section": "Assignment",
+    "text": "Assignment\n\nCreate a map of 2020 election results by state. (You can show state winner or state lean.) Project this map in three different ways:\n\nMercator Projection\nAlbers Projection\nUsing “State Bins”\n\nNext, create a map that shows swing from 2016 to 2020, by state, with:\n\nAlbers Projection\nStatebin\n\nCreate the following county level maps for 2016:\n\nPopulation Density by County (America’s “urChoropleth” #1)\nPercent Black population by County (America’s “urChoropleth” #2)\nWinner of 2016 Presidential Election\nCounty Lean in the 2016 Presidential Election\n\nCreate the following county level maps for 2020:\n\nWinner of 2020 Presidential Election\nCounty “Lean” in the 2020 Presidential Election\nCounty Shift, 2016-2020\n\n2024 United States Election Results (by county) may be found here. Filter, manage, and use this data to plot:\n\nCounty “Lean” in 2024\nCounty Shift, 2020-2024\nCounty Shift, 2016-2024\n\nPlot the (rough) location of Syracuse University on a national state map in a big blue star.\nIdentify a phenomenon of interest across the United States (it can be points, areas, or otherwise) and plot it. Use good cartography principles in the design of your map.\n\n\n\n\n\n\n\nTipTips\n\n\n\n\nSome of the data you need is found in Healy’s package; some of the data is found in the course drive, and some you need to provide yourself. In particular:\n\n2016 data is provided by Healy’s R library.\n2020 data is in our course drive, filtered and managed for you.\n2024 data is external, and must be managed by you.\nYou must also provide your own data for Syracuse University’s location, along with whatever data of your own interest you wish to map, for questions 6-7.\n\nThe Healy reading, along with our course workshop, covers a substantial portion of the basics of this assignment - make sure to use them as references.\n\nYou’ll be doing a decent amount of merging in this assignment. For reference, we covered join commands back in our week on data manipulation. The key is to always make sure you know what your unique merge identifier is.",
+    "crumbs": [
+      "🏠 Overview",
+      "Problem Sets",
+      "Problem Set 10"
+    ]
+  },
+  {
+    "objectID": "problemsets/ps10.html#submission",
+    "href": "problemsets/ps10.html#submission",
+    "title": "Problem Set 10",
+    "section": "Submission",
+    "text": "Submission\nTurn in 4 things:\n\nYour R script(s).\nA quarto file that addresses or answers the steps above and includes your graphics. Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.\nA compiled quarto file, as a PDF, that includes your maps.\nYour original data, if necessary, in a format readable by R. (If you read data directly from a web source in your script, you can skip this step.)\n\nMake sure that your quarto writeup includes a clear definition of your map for question 7, as well as a summary description of what is particularly noteworthy about the features of your map. It should also document the source of the data, and note steps done to manage the data (if any) before your R script(s) took over.\n\n\n\n\n\n\nNoteImportant\n\n\n\nTo submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard. Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",

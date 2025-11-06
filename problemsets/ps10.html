@@ -244,8 +244,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ps10.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ps10.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ps10.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#assignment" id="toc-assignment" class="nav-link" data-scroll-target="#assignment">Assignment</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ps10.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ps10.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ps10.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -281,9 +289,101 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Nothing to see here (yet)</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>For this assignment, you will draw your a series of maps using R. You’ll need the following data:</p>
+<ul>
+<li><code>election2020.csv</code> - 2020 Election Results (by state)</li>
+<li><code>2020results_county.csv</code> - 2020 Election Results (by county)</li>
+</ul>
+</section>
+<section id="assignment" class="level2">
+<h2 class="anchored" data-anchor-id="assignment">Assignment</h2>
+<ol type="1">
+<li><p>Create a map of 2020 election results by state. (You can show state winner or state lean.) Project this map in three different ways:</p>
+<ul>
+<li>Mercator Projection</li>
+<li>Albers Projection</li>
+<li>Using “State Bins”</li>
+</ul></li>
+<li><p>Next, create a map that shows <em>swing</em> from 2016 to 2020, by state, with:</p>
+<ul>
+<li>Albers Projection</li>
+<li>Statebin</li>
+</ul></li>
+<li><p>Create the following county level maps for 2016:</p>
+<ul>
+<li>Population Density by County (America’s “urChoropleth” #1)</li>
+<li>Percent Black population by County (America’s “urChoropleth” #2)</li>
+<li>Winner of 2016 Presidential Election</li>
+<li>County Lean in the 2016 Presidential Election</li>
+</ul></li>
+<li><p>Create the following county level maps for 2020:</p>
+<ul>
+<li>Winner of 2020 Presidential Election</li>
+<li>County “Lean” in the 2020 Presidential Election</li>
+<li>County Shift, 2016-2020</li>
+</ul></li>
+<li><p>2024 United States Election Results (by county) may be found <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ">here</a>. Filter, manage, and use this data to plot:</p>
+<ul>
+<li>County “Lean” in 2024</li>
+<li>County Shift, 2020-2024</li>
+<li>County Shift, 2016-2024</li>
+</ul></li>
+<li><p>Plot the (rough) location of Syracuse University on a national state map in a big blue star.</p></li>
+<li><p>Identify a phenomenon of interest across the United States (it can be points, areas, or otherwise) and plot it. Use good cartography principles in the design of your map.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Tips
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Some of the data you need is found in Healy’s package; some of the data is found in the course drive, and some you need to provide yourself. In particular:
+<ul>
+<li>2016 data is provided by Healy’s R library.</li>
+<li>2020 data is in our course drive, filtered and managed <strong>for</strong> you.</li>
+<li>2024 data is external, and must be managed <strong>by</strong> you.</li>
+<li>You must also provide your own data for Syracuse University’s location, along with whatever data of your own interest you wish to map, for questions 6-7.</li>
+</ul></li>
+<li>The Healy reading, along with our course workshop, covers a substantial portion of the basics of this assignment - make sure to use them as references.<br>
+</li>
+<li>You’ll be doing a decent amount of merging in this assignment. For reference, we covered <code>join</code> commands back in our week on <a href="../assignments/assign6.html">data manipulation</a>. The key is to always make sure you know what your unique merge identifier is.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<p>Turn in 4 things:</p>
+<ol type="1">
+<li>Your R script(s).</li>
+<li>A quarto file that addresses or answers the steps above and includes your graphics. Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.</li>
+<li>A compiled quarto file, as a PDF, that includes your maps.</li>
+<li>Your original data, if necessary, in a format readable by R. (If you read data directly from a web source in your script, you can skip this step.)</li>
+</ol>
+<p>Make sure that your quarto writeup includes a clear definition of your map for question 7, as well as a summary description of what is particularly noteworthy about the features of your map. It should also document the source of the data, and note steps done to manage the data (if any) before your R script(s) took over.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard. Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.</p>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
