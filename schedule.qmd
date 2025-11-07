@@ -23,10 +23,10 @@ format:
 | 6    | [Data Visualization I](assignments/assign7.qmd)               | Grammar of Graphics; ggplot2     |         |
 | 7    | [Data Visualization II](assignments/assign8.qmd)              | ggplot2                          |         |
 | 8    | **Core Exam (Thursday, October 16)** |                                  |         |
-| 9    | [Workflow & Data Retrieval](assignments/assign10.qmd)     | database access, APIs, SQL overview                     |         |
+| 9    | [Workflow & Data Retrieval](assignments/assign10.qmd)     | tidycensus; APIs; database/SQL overview                     |         |
 | 10   | [Social Networks & Network Data](assignments/assign11.qmd)     | iGraph; statnet                       |         |
 | 11   | [Cartography](assignments/assign12.qmd)                       | tidyverse mapping; color scales; projection                       |         |
-| 12   | [Geographic Data](assignments/assign13.qmd)                      | tidycensus; sf; tigris; mapgl; mapbox; osm               |         |
+| 12   | [Geographic Data](assignments/assign13.qmd)                      | sf; tigris; mapgl; mapbox; osm               |         |
 | 13   | TBD        | TBD                              |         |
 | 14   | Project Work                       |                                  |         |
 | 15   | Project Presentations              |                                  |         |
