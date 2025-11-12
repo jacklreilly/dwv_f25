@@ -8,10 +8,12 @@ format:
 
 ## Introduction
 
-For this assignment, you will draw your a series of maps using R.  You'll need the following data:
+For this assignment, you will draw your a series of maps using R.  You'll need the following data from the course drive:
 
  - `election2020.csv` - 2020 Election Results (by state)
  - `2020results_county.csv` - 2020 Election Results (by county)
+
+Along with [2024 data](ttps://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ) further discussed in the assignment itself.
 
 ## Assignment
 
