@@ -757,7 +757,7 @@
     "href": "problemsets/ps10.html",
     "title": "Problem Set 10",
     "section": "",
-    "text": "For this assignment, you will draw your a series of maps using R. You’ll need the following data from the course drive:\n\nelection2020.csv - 2020 Election Results (by state)\n2020results_county.csv - 2020 Election Results (by county)\n\nAlong with 2024 data further discussed in the assignment itself.",
+    "text": "For this assignment, you will draw your a series of maps using R. We drew 2016 maps in class using the socviz package from Healy. In addition to this package, you’ll need the following data from the course drive:\n\nelection2020.csv - 2020 Election Results (by state)\n2020results_county.csv - 2020 Election Results (by county)\n\nAlong with 2024 data further discussed in the assignment itself.",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",
@@ -769,7 +769,7 @@
     "href": "problemsets/ps10.html#introduction",
     "title": "Problem Set 10",
     "section": "",
-    "text": "For this assignment, you will draw your a series of maps using R. You’ll need the following data from the course drive:\n\nelection2020.csv - 2020 Election Results (by state)\n2020results_county.csv - 2020 Election Results (by county)\n\nAlong with 2024 data further discussed in the assignment itself.",
+    "text": "For this assignment, you will draw your a series of maps using R. We drew 2016 maps in class using the socviz package from Healy. In addition to this package, you’ll need the following data from the course drive:\n\nelection2020.csv - 2020 Election Results (by state)\n2020results_county.csv - 2020 Election Results (by county)\n\nAlong with 2024 data further discussed in the assignment itself.",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",
