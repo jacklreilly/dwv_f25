@@ -71,12 +71,18 @@ website:
           - problemsets/ps8.qmd
           - problemsets/ps9.qmd
           - problemsets/ps10.qmd
-          
+          - problemsets/ps11.qmd
+
         - section: "Practica"
           href: problemsets/index.qmd
           contents:
           - problemsets/prac1.qmd
           - problemsets/prac2.qmd
+
+        - section: "Final Project"
+          href: problemsets/final.qmd
+          contents:
+          - problemsets/final.qmd
 
 format:
   html:
