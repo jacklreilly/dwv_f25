@@ -757,7 +757,7 @@
     "href": "problemsets/ps10.html",
     "title": "Problem Set 10",
     "section": "",
-    "text": "For this assignment, you will draw your a series of maps using R. We drew 2016 maps in class using the socviz package from Healy. In addition to this package, you’ll need the following data from the course drive:\n\nelection2020.csv - 2020 Election Results (by state)\n2020results_county.csv - 2020 Election Results (by county)\n\nAlong with 2024 data further discussed in the assignment itself.",
+    "text": "Updated November 13",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",
@@ -768,8 +768,8 @@
     "objectID": "problemsets/ps10.html#introduction",
     "href": "problemsets/ps10.html#introduction",
     "title": "Problem Set 10",
-    "section": "",
-    "text": "For this assignment, you will draw your a series of maps using R. We drew 2016 maps in class using the socviz package from Healy. In addition to this package, you’ll need the following data from the course drive:\n\nelection2020.csv - 2020 Election Results (by state)\n2020results_county.csv - 2020 Election Results (by county)\n\nAlong with 2024 data further discussed in the assignment itself.",
+    "section": "Introduction",
+    "text": "Introduction\nFor this assignment, you will draw your a series of maps using R. You’ll need to get your data from three different places:\n\nShape files and 2016 data can be found in the socviz package from Kieran Healy. Consult R scripts from our class lab to see how to start using the data from Healy’s package.\n2020 data can be found in two places:\n\nelection2020.csv - 2020 Election Results (by state)\n2020results_county.csv - 2020 Election Results (by county)\n\n2000-2024 election data can be found in the MIT Election Data + Science Lab Dataverse. You can use this data for 2024 alone or for 2016, 2020, and 2024.",
     "crumbs": [
       "🏠 Overview",
       "Problem Sets",
