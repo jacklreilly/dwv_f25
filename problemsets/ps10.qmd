@@ -16,7 +16,7 @@ For this assignment, you will draw your a series of maps using R.  You'll need t
 - 2020 data can be found in two places:
     - `election2020.csv` - 2020 Election Results (by state)
     - `2020results_county.csv` - 2020 Election Results (by county)
-- 2000-2024 election data can be found in the [MIT Election Data + Science Lab Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ). You can use this data for only 2024 returns or for 2016, 2020, and 2024.
+- 2000-2024 election data can be found in the [MIT Election Data + Science Lab Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ). You can use this data for 2024 alone or for 2016, 2020, and 2024.
 
 ## Assignment
 
