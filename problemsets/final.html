@@ -8,7 +8,7 @@
 
 <meta name="author" content="Prof.&nbsp;Jack Reilly">
 
-<title>Week 14 – Data Wrangling and Visualization</title>
+<title>Final Project – Data Wrangling and Visualization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -126,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 14</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../problemsets/final.html">Final Project</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -207,6 +207,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Problem Set 10</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../problemsets/ps11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bonus Problem Set</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -232,20 +238,52 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../problemsets/final.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Final Project</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../problemsets/final.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Final Project</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ps15.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ps15.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ps15.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a>
+  <ul class="collapse">
+  <li><a href="#report-guidelines" id="toc-report-guidelines" class="nav-link" data-scroll-target="#report-guidelines">Report Guidelines</a></li>
+  <li><a href="#presentation-guidelines" id="toc-presentation-guidelines" class="nav-link" data-scroll-target="#presentation-guidelines">Presentation Guidelines</a></li>
+  </ul></li>
+  <li><a href="#odds-and-ends" id="toc-odds-and-ends" class="nav-link" data-scroll-target="#odds-and-ends">Odds and Ends</a></li>
+  <li><a href="#where-should-i-find-my-data" id="toc-where-should-i-find-my-data" class="nav-link" data-scroll-target="#where-should-i-find-my-data">Where Should I Find my Data?</a></li>
+  <li><a href="#deadlines-and-due-dates" id="toc-deadlines-and-due-dates" class="nav-link" data-scroll-target="#deadlines-and-due-dates">Deadlines and Due Dates</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="final.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="final.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="final.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 14</h1>
+<h1 class="title">Final Project</h1>
 <p class="subtitle lead">Data Wrangling and Visualization</p>
 </div>
 
@@ -275,11 +313,79 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Nothing to see here (yet)</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Pose and answer a descriptive research question on an aspect of policy or social behavior (very broadly construed - policy, international affairs, economics, politics, sociology, geography, etc - all are fair game) using a large data set. Justify and use all appropriate methods, and present your findings clearly in writing, tables, and graphics. If you are uncertain where to begin, replicating a prior paper with a new dataset is an excellent starting point.</p>
+</section>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<p>In considering your question, there are only three specific requirements:</p>
+<ol type="1">
+<li>You may use any large dataset you wish, but this dataset should be reasonably sized (N&gt;1000) and involve pre-collected data.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Second, this data should involve a reasonable degree of management: I’m looking for more than few perfunctory “here’s a graph of a single variable”.</li>
+</ol>
+<ol start="2" type="1">
+<li><p>You should create a reasonable number of graphics, visualizations, or data analyses. I expect at least three major graphic or analysis elements, and you should consider three a necessary, but not necessarily sufficient, condition. We did not cover statisticasl inference in this class, but you are welcome (and encouraged) to use reasonable statistical techniques learned elsewhere - difference in means, regression, etc - to analyze your data.</p></li>
+<li><p>You are strongly encouraged to include a social network or geographical map in your analysis. If it doesn’t make sense, though, don’t jam it in just for the sake of meeting a requirement.</p></li>
+</ol>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<p>You will turn in three things to me, each of which you will be evaluated on: a report (written in quarto), a presentation, and a series of .R script files.</p>
+<section id="report-guidelines" class="level3">
+<h3 class="anchored" data-anchor-id="report-guidelines">Report Guidelines</h3>
+<p>The report should follow standard research paper conventions, but be heavily slanted towards the data half of the equation. Think of it as a research paper without the front half: I do not expect a broad literature review or well-developed empirical theory. Instead, you just pose a data question, motivate it briefly, and answer it. You may find the following suggested structure to be useful:</p>
+<ol type="1">
+<li>Introduction: What is your research question, and why you find it interesting? What are your independent variables and dependent variables? A short literature review may or may not be useful.</li>
+<li>Hypothesis: What do you think the answer to your question will be? Why do you expect this? What kind of relationship do you expect between your variables? What confounding variables do you need to control for?</li>
+<li>Research Design: What data are you using, and what visualization or analysis technique(s) are you using on that data? Why?</li>
+<li>Analysis and Results: Was your hypothesis correct? What can the data tell you? Make sure to present your findings clearly, concisely, and in an aesthetically appropriate fashion.</li>
+<li>Conclusion: What can we take from your analysis? If your hypothesis was correct, what does this mean? If your hypothesis was incorrect, what does this mean? You paper should also include an abstract (~250 words) and title page.</li>
+</ol>
+<p>On the other hand, if you project is more exploratory in nature (or a replication) you may need to follow a different outline.</p>
+</section>
+<section id="presentation-guidelines" class="level3">
+<h3 class="anchored" data-anchor-id="presentation-guidelines">Presentation Guidelines</h3>
+<p>You should target a 5 minute presentation (with slides). Remember: less is more when it comes to text on slides (images and graphics are excellent, though) and practice, practice, practice. It’s easy to go on a lot longer (or shorter) than you plan.</p>
+</section>
+</section>
+<section id="odds-and-ends" class="level2">
+<h2 class="anchored" data-anchor-id="odds-and-ends">Odds and Ends</h2>
+<ul>
+<li><p>.R File Guidelines: As always, any analyses you present in your paper or presentation should be replicated, without change, upon your .do file. Standard rules from class apply - be sure to appropriately comment, annotate, and place headers in your .do file.</p></li>
+<li><p>Paper formatting: I don’t have particular preferences for specific paper formats, so long as you choose reasonable defaults. &nbsp;Standard quarto is fine.</p></li>
+<li><p>Graphics, Tables, etc: All graphics and tables should be professionally and tastefully laid out in order to make digestion of your information as easy as possible for the reader. We talked frequently about this in class, now it’s time to put your knowledge to work!</p></li>
+<li><p>Replication projects are highly encouraged! In fact, I think it’s one of the better ways to go about this project.</p></li>
+</ul>
+</section>
+<section id="where-should-i-find-my-data" class="level2">
+<h2 class="anchored" data-anchor-id="where-should-i-find-my-data">Where Should I Find my Data?</h2>
+<p>Any number of places! Some suggestions:</p>
+<ul>
+<li>Sources from class handouts, readings, and lectures in this class</li>
+<li><a href="https://github.com/erikgahner/PolData">“A Dataset of Political Datasets”</a></li>
+<li><a href="https://www.aeaweb.org/about-aea/committees/economic-statistics/data-resources">“Datasets for Economists”</a></li>
+<li>Bauder, Julia. <a href="https://search.syr.edu/permalink/01SYU_INST/1jt847n/alma9972180854308496">A Reference Guide to Data Sources</a></li>
+<li>Data sources of the articles and books you read in your other classes</li>
+</ul>
+</section>
+<section id="deadlines-and-due-dates" class="level2">
+<h2 class="anchored" data-anchor-id="deadlines-and-due-dates">Deadlines and Due Dates</h2>
+<ul>
+<li><strong>Before Thanksgiving Break</strong> (Nov 20): You should identify your project by the class before Thanksgiving break. This means talking to Professor Reilly in or after class and getting the go-ahead. More specificity is always better than less, but don’t view this as a huge hurdle: I just want to know - roughly - what direction you’re going in. (The journey itself might change a bit in between proposal and final project - that’s fine.)</li>
+<li><strong>Last Day of Class</strong> (Dec 9): Presentations will take place during the last class of the semester.</li>
+<li><strong>End of Finals Week</strong> (Dec 16): Reports are due at the end of finals week (both a .qmd and a .pdf) along with .R files. They can be submitted directly to Blackboard as a .zip or as a link to a github repository.</li>
+</ul>
 
 
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>In other words, I’m <em>not</em> expecting you to collect your own data.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
