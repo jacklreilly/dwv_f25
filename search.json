@@ -140,11 +140,23 @@
     "text": "Footnotes\n\n\nIn addition to formal office hours, I have an open door policy - feel free to stop by if you see the door open. In particular, I’ll be around for the half an hour after class each Tuesday and Thursday until 4, and my office is right next door to the classroom. Feel free to stay after and meet with me. I’ll also be around after office hours until at least 12:30 each Tuesday and Thursday according to student need.↩︎\nWhile regular weekly assignments are evaluated on an effort based, check/no-check system, on the practicum, you’ll receive a certain number of points out of the total, like a test.↩︎\nAgain: usually I’m much faster! But if you don’t hear from me by this baseline, feel free to bump a reminder.↩︎"
   },
   {
-    "objectID": "assignments/assign13.html",
-    "href": "assignments/assign13.html",
+    "objectID": "assignments/assign13.html#readings-reference-material",
+    "href": "assignments/assign13.html#readings-reference-material",
     "title": "Week 12: Geographic Data",
-    "section": "",
-    "text": "Nothing to see here (yet)",
+    "section": "Readings & Reference Material",
+    "text": "Readings & Reference Material\n\nLecture: Geographic Data\n\n\nReading\n\nCore Reading\n\nDMSS, ch 11\n\nCartography Illustrations\n\nHow to make fancy road trip maps with R and OpenStreetMap\nMaking Middle Earth Maps in R\n\nReference Materials\n\nBrunsdon and Comber, An Introduction to R for Spatial Analysis and Mapping. An excellent introdution to using R as a GIS package.\nBrunsdon and Comber, Geographical Data Science and Spatial Data Analysis: An Introduction in R. Despite its name, a companion book to the above, not a replacement. It’s a little higher level.\nLovelace, et al. Geocomputation with R. A more in depth guide to spatial data in R.\nBivand, et al. Applied Spatial Data Anlaysis with R. Another more in depth guide to spatial data in R.\nSingleton, et al. Urban Anlaytics.",
+    "crumbs": [
+      "🏠 Overview",
+      "Weekly Content",
+      "Week 12: Geographic Data"
+    ]
+  },
+  {
+    "objectID": "assignments/assign13.html#due-next-week-final-project-identification",
+    "href": "assignments/assign13.html#due-next-week-final-project-identification",
+    "title": "Week 12: Geographic Data",
+    "section": "Due Next Week: Final Project Identification",
+    "text": "Due Next Week: Final Project Identification",
     "crumbs": [
       "🏠 Overview",
       "Weekly Content",
@@ -1452,7 +1464,7 @@
     "href": "assignments/assign12.html#readings-reference-material",
     "title": "Week 11: Cartography",
     "section": "Readings & Reference Material",
-    "text": "Readings & Reference Material\n\nLecture: An Introduction to Cartography\n\n\nReading\n\nCore Reading\n\nDV, ch 7\nDMSS, ch 11\n“Color, Classification, and Choropleth Symbolization”\n\nCartography Illustrations\n\nWhy all world maps are wrong\nHow to avoid being fooled by bad maps\nProjection comparison\nThe True Size Of\n\nReference Materials\n\nBrunsdon and Comber, An Introduction to R for Spatial Analysis and Mapping. An excellent introdution to using R as a GIS package.\nBrunsdon and Comber, Geographical Data Science and Spatial Data Analysis: An Introduction in R. Despite its name, a companion book to the above, not a replacement. It’s a little higher level.\nField, Cartography. A foundational guide to cartography with a computer.\nLovelace, et al. Geocomputation with R. A more in depth guide to spatial data in R.\nBivand, et al. Applied Spatial Data Anlaysis with R. Another more in depth guide to spatial data in R.\nSingleton, et al. Urban Anlaytics.",
+    "text": "Readings & Reference Material\n\nLecture: An Introduction to Cartography\n\n\nReading\n\nCore Reading\n\nDV, ch 7\n“Color, Classification, and Choropleth Symbolization”\n\nCartography Illustrations\n\nWhy all world maps are wrong\nHow to avoid being fooled by bad maps\nProjection comparison\nThe True Size Of\n\nReference Materials\n\nField, Cartography. A foundational guide to cartography with a computer.\nThere are any number of books through which you can get a feel for good cartography (a good atlas, for instance). Here are some more thematic favorites of mine:\n\nJenkins & Keal, The Adirondack Atlas: A Geographic Portrait of the Adirondack Park\nBanis & Shore, Portlandness: A Cultural Atlas\nShore & Banis, Upper Left Cities: A Cultural Atlas of San Francisco, Portland, and Seattle\nHatfield, Kempson, & Ross, Seattleness: A Cultural Atlas\nArcher et al, Atlas of American Politics, 1960-2000\nArcher et al, Atlas of Nebraska\nSchulten, Mapping the Nation: History and Cartography in Nineteenth-Century America\nThames & Hudson, The Atlas of the Real World: Mapping the Way We Live\n\nSee next week for geographic data materials",
     "crumbs": [
       "🏠 Overview",
       "Weekly Content",
