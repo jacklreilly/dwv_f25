@@ -39,6 +39,7 @@ format:
 | Week | **Topic**                      | **Tools** |  |
 |------|--------------------------------|-----------|---------|
 |    | Text Data & Data Scraping      |           |         |
+|    | Statistical Models
 |    | Missing Data
 |    | Web Apps & Visualization       |  quarto, shiny         |         |
 |    | AI Pair Programming & “Vibe Coding” |  github copilot     |         |
