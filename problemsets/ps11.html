@@ -261,15 +261,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ps11.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ps11.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ps11.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#assignment" id="toc-assignment" class="nav-link" data-scroll-target="#assignment">Assignment</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ps11.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ps11.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="ps11.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../problemsets/index.html">Problem Sets</a></li><li class="breadcrumb-item"><a href="../problemsets/ps11.html">Bonus Problem Set</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Bonus Problem Set</h1>
-<p class="subtitle lead">Data Wrangling and Visualization</p>
+<p class="subtitle lead">City Maps</p>
 </div>
 
 
@@ -298,9 +306,60 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Nothing to see here (yet)</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p><em>Note: This is an <strong>optional</strong> assignment, there for those who missed too many regular assignments during the semester and who need to catch up. If you have completed all of your regular assignments, you may also complete this assignment for a bonus point on your second practicum.</em></p>
+<p>For this assignment, you will draw city maps using R. You’ll need to get your data from OSM (open street maps) as well as (possibly) from other sources, if you have special additions you wish to make.</p>
+</section>
+<section id="assignment" class="level2">
+<h2 class="anchored" data-anchor-id="assignment">Assignment</h2>
+<ol type="1">
+<li><p>Choose a favorite or interesting area, city, town, or neighborhood (not Syracuse, which we’ve already done in class). Identify and select features of the town you’d like to draw: roads (almost certainly), landmarks, water features, parkland, etc. Add those features from OSM and draw a base map for your city or town.</p></li>
+<li><p>Choose two additional features that you’d like to graph in this town. Is it a ski town, and you want to show where the different ski lodges are? Is it a mountain town, and you want to show peaks? Do you want to show where all the schools are? The features are up to you! Just make two thematic maps - layered on top of the base map - that show particular features of the area. You do not have to use OSM for this part (although you can) - sometimes, it might be easier to just identify the latitude &amp; longitude of points and add them from an external source.</p></li>
+<li><p>Make sure all your maps are compellingly styled and laid out. Good cartography matters!</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Tips
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Remember, OSM can be a little bit finicky, especially in regards to how it will time out with certain requests. Sometimes, you just have to re-run the request, but sometimes, it’s becuase your API call is too large. OSM gets more finicky the more you are asking it to do - if you are, for instance, asking it for all roads in the State of New York, it will almost certainly time out. (That’s a lot of roads!) I recommend choosing a smaller city or town - that tends to be more manageable. Of course, not all cities or states are the same - the same request might do just fine with a particular request looking at a small city like Ithaca, but time out with New York City itself. You might also have more luck asking for fewer features at the same time, or spacing your reqeuests out a little bit.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<p>Turn in 4 things:</p>
+<ol type="1">
+<li>Your R script(s).</li>
+<li>A quarto file that addresses or answers the steps above and includes your graphics. Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.</li>
+<li>A compiled quarto file, as a PDF, that includes your maps.</li>
+<li>Your original data, if necessary, in a format readable by R. (If you read data directly from a web source in your script, you can skip this step.)</li>
+</ol>
+<p>Make sure that your quarto writeup includes a clear definition of the maps you drew, as well as a summary description of what is particularly noteworthy about the features of your maps. It should also document the source of the data, especially if different than OSM, and note steps done to manage the data (if any) before your R script(s) took over.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard. Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.</p>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

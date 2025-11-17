@@ -261,8 +261,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="prac2.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="prac2.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="prac2.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-task" id="toc-the-task" class="nav-link active" data-scroll-target="#the-task">The Task</a></li>
+  <li><a href="#r-work" id="toc-r-work" class="nav-link" data-scroll-target="#r-work">R Work</a></li>
+  <li><a href="#writeup-work-quarto" id="toc-writeup-work-quarto" class="nav-link" data-scroll-target="#writeup-work-quarto">Writeup Work (Quarto)</a></li>
+  <li><a href="#other-details" id="toc-other-details" class="nav-link" data-scroll-target="#other-details">Other Details</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="prac2.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="prac2.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="prac2.rtf"><i class="bi bi-file"></i>RTF</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -298,11 +308,135 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Nothing to see here (yet)</p>
+<p><strong><em>in progress, not final</em></strong></p>
+<section id="the-task" class="level2">
+<h2 class="anchored" data-anchor-id="the-task">The Task</h2>
+<p>Create a series of maps of the State of New York, highlighting particular features of the state. You have the following data made available to you:</p>
+<ul>
+<li><code>cb_2024_us_county_500k.shp</code> - A shape file that includes shapes for all counties in the United States. Variables include:
+<ul>
+<li>STATEFP - State portion of FIPS code</li>
+<li>COUNTYFP - County portion of FIPS code</li>
+<li>GEOID and GEOIDFQ - County identifier (coimbined FIPS code)</li>
+<li>NAME and NAMELSAD - Name of county</li>
+<li>STUSPS and STATE_NAME - State name and abbreviation</li>
+<li>ALAND - Land area of county (sq meters)</li>
+<li>AWATER - Water area of county (sq meters)</li>
+<li>geometry - County shape (multipolygon)</li>
+</ul></li>
+<li><code>nyshighpoints.csv</code> - a data file containing information about county high points in New York State. Varaibles include:
+<ul>
+<li>County - name of county</li>
+<li>High_Point_Name - name of high point</li>
+<li>Elevation_Feet and Elevation_Meters - elevation in feet and meters</li>
+<li>Latitude and Longitude - latitude and longitude</li>
+<li>Data_Quality - whether the latitude and longitude are exact or estimated</li>
+</ul></li>
+</ul>
+<p>In addition, you will have data to use from online sources, including the US Census and the MIT Election Archive.</p>
+</section>
+<section id="r-work" class="level2">
+<h2 class="anchored" data-anchor-id="r-work">R Work</h2>
+<ol type="1">
+<li><p>The file <code>cb_2024_us_county_500k.shp</code> is a shape file that includes shapes for all counties in the United States. Use it to draw a map of the counties of New York State (and only New York State - do not include counties from neighboring states).</p></li>
+<li><p>Using the same file, which is the largest county, by area, in New York? Which is the smallest?</p></li>
+<li><p>Use <code>nyshighpoints.csv</code> to plot the location of high points of every county in the state of New York over the base county map.</p></li>
+<li><p>There is a somewhat common scale that cartographers use to indicate elevation, where low lying areas are blue or green, middle height areas are yellow or brown, tall areas are white and sometimes red. (See, for instance, the National Geographic map highlighted <a href="https://education.nationalgeographic.org/resource/mapmaker-elevation/">here</a>.) Use a color scale to mark the high points according to their height. Make sure to have at least four different colors included in your scale.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that I am <strong>not</strong> asking you to color in elevation for the entire state - I’m just asking you to color the points that indicate the high points of the county.</p>
+</div>
+</div>
+<ol start="5" type="1">
+<li><p>What are the highest and lowest high points in the state?</p></li>
+<li><p>Label the highest high point on a map.</p></li>
+<li><p>Use the <code>tidycensus</code> package to load county population in New York. Shade in each county according to its population. Use a light yellow to dark orange scale.</p></li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Remember that you can load data from <code>tidycensus</code> with or without geography.</p>
+</div>
+</div>
+<ol start="8" type="1">
+<li><p>Which is the largest county, by population, in New York? Which is the smallest?</p></li>
+<li><p>Calculate population density for each county using population and land area. Shade in each county according to its population. Use a light lavender to dark purple scale.</p></li>
+<li><p>Which is the most dense county in New York? Which is the smallest?</p></li>
+<li><p>Use the data at the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ">MIT Election Data + Science Lab Dataverse</a> to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, 2020, and 2024 election. Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white. You may discount any third party votes.</p></li>
+</ol>
+</section>
+<section id="writeup-work-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="writeup-work-quarto">Writeup Work (Quarto)</h2>
+<p>Answer the following questions in your Quarto write-up.</p>
+<ol type="1">
+<li><p>Show the map of New York counties and color-coded high points, with the highest point labeled. Which are the highest and lowest high points, and what are their elevations?</p></li>
+<li><p>Show the map of county population by county. What are the most and least populous counties, by name?</p></li>
+<li><p>Show the map of county population density. What are the most and least densely populated counties, by name?</p></li>
+<li><p>Show county maps of presidential elections in New York, by county. (I recommend doing this in a grid on a single page.) What do you notice about vote trends in New York over that time? What change and continuity has there been?</p></li>
+</ol>
+</section>
+<section id="other-details" class="level2">
+<h2 class="anchored" data-anchor-id="other-details">Other Details</h2>
+<ul>
+<li><p>This Practicum is due <strong>Thursday, December 4, at 2 PM</strong>. <em>As usual, we will cover the practicum in that class, so late work is not accepted.</em></p></li>
+<li><p>The practicum <strong>IS</strong> open-book, open-note, and open-internet, but it <strong>IS NOT</strong> open-human. In short: you can use any resource you want, so long as that resource does not involve asking another human a question. <em>(The only exception is that you can ask the professor clarification questions.)</em></p></li>
+<li><p>If you use AI, you must also turn in a record of your prompts as a plain-text <code>.txt</code> file.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> You <strong>MAY</strong> use AI, but <em>only</em> to ask questions as you design your own work. You <strong>MAY NOT</strong> feed the entire practicum itself into a chatbot or other AI tool.</p></li>
+</ul>
+<ul>
+<li><p>Make sure your write-up document and code script files are <strong>cleanly formatted</strong>. You will be evaluated both for the accuracy of your output and the clarity of your code.</p></li>
+<li><p>Follow all the data and style guidelines we have discussed in class. Your <code>.R</code> files — once I change the working directory, if necessary — should properly execute all commands needed to reproduce the results of your practicum, and should do so without any errors. If your <code>.R</code> file does not do this, the relevant answers will be considered wrong. You may also use a <code>.Rproj</code> file to obviate the need for a set working directories.</p></li>
+</ul>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<p>Turn in 4 things:</p>
+<ol type="1">
+<li>Your R script(s).</li>
+<li>A quarto file that addresses or answers the steps above and includes your graphics. Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.</li>
+<li>A compiled quarto file, as a PDF, that includes your maps.</li>
+</ol>
+<p>Make sure that your quarto writeup follows the order of the writeup file specified above and clearly indicates what map is what.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard. Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.</p>
+</div>
+</div>
+<p><strong>Good luck!</strong></p>
 
 
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This record does not have to be word for word, but it should encapsulate what you did. For instance, just saying “I used Claude on this practicum” isn’t ok; you should tell me what code you used Claude to help you with.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
