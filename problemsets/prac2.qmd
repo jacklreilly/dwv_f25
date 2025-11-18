@@ -9,7 +9,7 @@ format:
 
 ## The Task
 
-Create a series of maps of the State of New York, highlighting particular features of the state.  You have the following data made available to you:
+You are to a series of maps of the State of New York, highlighting particular identified features of the state.  You have the following data made available to you:
 
 - `cb_2024_us_county_500k.shp` - A shape file that includes shapes for all counties in the United States.  Variables include:
     - STATEFP - State portion of FIPS code
@@ -38,7 +38,7 @@ In addition, you will have data to use from online sources, including the US Cen
 
 3. Use `nyshighpoints.csv` to plot the location of high points of every county in the state of New York over the base county map. 
 
-4. There is a somewhat common scale that cartographers use to indicate elevation, where low lying areas are blue or green, middle height areas are yellow or brown, tall areas are white and sometimes red.  (See, for instance, the National Geographic map highlighted [here](https://education.nationalgeographic.org/resource/mapmaker-elevation/).) Use a color scale to mark the high points according to their height.  Make sure to have at least four different colors included in your scale.
+4. There is a somewhat common scale that cartographers use to indicate elevation, where low lying areas are green, middle height areas are yellow to brown, and high areas are white and sometimes red.  (See, for instance, the National Geographic map highlighted [here](https://education.nationalgeographic.org/resource/mapmaker-elevation/).) Use a color scale to mark the high points according to their height.  Make sure to have at least four different colors included in your scale.
 
 ::: {.callout-tip}
 ### Tip
@@ -60,21 +60,21 @@ Remember that you can load data from `tidycensus` with or without geography.
 
 8. Calculate population density for each county using population and land area. Shade in each county according to its population.  Use a light lavender to dark purple scale.
 
-8. Which is the most dense county in New York?  Which is the smallest?
+8. Which is the most dense county in New York?  Which is the least dense?
 
-9. Use the data at the [MIT Election Data + Science Lab Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ) to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, 2020, and 2024 election.  Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white.  You may discount any third party votes.
+9. Use the data at the [MIT Election Data + Science Lab Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ) to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, and 2020 elections.  Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white.  You may discount any third party votes.
 
 ## Writeup Work (Quarto)
 
 Answer the following questions in your Quarto write-up.
 
-1. Show the map of New York counties and color-coded high points, with the highest point labeled.  Which are the highest and lowest high points, and what are their elevations?
+1. Include the map of New York counties and color-coded high points, with the highest point labeled.  Which are the highest and lowest high points, and what are their elevations?
 
-2. Show the map of county population by county.  What are the most and least populous counties, by name?
+2. Include the map of county population by county.  What are the most and least populous counties, by name?
 
-3. Show the map of county population density.  What are the most and least densely populated counties, by name?
+3. Include the map of county population density.  What are the most and least densely populated counties, by name?
 
-4. Show county maps of presidential elections in New York, by county.  (I recommend doing this in a grid on a single page.)  What do you notice about vote trends in New York over that time?  What change and continuity has there been?
+4. Include county maps of presidential elections in New York, by county.  (I recommend doing this in a grid on a single page.)  What do you notice about vote trends in New York over that time?  What change and continuity has there been in partisan voting trends?
 
 ## Other Details
 
@@ -84,7 +84,7 @@ Answer the following questions in your Quarto write-up.
 
 - If you use AI, you must also turn in a record of your prompts as a plain-text `.txt` file.[^fn] You **MAY** use AI, but *only* to ask questions as you design your own work. You **MAY NOT** feed the entire practicum itself into a chatbot or other AI tool.
 
-[^fn]: This record does not have to be word for word, but it should encapsulate what you did.  For instance, just saying "I used Claude on this practicum" isn't ok; you should tell me what code you used Claude to help you with.
+[^fn]: This record does not have to be word for word, but it should encapsulate what you did.  For instance, just saying "I used Claude on this practicum" isn't ok; you should tell me what code snippets you used Claude to help you with.
 
 - Make sure your write-up document and code script files are **cleanly formatted**. You will be evaluated both for the accuracy of your output and the clarity of your code.
 
@@ -96,14 +96,15 @@ Turn in 4 things:
 
 1. Your R script(s).
 2. A quarto file that addresses or answers the steps above and includes your graphics.  Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.
-3. A compiled quarto file, as a PDF, that includes your maps.
+3. A compiled quarto file, as a PDF, that includes your maps and answers to relevant questions above.
+4. Your plain text .txt file, identifying if and how you used AI, and which AI you used.  If you did not use AI, you still must turn this file in; all you need do is write in it, "I made no use of AI for this assignment."
 
 Make sure that your quarto writeup follows the order of the writeup file specified above and clearly indicates what map is what.
 
 ::: {.callout-note}
 ### Important
 
-To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard.  Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.
+To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard.  
 :::
 
 
