@@ -56,11 +56,9 @@ Note that I am **not** asking you to color in elevation for the entire state - I
 Remember that you can load data from `tidycensus` with or without geography. 
 :::
 
-8. Which is the largest county, by population, in New York?  Which is the smallest?
-
 8. Calculate population density for each county using population and land area. Shade in each county according to its population.  Use a light lavender to dark purple scale.
 
-8. Which is the most dense county in New York?  Which is the least dense?
+8. What is the largest county, by population, in New York?  What is the smallest? What is the most dense county in New York?  What is the least dense?
 
 9. Use the data at the [MIT Election Data + Science Lab Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ) to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, and 2020 elections.  Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white.  You may discount any third party votes.
 
