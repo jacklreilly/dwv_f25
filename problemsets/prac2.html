@@ -311,7 +311,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong><em>in progress, not final</em></strong></p>
 <section id="the-task" class="level2">
 <h2 class="anchored" data-anchor-id="the-task">The Task</h2>
-<p>Create a series of maps of the State of New York, highlighting particular features of the state. You have the following data made available to you:</p>
+<p>You are to a series of maps of the State of New York, highlighting particular identified features of the state. You have the following data made available to you:</p>
 <ul>
 <li><code>cb_2024_us_county_500k.shp</code> - A shape file that includes shapes for all counties in the United States. Variables include:
 <ul>
@@ -341,7 +341,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>The file <code>cb_2024_us_county_500k.shp</code> is a shape file that includes shapes for all counties in the United States. Use it to draw a map of the counties of New York State (and only New York State - do not include counties from neighboring states).</p></li>
 <li><p>Using the same file, which is the largest county, by area, in New York? Which is the smallest?</p></li>
 <li><p>Use <code>nyshighpoints.csv</code> to plot the location of high points of every county in the state of New York over the base county map.</p></li>
-<li><p>There is a somewhat common scale that cartographers use to indicate elevation, where low lying areas are blue or green, middle height areas are yellow or brown, tall areas are white and sometimes red. (See, for instance, the National Geographic map highlighted <a href="https://education.nationalgeographic.org/resource/mapmaker-elevation/">here</a>.) Use a color scale to mark the high points according to their height. Make sure to have at least four different colors included in your scale.</p></li>
+<li><p>There is a somewhat common scale that cartographers use to indicate elevation, where low lying areas are green, middle height areas are yellow to brown, and high areas are white and sometimes red. (See, for instance, the National Geographic map highlighted <a href="https://education.nationalgeographic.org/resource/mapmaker-elevation/">here</a>.) Use a color scale to mark the high points according to their height. Make sure to have at least four different colors included in your scale.</p></li>
 </ol>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -375,20 +375,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <ol start="8" type="1">
-<li><p>Which is the largest county, by population, in New York? Which is the smallest?</p></li>
 <li><p>Calculate population density for each county using population and land area. Shade in each county according to its population. Use a light lavender to dark purple scale.</p></li>
-<li><p>Which is the most dense county in New York? Which is the smallest?</p></li>
-<li><p>Use the data at the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ">MIT Election Data + Science Lab Dataverse</a> to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, 2020, and 2024 election. Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white. You may discount any third party votes.</p></li>
+<li><p>What is the largest county, by population, in New York? What is the smallest? What is the most dense county in New York? What is the least dense?</p></li>
+<li><p>Use the data at the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ">MIT Election Data + Science Lab Dataverse</a> to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, and 2020 elections. Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white. You may discount any third party votes.</p></li>
 </ol>
 </section>
 <section id="writeup-work-quarto" class="level2">
 <h2 class="anchored" data-anchor-id="writeup-work-quarto">Writeup Work (Quarto)</h2>
 <p>Answer the following questions in your Quarto write-up.</p>
 <ol type="1">
-<li><p>Show the map of New York counties and color-coded high points, with the highest point labeled. Which are the highest and lowest high points, and what are their elevations?</p></li>
-<li><p>Show the map of county population by county. What are the most and least populous counties, by name?</p></li>
-<li><p>Show the map of county population density. What are the most and least densely populated counties, by name?</p></li>
-<li><p>Show county maps of presidential elections in New York, by county. (I recommend doing this in a grid on a single page.) What do you notice about vote trends in New York over that time? What change and continuity has there been?</p></li>
+<li><p>Include the map of New York counties and color-coded high points, with the highest point labeled. Which are the highest and lowest high points, and what are their elevations?</p></li>
+<li><p>Include the map of county population by county. What are the most and least populous counties, by name?</p></li>
+<li><p>Include the map of county population density. What are the most and least densely populated counties, by name?</p></li>
+<li><p>Include county maps of presidential elections in New York, by county. (I recommend doing this in a grid on a single page.) What do you notice about vote trends in New York over that time? What change and continuity has there been in partisan voting trends?</p></li>
 </ol>
 </section>
 <section id="other-details" class="level2">
@@ -409,7 +408,8 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>Your R script(s).</li>
 <li>A quarto file that addresses or answers the steps above and includes your graphics. Your quarto file can include your R code or your R code can remain separate in your R scripts, with the quarto file reading in figures from project directory.</li>
-<li>A compiled quarto file, as a PDF, that includes your maps.</li>
+<li>A compiled quarto file, as a PDF, that includes your maps and answers to relevant questions above.</li>
+<li>Your plain text .txt file, identifying if and how you used AI, and which AI you used. If you did not use AI, you still must turn this file in; all you need do is write in it, “I made no use of AI for this assignment.”</li>
 </ol>
 <p>Make sure that your quarto writeup follows the order of the writeup file specified above and clearly indicates what map is what.</p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -422,7 +422,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard. Alternately, you may store everything in a GitHub repo and submit a link to your repository to Blackboard.</p>
+<p>To submit your assignment, zip your entire project folder together - including all of the above elements - and upload it to Blackboard.</p>
 </div>
 </div>
 <p><strong>Good luck!</strong></p>
@@ -434,7 +434,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>This record does not have to be word for word, but it should encapsulate what you did. For instance, just saying “I used Claude on this practicum” isn’t ok; you should tell me what code you used Claude to help you with.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>This record does not have to be word for word, but it should encapsulate what you did. For instance, just saying “I used Claude on this practicum” isn’t ok; you should tell me what code snippets you used Claude to help you with.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
