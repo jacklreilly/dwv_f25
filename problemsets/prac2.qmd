@@ -7,7 +7,7 @@ format:
 
 ***in progress, not final***
 
-## The Task
+## Overview
 
 You are to a series of maps of the State of New York, highlighting particular identified features of the state.  You have the following data made available to you:
 
