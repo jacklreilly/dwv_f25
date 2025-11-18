@@ -1194,11 +1194,11 @@
     ]
   },
   {
-    "objectID": "problemsets/prac2.html#the-task",
-    "href": "problemsets/prac2.html#the-task",
+    "objectID": "problemsets/prac2.html#overview",
+    "href": "problemsets/prac2.html#overview",
     "title": "Practicum 2",
-    "section": "The Task",
-    "text": "The Task\nYou are to a series of maps of the State of New York, highlighting particular identified features of the state. You have the following data made available to you:\n\ncb_2024_us_county_500k.shp - A shape file that includes shapes for all counties in the United States. Variables include:\n\nSTATEFP - State portion of FIPS code\nCOUNTYFP - County portion of FIPS code\nGEOID and GEOIDFQ - County identifier (coimbined FIPS code)\nNAME and NAMELSAD - Name of county\nSTUSPS and STATE_NAME - State name and abbreviation\nALAND - Land area of county (sq meters)\nAWATER - Water area of county (sq meters)\ngeometry - County shape (multipolygon)\n\nnyshighpoints.csv - a data file containing information about county high points in New York State. Varaibles include:\n\nCounty - name of county\nHigh_Point_Name - name of high point\nElevation_Feet and Elevation_Meters - elevation in feet and meters\nLatitude and Longitude - latitude and longitude\nData_Quality - whether the latitude and longitude are exact or estimated\n\n\nIn addition, you will have data to use from online sources, including the US Census and the MIT Election Archive.",
+    "section": "Overview",
+    "text": "Overview\nYou are to a series of maps of the State of New York, highlighting particular identified features of the state. You have the following data made available to you:\n\ncb_2024_us_county_500k.shp - A shape file that includes shapes for all counties in the United States. Variables include:\n\nSTATEFP - State portion of FIPS code\nCOUNTYFP - County portion of FIPS code\nGEOID and GEOIDFQ - County identifier (coimbined FIPS code)\nNAME and NAMELSAD - Name of county\nSTUSPS and STATE_NAME - State name and abbreviation\nALAND - Land area of county (sq meters)\nAWATER - Water area of county (sq meters)\ngeometry - County shape (multipolygon)\n\nnyshighpoints.csv - a data file containing information about county high points in New York State. Varaibles include:\n\nCounty - name of county\nHigh_Point_Name - name of high point\nElevation_Feet and Elevation_Meters - elevation in feet and meters\nLatitude and Longitude - latitude and longitude\nData_Quality - whether the latitude and longitude are exact or estimated\n\n\nIn addition, you will have data to use from online sources, including the US Census and the MIT Election Archive.",
     "crumbs": [
       "🏠 Overview",
       "Practica",
