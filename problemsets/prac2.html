@@ -388,7 +388,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Remember there are multiple ways to plot political and social maps, in both base R and the tidyverse. To first approximation, there is the <em>pre-</em><code>sf</code> data management style, where each vertex in the map would be a row/observation of your data, and also the newer <code>sf</code> style of mapping, where each polygon is a single row in your data with a multipolygon column/variable containing geographic information.</p>
+<p>Remember there are multiple ways to plot polygon-based political and social maps, in both base R and the tidyverse. To first approximation, there is the <em>pre-</em><code>sf</code> data management style, where each vertex in the map would be a row/observation of your data, and there is the newer <code>sf</code> style of mapping, where each polygon is a single row in your data with a multipolygon column/variable containing geographic information.</p>
 <p>If you do not have an <code>sf</code> object, you need to use fundamental mapping aesthetics (like <code>mapping()</code> in <code>ggplot</code>) to draw your map. If you already have an <code>sf</code> (simple features) R object, however, you can use the simpler <code>geom_sf</code> in ggplot to begin drawing your map (or use appropriate <code>plot()</code> commands in base R).</p>
 </div>
 </div>
