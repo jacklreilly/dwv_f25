@@ -62,7 +62,7 @@ Remember that you can load data from `tidycensus` with or without geography.
 
 ::: {.callout-tip}
 ### Tip
-Remember there are multiple ways to plot political and social maps, in both base R and the tidyverse. To first approximation, there is the *pre-*`sf` data management style, where each vertex in the map would be a row/observation of your data, and also the newer `sf` style of mapping, where each polygon is a single row in your data with a multipolygon column/variable containing geographic information.  
+Remember there are multiple ways to plot polygon-based political and social maps, in both base R and the tidyverse. To first approximation, there is the *pre-*`sf` data management style, where each vertex in the map would be a row/observation of your data, and there is the newer `sf` style of mapping, where each polygon is a single row in your data with a multipolygon column/variable containing geographic information.  
 
 If you do not have an `sf` object, you need to use fundamental mapping aesthetics (like `mapping()` in `ggplot`) to draw your map. If you already have an `sf` (simple features) R object, however, you can use the simpler `geom_sf` in ggplot to begin drawing your map (or use appropriate `plot()` commands in base R).  
 :::
