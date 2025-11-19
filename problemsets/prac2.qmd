@@ -25,7 +25,7 @@ You are to a series of maps of the State of New York, highlighting particular id
     - Latitude and Longitude - latitude and longitude
     - Data_Quality - whether the latitude and longitude are exact or estimated
 
-In addition, you will have data to use from online sources, including the US Census and the MIT Election Archive.
+In addition, you will have data to use from online sources, including the US Census and the Harvard Dataverse Replication Archive.
 
 
 ## R Work
@@ -58,7 +58,14 @@ Remember that you can load data from `tidycensus` with or without geography.
 
 8. What is the largest county, by population, in New York?  What is the smallest? What is the most dense county in New York?  What is the least dense?
 
-9. **[in progress, not finalized]** Use the data at the [MIT Election Data + Science Lab Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ) to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, and 2020 elections.  Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white.  You may discount any third party votes.
+9. Use the [Algara and Amlani's county level data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DGUMFI) to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, and 2020 elections.  Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white.  You may discount any third party votes.
+
+::: {.callout-tip}
+### Tip
+Remember there are multiple ways to plot political and social maps, in both base R and the tidyverse. To first approximation, there is the *pre-*`sf` data management style, where each vertex in the map would be a row/observation of your data, and also the newer `sf` style of mapping, where each polygon is a single row in your data with a multipolygon column/variable containing geographic information.  
+
+If you do not have an `sf` object, you need to use fundamental mapping aesthetics (like `mapping()` in `ggplot`) to draw your map. If you already have an `sf` (simple features) R object, however, you can use the simpler `geom_sf` in ggplot to begin drawing your map (or use appropriate `plot()` commands in base R).  
+:::
 
 ## Writeup Work (Quarto)
 
