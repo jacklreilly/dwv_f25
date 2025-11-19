@@ -23,7 +23,7 @@
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Elevation_Feet and Elevation_Meters - elevation in feet and meters\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Latitude and Longitude - latitude and longitude\par}
 {\pard \ql \f0 \sa0 \li720 \fi-360 \endash \tx360\tab Data_Quality - whether the latitude and longitude are exact or estimated\sa180\sa180\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 In addition, you will have data to use from online sources, including the US Census and the MIT Election Archive.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 In addition, you will have data to use from online sources, including the US Census and the Harvard Dataverse Replication Archive.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 R Work\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 1.\tx360\tab The file {\f1 cb_2024_us_county_500k.shp} is a shape file that includes shapes for all counties in the United States. Use it to draw a map of the counties of New York State (and only New York State - do not include counties from neighboring states).\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 2.\tx360\tab Using the same file, which is the largest county, by area, in New York? Which is the smallest?\par}
@@ -41,10 +41,13 @@ here
 {\pard \ql \f0 \sa180 \li720 \fi0 Remember that you can load data from {\f1 tidycensus} with or without geography.\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 8.\tx360\tab Calculate population density for each county using population and land area. Shade in each county according to its population. Use a light lavender to dark purple scale.\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 9.\tx360\tab What is the largest county, by population, in New York? What is the smallest? What is the most dense county in New York? What is the least dense?\par}
-{\pard \ql \f0 \sa180 \li360 \fi-360 10.\tx360\tab {\b [in progress, not finalized]} Use the data at the {\field{\*\fldinst{HYPERLINK "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ"}}{\fldrslt{\ul
-MIT Election Data + Science Lab Dataverse
+{\pard \ql \f0 \sa180 \li360 \fi-360 10.\tx360\tab Use the {\field{\*\fldinst{HYPERLINK "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DGUMFI"}}{\fldrslt{\ul
+Algara and Amlani\u8217's county level data
 }}}
  to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, and 2020 elections. Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white. You may discount any third party votes.\sa180\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 {\b Tip}\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 Remember there are multiple ways to plot political and social maps, in both base R and the tidyverse. To first approximation, there is the {\i pre-}{\f1 sf} data management style, where each vertex in the map would be a row/observation of your data, and also the newer {\f1 sf} style of mapping, where each polygon is a single row in your data with a multipolygon column/variable containing geographic information.\par}
+{\pard \ql \f0 \sa180 \li720 \fi0 If you do not have an {\f1 sf} object, you need to use fundamental mapping aesthetics (like {\f1 mapping()} in {\f1 ggplot}) to draw your map. If you already have an {\f1 sf} (simple features) R object, however, you can use the simpler {\f1 geom_sf} in ggplot to begin drawing your map (or use appropriate {\f1 plot()} commands in base R).\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 Writeup Work (Quarto)\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Answer the following questions in your Quarto write-up.\par}
 {\pard \ql \f0 \sa180 \li360 \fi-360 1.\tx360\tab Include the map of New York counties and color-coded high points, with the highest point labeled. Which are the highest and lowest high points, and what are their elevations?\par}

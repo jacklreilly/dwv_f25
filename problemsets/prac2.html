@@ -332,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Data_Quality - whether the latitude and longitude are exact or estimated</li>
 </ul></li>
 </ul>
-<p>In addition, you will have data to use from online sources, including the US Census and the MIT Election Archive.</p>
+<p>In addition, you will have data to use from online sources, including the US Census and the Harvard Dataverse Replication Archive.</p>
 </section>
 <section id="r-work" class="level2">
 <h2 class="anchored" data-anchor-id="r-work">R Work</h2>
@@ -376,8 +376,22 @@ ul.task-list li input[type="checkbox"] {
 <ol start="8" type="1">
 <li><p>Calculate population density for each county using population and land area. Shade in each county according to its population. Use a light lavender to dark purple scale.</p></li>
 <li><p>What is the largest county, by population, in New York? What is the smallest? What is the most dense county in New York? What is the least dense?</p></li>
-<li><p><strong>[in progress, not finalized]</strong> Use the data at the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ">MIT Election Data + Science Lab Dataverse</a> to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, and 2020 elections. Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white. You may discount any third party votes.</p></li>
+<li><p>Use the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DGUMFI">Algara and Amlani’s county level data</a> to create maps of two-party vote for each county in New York in the 2000, 2004, 2008, 2012, 2016, and 2020 elections. Show vote by partisan lean, where more Democratic voting counties are bluer, more Republican voting counties are redder, and evenly split counties are white. You may discount any third party votes.</p></li>
 </ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Remember there are multiple ways to plot political and social maps, in both base R and the tidyverse. To first approximation, there is the <em>pre-</em><code>sf</code> data management style, where each vertex in the map would be a row/observation of your data, and also the newer <code>sf</code> style of mapping, where each polygon is a single row in your data with a multipolygon column/variable containing geographic information.</p>
+<p>If you do not have an <code>sf</code> object, you need to use fundamental mapping aesthetics (like <code>mapping()</code> in <code>ggplot</code>) to draw your map. If you already have an <code>sf</code> (simple features) R object, however, you can use the simpler <code>geom_sf</code> in ggplot to begin drawing your map (or use appropriate <code>plot()</code> commands in base R).</p>
+</div>
+</div>
 </section>
 <section id="writeup-work-quarto" class="level2">
 <h2 class="anchored" data-anchor-id="writeup-work-quarto">Writeup Work (Quarto)</h2>
