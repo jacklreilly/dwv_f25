@@ -23,7 +23,9 @@ You are to a series of maps of the State of New York, highlighting particular id
     - High_Point_Name - name of high point
     - Elevation_Feet and Elevation_Meters - elevation in feet and meters
     - Latitude and Longitude - latitude and longitude
-    - Data_Quality - whether the latitude and longitude are exact or estimated
+    - Data_Quality - whether the latitude and longitude are exact or estimated[^hps]
+
+[^hps]: Data in this file is estimated by Claude, and is thus for class purposes only.  Verify before using elsewhere.
 
 In addition, you will have data to use from online sources, including the US Census and the Harvard Dataverse Replication Archive.
 
