@@ -1810,11 +1810,23 @@
     ]
   },
   {
+    "objectID": "assignments/assign3.html#lecture-a-practical-guide-to-your-computer",
+    "href": "assignments/assign3.html#lecture-a-practical-guide-to-your-computer",
+    "title": "Week 2: Your Computer",
+    "section": "Lecture: A Practical Guide to Your Computer",
+    "text": "Lecture: A Practical Guide to Your Computer",
+    "crumbs": [
+      "🏠 Overview",
+      "Weekly Content",
+      "Week 2: Your Computer"
+    ]
+  },
+  {
     "objectID": "assignments/assign3.html#readings",
     "href": "assignments/assign3.html#readings",
     "title": "Week 2: Your Computer",
     "section": "Readings",
-    "text": "Readings\n\nLecture: A Practical Guide to Your Computer\n\nIn the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nDV, ch 2\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "Readings\n\nIn the course drive, find the file Week 3 Files.zip. Unzip the file in the directory on your computer that you use for coursework.1 Inside the unzipped file, you will find a .qmd file, which has also been compiled into a pdf, html, docx, and rtf files. Read it, and pay special attention to how the .qmd file structure and commands relate to the output in the compiled documents.\nRecommended reference reading:\n\nDV, ch 2\nThe Markdown Guide, &lt;https://www.markdownguide.org&gt;\nThe Plain Person’s Guide to Plain Text Social Science, ch 3-4 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "🏠 Overview",
       "Weekly Content",
