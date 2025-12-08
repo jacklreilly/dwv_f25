@@ -272,11 +272,23 @@
     ]
   },
   {
+    "objectID": "assignments/assign2.html#lecture-course-introduction",
+    "href": "assignments/assign2.html#lecture-course-introduction",
+    "title": "Week 1: Introduction",
+    "section": "Lecture: Course Introduction",
+    "text": "Lecture: Course Introduction",
+    "crumbs": [
+      "🏠 Overview",
+      "Weekly Content",
+      "Week 1: Introduction"
+    ]
+  },
+  {
     "objectID": "assignments/assign2.html#readings",
     "href": "assignments/assign2.html#readings",
     "title": "Week 1: Introduction",
     "section": "Readings",
-    "text": "Readings\n\nLecture: Course Introduction\n\nRecommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapters 1-2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
+    "text": "Readings\n\nRecommended reference reading:\n\nDV, chapter 1\nRDS chapter 2\nFCSP chapters 1-2\n\nWe will not cover all of this material in ch 2 this week; don’t get too caught up on things not in course slides or course R scripts\n\nDMSS chapters 1-2\n\nIgnore, for now, things that relate to Database Management Systems (DBSMs) or SQL\n\nThe Plain Person’s Guide to Plain Text Social Science, ch 1-2 (https://plain-text.co/index.html)\n\nNote: The Plain Person’s Guide is a little out of date techinically - some of the tools discussed have newer, and better, versions - but the overlying principles and philosophy are what you should pay attention to",
     "crumbs": [
       "🏠 Overview",
       "Weekly Content",
