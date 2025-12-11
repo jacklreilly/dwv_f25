@@ -7,11 +7,9 @@ format:
 
 ## Due This Week: [Problem Set 8](../problemsets/ps8.qmd)
 
+## Lecture: Social Network Visualization
+
 ## Readings & Reference Material
-
-### Lecture: Social Network Visualization
-
-### Reading
 
 - Core Reading
     - Ognyanova, ["Static and dynamic network visualization with R"](https://kateto.net/network-visualization)

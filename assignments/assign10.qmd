@@ -7,8 +7,9 @@ format:
 
 ## Due This Week: [Practicum 1](../problemsets/prac1.qmd)
 
+## Lecture: Advanced Workflow and Data Retrieval
+
 ## Readings & Reference Material
-### Lecture: Advanced Workflow and Data Retrieval
 
 - Databases
     - **DMSS**, ch 8

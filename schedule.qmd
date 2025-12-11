@@ -9,9 +9,6 @@ format:
 
 ## Course Schedule
 
-*subject to change*
-
-
 | Week | **Topic**                          | **Tools**                        |  |
 |------|------------------------------------|----------------------------------|---------|
 |      | [Preliminaries](assignments/assign1.qmd)
@@ -27,14 +24,14 @@ format:
 | 10   | [Social Networks & Network Data](assignments/assign11.qmd)     | iGraph; statnet                       |         |
 | 11   | [Cartography](assignments/assign12.qmd)                       | tidyverse mapping; color scales; projection                       |         |
 | 12   | [Geographic Data](assignments/assign13.qmd)                      | sf; tigris; mapgl; mapbox; osm               |         |
-| 13   | TBD        | TBD                              |         |
-| 14   | Project Work                       |                                  |         |
-| 15   | Project Presentations              |                                  |         |
+| 13   | [GIS Day, Catch Up, and Project Work](assignments/assign14.qmd)        |                               |         |
+| 14   | [Statistics & Flow Control](assignments/assign15.qmd)            | Loops, ttest(), lm(), glm()                   |         |
+| 15   | [Project Presentations](assignments/assign16.qmd)              |                                  |         |
 | F    | **Finals Week (Project Due)**      |                                  |         |
 
 ---
 
-*Advanced Topics (if we have time)*
+### Advanced Topics *(if we have time)*
 
 | Week | **Topic**                      | **Tools** |  |
 |------|--------------------------------|-----------|---------|

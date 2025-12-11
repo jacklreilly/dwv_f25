@@ -2,4 +2,10 @@
 title: "About"
 ---
 
-About this site
+## Technical Details
+
+The site was built in [Quarto](https://quarto.org) in [Postitron](https://positron.posit.co), and hosted on [GitHub Pages](https://docs.github.com/en/pages). Course content (obviously) makes heavy use of [R](https://www.r-project.org) and [RStudio](https://posit.co/download/rstudio-desktop/). Slides are built with Apple Keynote and exported to PDFs.
+
+## Credits and Acknowledgements
+
+This course page was inspired, in spirit in not in all technical details, by similar ones from [Andrew Heiss](https://datavizf25.classes.andrewheiss.com) and [Kieran Healy](https://mptc.io). Other sources are credited in content pages and slides.

@@ -7,11 +7,9 @@ format:
 
 ## Due This Week: [Problem Set 10](../problemsets/ps10.qmd)
 
+## Lecture: Geographic Data
+
 ## Readings & Reference Material
-
-### Lecture: Geographic Data
-
-### Reading
 
 - Core Reading
     - **DMSS**, ch 11

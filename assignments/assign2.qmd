@@ -8,8 +8,6 @@ subtitle: "Assignment: Very Basic Data in R (Due Week 2)"
 
 ## Lecture: Course Introduction 
 
-<embed src="../slides/dwv1intro.pdf" type="application/pdf" width="100%" height="650px">
-
 ## Readings
 
 - Recommended reference reading:

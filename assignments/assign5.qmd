@@ -5,8 +5,10 @@ subtitle: "Assignment: Data in the Tidyverse (Covered Week 5; Optional)"
 
 ## Due This Week: [Problem Set 4](../problemsets/ps4.qmd)
 
+## Lecture: A Field Guide to Data
+<embed src="../slides/dwv4data.pdf" type="application/pdf" width="100%" height="650px">
+
 ## Readings & Reference Material
-### Lecture: A Field Guide to Data
 
 - **DMSS**, ch 3 & 4
 - **RDS**, chs 7 & 8

@@ -4,9 +4,11 @@ subtitle: "Assignment: Version Tracking in GitHub (Due Week 4)"
 ---
 ## Due This Week: [Problem Set 3](../problemsets/ps3.qmd)
 
-## Readings & Reference Material
-### Lecture: File Management and Version Control
 
+
+## Lecture: File Management and Version Control
+
+## Readings & Reference Material
 - "Happy Git with R" <https://happygitwithr.com/>
 - **The Plain Person's Guide to Plain Text Social Science**, ch 2 (<https://plain-text.co/index.html>)
 - Bryan, Jennifer.  ["Excuse me, do you have a moment to talk about version control?"](https://peerj.com/preprints/3159v2/)

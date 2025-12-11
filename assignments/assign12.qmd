@@ -7,11 +7,9 @@ format:
 
 ## Due This Week: [Problem Set 9](../problemsets/ps9.qmd)
 
+## Lecture: An Introduction to Cartography
+
 ## Readings & Reference Material
-
-### Lecture: An Introduction to Cartography
-
-### Reading
 
 - Core Reading
     - **DV**, ch 7
