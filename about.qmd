@@ -8,4 +8,4 @@ The site was built in [Quarto](https://quarto.org) in [Postitron](https://positr
 
 ## Credits and Acknowledgements
 
-This course page was inspired, in spirit in not in all technical details, by similar ones from [Andrew Heiss](https://datavizf25.classes.andrewheiss.com) and [Kieran Healy](https://mptc.io). Other sources are credited in content pages and slides.
+This course page was inspired, in spirit if not in all technical details, by related courses from [Andrew Heiss](https://datavizf25.classes.andrewheiss.com) and [Kieran Healy](https://mptc.io). Other acknowledgements for particular content can be found in content pages and course slides.
