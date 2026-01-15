@@ -1262,7 +1262,7 @@
     "href": "index.html",
     "title": "Data Wrangling and Visualization",
     "section": "",
-    "text": "Hello and welcome to the course website for PAI 400/600, “Data Wrangling and Visualization.” I am your instructor, Professor Jack Reilly. You can find more about me on my website, but in short:\n\nData analysis and statistics is honestly one of my favorite things to teach. I’ve been teaching them for over 15 years now, at multiple different institutions, and I’m very much looking forward to doing so again this semester with you all.\nI also research and write papers on American politics and quantitative methods and was born and raised right here in beautiful Upstate New York.\n\nPlease take a minute to browse this website, where you’ll find the course overview, topic schedule, course content, class and university academic policies, and more.\nFinally, if you’d like this website and syllabus in an alternate format, please note you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page. You can also download a full copy of the main syllabus here."
+    "text": "Learn how to use quantitative data to inform decisions in public administration, public policy, and international affairs.\n    \n\n    \n      PAI 400/600 • Fall 2025\n      Maxwell School of Citizenship & Public Affairs\n      Syracuse University\n    \n  \n\n\n\n\n\n\n\n\n\n\n\nNoteInstructor\n\n\n\n\n👤 Dr. Jack Reilly\n🏛️ Eggers Hall 225\n✉️ jlreilly@syr.edu\n\n\n\n\n\n\n\n\n\n\nNoteCourse details\n\n\n\n\n📅 Tuesdays & Thursdays\n🕒 2:00 – 3:20 PM\n📍 Eggers Hall 225B\n\n\n\n\n\nPlease browse the course pages for course overview, schedule, course content, problem sets, course and campus policies, and guidelines for initially thinking about use of AI in this class. If you would prefer to have the syllabus as a single page, go here. And note you can download any page on the website you like as a pdf or formatted document.\nI look forward to seeing you in class."
   },
   {
     "objectID": "colophon.html",
@@ -1290,14 +1290,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The site was built in Quarto in Postitron, and hosted on GitHub Pages. Course content (obviously) makes heavy use of R and RStudio. Slides are built with Apple Keynote and exported to PDFs."
+    "text": "Hello and welcome to the course website for PAI 400/600, “Data Wrangling and Visualization.” I am your instructor, Professor Jack Reilly. You can find more about me on my website, but in short:\n\nData analysis and statistics is honestly one of my favorite things to teach. I’ve been teaching them for over 15 years now, at multiple different institutions, and I’m very much looking forward to doing so again this semester with you all.\nI also research and write papers on American politics and quantitative methods and was born and raised right here in beautiful Upstate New York.\n\nPlease take a minute to browse this website, where you’ll find the course overview, topic schedule, course content, class and university academic policies, and more.\nFinally, if you’d like this website and syllabus in an alternate format, please note you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page. You can also download a full copy of the main syllabus here."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "Hello and welcome to the course website for PAI 400/600, “Data Wrangling and Visualization.” I am your instructor, Professor Jack Reilly. You can find more about me on my website, but in short:\n\nData analysis and statistics is honestly one of my favorite things to teach. I’ve been teaching them for over 15 years now, at multiple different institutions, and I’m very much looking forward to doing so again this semester with you all.\nI also research and write papers on American politics and quantitative methods and was born and raised right here in beautiful Upstate New York.\n\nPlease take a minute to browse this website, where you’ll find the course overview, topic schedule, course content, class and university academic policies, and more.\nFinally, if you’d like this website and syllabus in an alternate format, please note you can download .pdfs or .docxs of any page on the site simply by clicking the link on the page. You can also download a full copy of the main syllabus here."
   },
   {
     "objectID": "about.html#technical-details",
     "href": "about.html#technical-details",
     "title": "About",
-    "section": "",
-    "text": "The site was built in Quarto in Postitron, and hosted on GitHub Pages. Course content (obviously) makes heavy use of R and RStudio. Slides are built with Apple Keynote and exported to PDFs."
+    "section": "Technical Details",
+    "text": "Technical Details\nThe site was built in Quarto in Postitron, and hosted on GitHub Pages. Course content (obviously) makes heavy use of R and RStudio. Slides are built with Apple Keynote and exported to PDFs."
   },
   {
     "objectID": "about.html#credits-and-acknowledgements",
